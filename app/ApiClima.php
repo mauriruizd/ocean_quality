@@ -18,7 +18,12 @@ class ApiClima{
     }
 
     public function getTemp($city = 'Asuncion'){
-        return $this->toCelsius($this->getWeather($city)->temperature->getValue());
+        $temp = $this->getWeather($city)->temperature->getValue();
+        $temp = $this->toCelsius($temp);
+        return [
+            'precisa' => $temp,
+            'redondeada' => round($temp, 2)
+        ];
     }
 
     private function toCelsius($far){

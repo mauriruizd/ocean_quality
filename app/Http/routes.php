@@ -34,4 +34,4 @@ Route::group(['prefix' => 'api'], function(){
 });
 
 Route::get('adm_prods', 'Adm@productos');
-Route::get('tempAsu', 'Adm@tempAsu');
+Route::get('clima', 'Adm@clima');

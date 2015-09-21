@@ -6,6 +6,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Input;
 
 class Adm extends Controller {
 
@@ -13,9 +14,16 @@ class Adm extends Controller {
         return Administrador::with('productos')->get();
     }
 
-    public function tempAsu(){
+    public function clima(){
+        $ciudad = Input::has('ciudad') ? Input::query('ciudad') : 'Ciudad del Este';
         $api = new ApiClima();
-        return [$api->getTemp('Ciudad del Este'), $api->getWeather()->weather];
+        return [
+            'ciudad' => $ciudad,
+            'temperatura_precisa' => $api->getTemp($ciudad)['precisa'],
+            'temperatura_redondeada' => $api->getTemp($ciudad)['redondeada'],
+            'clima' => $api->getWeather()->weather->description,
+            'url_clima' =>  $api->getWeather()->weather->getIconUrl()
+        ];
     }
 
 }
