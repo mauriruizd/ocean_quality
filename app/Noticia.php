@@ -8,7 +8,7 @@ class Noticia extends Model {
     protected $fillable = ['titulo', 'cuerpo', 'adm_cod'];
 
     public function imagenes(){
-        return $this->hasMany('App\ImagenNoticia', 'notocia_cod', 'id');
+        return $this->hasMany('App\ImagenNoticia', 'noticia_cod', 'id');
     }
 
     public function administrador(){
