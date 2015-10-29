@@ -248,14 +248,14 @@ footer{
 }
 .footer_logo img{
   margin-top: 20px;
-  width: 30%;
+  width: 130px;
   margin-right: 70px;
   float: right;
 
 }
 .py img{
   margin-top: 20px;
-  width: 70%;
+  width: 130px;
   margin-right: 70px;
   float: right;
 
@@ -330,11 +330,21 @@ footer{
   float: left;
   margin: 0;
   padding: 0;
-  width: 1583px;
+  width: 100%;
   height: 500px;
   background: #ccc;
   text-align: center;
   line-height: 300px;
+}
+#slider ul li img {
+
+
+  width: 100%;
+  height: 500px;
+  
+}
+.container{
+  min-width: 1160px;
 }
 
 a.control_prev, a.control_next {
@@ -517,7 +527,7 @@ nav ul li div ul li a:hover {
 }
 .foto_produc{
   width: 790px;
-  height:500px;
+  height:530px;
 
 /* Content is clipped, with scrollbars */
 overflow-y: scroll;
@@ -525,6 +535,7 @@ overflow-y: scroll;
 overflow-x: hidden;
 
 }
+
 .contenedor_pro{
   width: 100%;
   height: auto;
