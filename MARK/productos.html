@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="">
+
+    <title>Ocean</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" type="text/css" href="css/styleMark.css">
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
+  <style type="text/css"></style><style type="text/css"></style></head>
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript">
+
+
+jQuery(document).ready(function ($) {
+
+ // $('#checkbox').change(function(){
+    setInterval(function () {
+        moveRight();
+    }, 7000);
+  //});
+
+    var slideCount = $('#slider ul li').length;
+    var slideWidth = $('#slider ul li').width();
+    var slideHeight = $('#slider ul li').height();
+    var sliderUlWidth = slideCount * slideWidth;
+
+
+    $('#slider').css({ width: slideWidth, height: slideHeight });
+
+    $('#slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
+
+    $('#slider ul li:last-child').prependTo('#slider ul');
+
+    function moveLeft() {
+        $('#slider ul').animate({
+            left: + slideWidth
+        }, 600, function () {
+            $('#slider ul li:last-child').prependTo('#slider ul');
+            $('#slider ul').css('left', '');
+        });
+    };
+
+    function moveRight() {
+        $('#slider ul').animate({
+            left: - slideWidth
+        }, 600, function () {
+            $('#slider ul li:first-child').appendTo('#slider ul');
+            $('#slider ul').css('left', '');
+        });
+    };
+
+    $('a.control_prev').click(function () {
+        moveLeft();
+    });
+
+    $('a.control_next').click(function () {
+        moveRight();
+    });
+
+});
+
+</script>
+
+
+  <body>
+
+
+    <nav class="bar ">
+      <div class="container-fluid">
+            <div class="container">
+               <h4 id="text"><i class="glyphicon glyphicon-envelope"></i> Oceanquality@Oceanquality.Net</h4>
+            </div><!-- /.container -->
+      </div>
+    </nav>
+
+    <div class=" container">
+      <div class="centro"><!--logo-->
+        <a href="index.html" id="logo">
+          <img src="img/logo.png">
+        </a>
+      </div><!--logo-->
+       </div><!-- /.container -->
+
+
+      <div id="slider2">
+
+      <ul>
+        <li><img src="img/banner.jpg"></li>
+
+      </ul>
+      </div>
+
+    <div class="lineablu"></div>
+    <div class=" container">
+      <div class="menu">
+       <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Productos</a>
+
+        <div>
+
+          <ul>
+            <li class="titulo"><a href=""><img src="img/semilla.png">  Semillas</a></li>
+            <li><a href="">• Categoria #2</a></li>
+            <li><a href="">• Categoria #3</a></li>
+            <li><a href="">• Categoria #4</a></li>
+            <li><a href="">• Categoria #5</a></li>
+            <li><a href="">• Categoria #5</a></li>
+            <li><a href="">• Categoria #5</a></li>
+          </ul>
+
+          <ul>
+            <li class="titulo "><a href=""><img src="img/fertilizante.png"> Fertilizantes</a></li>
+            <li><a href="">• Categoria #2</a></li>
+            <li><a href="">• Categoria #3</a></li>
+            <li><a href="">• Categoria #4</a></li>
+            <li><a href="">• Categoria #5</a></li>
+          </ul>
+
+          <ul>
+            <li class="titulo"><a href=""><img src="img/sistema.png"> Sistema de riego</a></li>
+            <li><a href="">• Categoria #2</a></li>
+            <li><a href="">• Categoria #3</a></li>
+            <li><a href="">• Categoria #4</a></li>
+            <li><a href="">• Categoria #5</a></li>
+          </ul>
+
+          <ul>
+            <li class="titulo "><a href=""><img src="img/agro.png"> Agroquimicos</a></li>
+            <li><a href="">• Categoria #2</a></li>
+            <li><a href="">• Categoria #3</a></li>
+            <li><a href="">• Categoria #4</a></li>
+            <li><a href="">• Categoria #5</a></li>
+          </ul>
+
+          <ul>
+            <li class="titulo"><a href=""><img src="img/semilla.png"> Ambientes protegidos</a></li>
+            <li><a href="">Categoria #2</a></li>
+            <li><a href="">Categoria #3</a></li>
+            <li><a href="">Categoria #4</a></li>
+            <li><a href="">Categoria #5</a></li>
+          </ul>
+        </div>
+
+        </li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Acerca de</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+<div class="search">
+          <form action="busca" class="box01" method="post">
+                    <input name="busca" type="text" class="box02" placeholder="Digite aqui o que procura">
+                    <div><input type="submit" value="OK" class="btOKBuscar"></div>
+                    </form>
+
+        </div><!--search-->
+      </div>
+       <div class="linea">
+        <img src="img/linea.png"></div>
+
+
+
+ <div class="espacio"> </div>
+         <div class="container barra_gris"><h3>PRODUCTOS / SEMILLA </h3> </div>
+         <div class="col-md-12">
+        <br>
+          <div class="contenedor_pro">
+            <div class="menu_delos_prod">
+
+              <ul>
+                <li><a href="#section1" class="section1"> ► uno</a></li>
+                  <li><a href="#section2" class="section2"> ► dos</a></li>
+                  <li><a href="#section3" class="section3"> ► dos</a></li>
+
+              </ul>
+            </div>
+          <div class="foto_produc">
+              <div class="titulo_prod"><h3><img src="img/flecha.png"> Itatiba II</h3></div>
+            <div class="container" id="section1">
+              <div class="col-md-8" >
+                <div class="col-md-4 fo">
+                  <img src="img/producto.jpg">
+                </div>
+                <div class="col-md-4 fo1"><!--datos de foto-->
+                  <div id="cuadr"><h4>• EPOCA1</h4></div>
+                   <div id="cuadr1"><h4>• CICLO PROMEDIO</h4></div>
+                   <div id="cuadr1"><h4>• SEGMENTO</h4></div>
+                   <div id="cuadr1"><h4>• ENVASE</h4></div>
+                   <div id="cuadr1"><h4>• PROVEDOR</h4></div>
+
+                </div><!--datos de foto-->
+
+                <div class="col-md-4 fo1"><!--datos de foto-->
+                  <div id="cuadr"><h4> datos</h4></div>
+                   <div id="cuadr1"><h4> datos</h4></div>
+                   <div id="cuadr1"><h4> datos</h4></div>
+                   <div id="cuadr1"><h4> datos</h4></div>
+                   <div id="cuadr1"><h4> datos</h4></div>
+
+                </div><!--datos de foto-->
+
+              </div>
+
+               <div class="col-md-8">
+              <div class="carac">
+                <h4>• CARACTERISTICAS GENERALES</h4>
+              </div>
+
+              <div class="carac1">
+              </div>
+
+              </div>
+            </div><!--container-->
+
+            <br>
+              <div class="titulo_prod"><h3><img src="img/flecha.png"> Itatiba II</h3></div>
+
+             <div class="container"id="section2" >
+              <div class="col-md-8">
+                <div class="col-md-4 fo">
+                  <img src="img/producto.jpg">
+                </div>
+                <div class="col-md-4 fo1"><!--datos de foto-->
+                  <div id="cuadr"><h4>• EPOCA2</h4></div>
+                   <div id="cuadr1"><h4>• CICLO PROMEDIO</h4></div>
+                   <div id="cuadr1"><h4>• SEGMENTO</h4></div>
+                   <div id="cuadr1"><h4>• ENVASE</h4></div>
+                   <div id="cuadr1"><h4>• PROVEDOR</h4></div>
+
+                </div><!--datos de foto-->
+
+                <div class="col-md-4 fo1"><!--datos de foto-->
+                  <div id="cuadr"><h4> datos</h4></div>
+                   <div id="cuadr1"><h4> datos</h4></div>
+                   <div id="cuadr1"><h4> datos</h4></div>
+                   <div id="cuadr1"><h4> datos</h4></div>
+                   <div id="cuadr1"><h4> datos</h4></div>
+
+                </div><!--datos de foto-->
+
+              </div>
+
+
+
+               <div class="col-md-8">
+              <div class="carac">
+                <h4>• CARACTERISTICAS GENERALES</h4>
+              </div>
+
+              <div class="carac1">
+              </div>
+
+              </div>
+            </div><!--container-->
+
+            <div class="titulo_prod"><h3><img src="img/flecha.png"> Itatiba II</h3></div>
+            <div class="container"id="section3" >
+              <div class="col-md-8">
+                <div class="col-md-4 fo">
+                  <img src="img/producto.jpg">
+                </div>
+                <div class="col-md-4 fo1"><!--datos de foto-->
+                  <div id="cuadr"><h4>• EPOCA2</h4></div>
+                   <div id="cuadr1"><h4>• CICLO PROMEDIO</h4></div>
+                   <div id="cuadr1"><h4>• SEGMENTO</h4></div>
+                   <div id="cuadr1"><h4>• ENVASE</h4></div>
+                   <div id="cuadr1"><h4>• PROVEDOR</h4></div>
+
+                </div><!--datos de foto-->
+
+                <div class="col-md-4 fo1"><!--datos de foto-->
+                  <div id="cuadr"><h4> datos</h4></div>
+                   <div id="cuadr1"><h4> datos</h4></div>
+                   <div id="cuadr1"><h4> datos</h4></div>
+                   <div id="cuadr1"><h4> datos</h4></div>
+                   <div id="cuadr1"><h4> datos</h4></div>
+
+                </div><!--datos de foto-->
+
+              </div>
+
+              
+
+               <div class="col-md-8">
+              <div class="carac">
+                <h4>• CARACTERISTICAS GENERALES</h4>
+              </div>
+
+              <div class="carac1">
+              </div>
+
+              </div>
+            </div><!--container-->
+
+          </div><!--foto_produc-->
+
+          </div><!--contenedor_pro-->
+            </div>
+                    <br>
+                              <br>
+
+
+
+
+        <h3>SOCIOS COMERCIALES</h3>
+        <div class="linea2"><img src="img/linea3.png"></div>
+        <div class="socios">
+
+          <div class="slider-wrap">
+<div class="slider1">
+<ul>
+<li> <span class="black"><img src="imagen/2.jpg"> </span> </li>
+<li> <span class="black"><img src="imagen/2.jpg"> </span> </li>
+<li> <span class="black"><img src="imagen/3.jpg"> </span> </li>
+<li> <span class="black"><img src="imagen/4.jpg"> </span> </li>
+
+<li> <span class="black"><img src="imagen/7.jpg"> </span> </li>
+<li> <span class="black"><img src="imagen/7.jpg"> </span> </li>
+<li> <span class="black"><img src="imagen/8.jpg"> </span> </li>
+<li> <span class="black"><img src="imagen/9.jpg"> </span> </li>
+
+
+</ul>
+<a href="#" class="slider-arrow sa-left">&lt;</a> <a href="#" class="slider-arrow sa-right">&gt;</a> </div>
+
+</div>
+
+
+        </div><!--socios-->
+
+
+
+     </div><!-- /.container -->
+     <div class="container-fluid menu_inferior"></div>
+     <div class="espacio"></div>
+     <footer class="">
+     <div class="col-md-4 footer_logo"><img src="img/logo_blanco.png"></div>
+     <div class="col-md-2 blanco"><h3>ATENDIMIENTO</h3>
+      <h4 id="text2"><i class="glyphicon glyphicon-envelope"></i> Oceanquality@Oceanquality.Net</h4>
+       <h4 id="text2"><i class="glyphicon glyphicon-earphone"></i> 061 - 501 313</h4>
+     </div>
+     <div class="col-md-2 blanco"><h3>SOCIAL</h3></div>
+     <div class="col-md-2 py"><img src="img/py.png"></div>
+     </footer>
+     <div class="container">
+<div class="linea_footer"></div>
+     <div class="linea_footer_box">
+      <h4>Av. San Blás, Esquina Venezuela, Km 9  Acaray, Ciudad Del Este - PY</h4>
+     </div>
+     </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
+
+<script src="js/jquery.lbslider.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+  $('.menu_delos_prod:first li').click(function(e) {
+    e.preventDefault();
+    var id = $(this).children('a').attr('href');
+    var elm = $(id).prev();
+    var prod_cont = $('.foto_produc:first');
+    var pos = prod_cont.scrollTop() + elm.position().top - 5;
+    
+    prod_cont.animate({
+      scrollTop : pos
+    }, 400);
+  });
+});
+
+jQuery('.slider1').lbSlider({
+    leftBtn: '.sa-left',
+    rightBtn: '.sa-right',
+    visible: 5,
+    autoPlay: true,
+    autoPlayDelay: 5
+});
+</script>
+
+</body></html>

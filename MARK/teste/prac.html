@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title>html</title>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script type="text/javascript">
+//numero maximo
+var max = 100;
+var min =1;
+var numero_secreto = Math.random() * (max-min)+min;
+numero_secreto = parseInt(numero_secreto);
+console.log(numero_secreto);
+var mensaje = "Ingrese un numero para adivinar el numero magico";
+while(true){
+ var numero_usuario = prompt(mensaje,"0");
+ numero_usuario = parseInt(numero_usuario);
+  if(numero_usuario === numero_secreto){
+    alert('Ganaste');
+    break;
+  }else if(numero_usuario === 0){
+    break;
+  }
+  else if(numero_usuario > numero_secreto){
+    mensaje = "lo siento el numero es mayor al numero magico";
+  }else if(numero_usuario < numero_secreto){
+    mensaje = "lo siento el numero es menor al numero magico";
+  }
+}
+
+</script>
+</head>
+<body>
+<p>Adivina el numero de secreto, y colocalo en la ventana que se despliega</p>
+<p>coloca 0</p>
+</body>
+</html>
