@@ -20,6 +20,14 @@ Route::controllers([
 	'password' => 'Auth\PasswordController',
 ]);
 
+Route::group(['prefix' => 'admin'], function(){
+	Route::get('/', 'AdminController@index');
+	Route::get('categorias', 'AdminController@categorias');
+	Route::get('subcategorias', 'AdminController@subcategorias');
+	Route::get('proveedores', 'AdminController@proveedores');
+	Route::get('productos', 'AdminController@productos');
+});
+
 Route::group(['prefix' => 'api'], function(){
 	Route::resource('administradores', 'Rest\Administradores');
 	Route::resource('banners', 'Rest\Banner');
@@ -28,6 +36,7 @@ Route::group(['prefix' => 'api'], function(){
 	Route::resource('empleados', 'Rest\Empleados');
 	Route::resource('monedas', 'Rest\Monedas');
 	Route::resource('noticias', 'Rest\Noticias');
+	Route::resource('proveedores', 'Rest\Proveedores');
 	Route::resource('productos', 'Rest\Productos');
 	Route::resource('subcategorias', 'Rest\Subcategorias');
 	Route::resource('zonas', 'Rest\Zonas');

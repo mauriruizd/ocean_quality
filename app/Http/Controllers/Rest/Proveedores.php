@@ -1,13 +1,14 @@
 <?php namespace App\Http\Controllers\Rest;
 
-use App\Categoria;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
+use App\ProveedorProducto;
 use Illuminate\Http\Request;
-use Illuminate\Http\Response;
 
-class Categorias extends Controller {
+use App\Proveedor;
+
+class Proveedores extends Controller {
 
 	/**
 	 * Display a listing of the resource.
@@ -16,7 +17,7 @@ class Categorias extends Controller {
 	 */
 	public function index()
 	{
-		return Categoria::all();
+		//
 	}
 
 	/**
@@ -36,8 +37,11 @@ class Categorias extends Controller {
 	 */
 	public function store(Request $request)
 	{
-		Categoria::create($request->all());
-		return new Response('Categoria creada con exito', 200);
+		Proveedor::create([
+			'nombre' => $request->nombre
+		]);
+
+		return response('Proveedor creado con exito');
 	}
 
 	/**
@@ -48,7 +52,7 @@ class Categorias extends Controller {
 	 */
 	public function show($id)
 	{
-		return Categoria::find($id);
+		//
 	}
 
 	/**
@@ -59,8 +63,7 @@ class Categorias extends Controller {
 	 */
 	public function edit($id)
 	{
-		$categoria = Categoria::select('id', 'nombre')->find($id);
-		return view('admin.forms.categoria', compact('categoria'));
+		//
 	}
 
 	/**
@@ -71,8 +74,11 @@ class Categorias extends Controller {
 	 */
 	public function update($id, Request $request)
 	{
-		Categoria::where('id', $id)->update($request->only(['nombre']));
-		return new Response('Categoria actualizada con exito', 200);
+		Proveedor::where('id', '=', $id)->update([
+			'nombre' => $request->nombre
+		]);
+
+		return response('Proveedor actualizado con exito');
 	}
 
 	/**
@@ -83,8 +89,8 @@ class Categorias extends Controller {
 	 */
 	public function destroy($id)
 	{
-		Categoria::destroy($id);
-		return new Response('Categoria eliminada con exito', 200);
+		ProveedorProducto::where('cod_proveedor', '=', $id)->delete();
+		Proveedor::destroy($id);
 	}
 
 }

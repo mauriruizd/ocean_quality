@@ -19,4 +19,8 @@ class Producto extends Model {
         return $this->hasMany('App\ImagenProducto', 'producto_cod', 'id');
     }
 
+    public function proveedorProducto(){
+        return $this->hasMany('App\ProveedorProducto', 'cod_producto', 'id');
+    }
+
 }

@@ -1,5 +1,6 @@
 <?php namespace App\Http\Controllers\Rest;
 
+use App\Categoria;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -59,7 +60,9 @@ class Subcategorias extends Controller {
 	 */
 	public function edit($id)
 	{
-		//
+		$subcategoria = Subcategoria::select('id', 'nombre', 'cat_cod')->find($id);
+		$categorias = Categoria::lists('nombre', 'id');
+		return view('admin.forms.subcategoria', compact('subcategoria', 'categorias'));
 	}
 
 	/**
@@ -70,7 +73,7 @@ class Subcategorias extends Controller {
 	 */
 	public function update($id, Request $request)
 	{
-		Subcategoria::where('id', $id)->update($request->all());
+		Subcategoria::where('id', $id)->update($request->only(['nombre', 'cat_cod']));
 		return new Response('Subcategoria actualizada con exito', 200);
 	}
 
