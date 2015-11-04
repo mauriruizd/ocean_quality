@@ -10,8 +10,8 @@
             url : url,
             data : form.serialize(),
             success : function(response){
-                //location.reload();
-                console.log(response);
+                location.reload();
+                //console.log(response);
             }
         });
     }

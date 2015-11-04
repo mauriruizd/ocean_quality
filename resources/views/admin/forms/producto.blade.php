@@ -31,7 +31,7 @@
             <label for="proveedores[]">Proveedores</label><br>
             @foreach($proveedores as $cod_proveedor => $nom_proveedor)
                 <div class="checkbox">
-                    <label><input type="checkbox" name="proveedores[]" value="{{ $cod_proveedor }}" {{ in_array($cod_proveedor, $proveedoresProd) }}>{{ $nom_proveedor }}</label>
+                    <label><input type="checkbox" name="proveedores[]" value="{{ $cod_proveedor }}" {{ in_array($cod_proveedor, $proveedoresProd) ? 'checked' : '' }}>{{ $nom_proveedor }}</label>
                 </div>
             @endforeach
         </div>
@@ -54,6 +54,16 @@
         <div class="input-group">
             <label for="nombre">Envase</label>
             <input type="text" class="form-control" name="envase" id="envase" placeholder="Envase" required value="{{ $producto->envase }}">
+        </div>
+        <div class="input-group">
+            @foreach($producto->imagenes as $imagen)
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="imagenes_antiguas[]" value="{{ $imagen->id }}" checked>
+                        <img src="{{ URL::to($imagen->img_url) }}" class="img-rounded" width="60px" height="60px">
+                    </label>
+                </div>
+            @endforeach
         </div>
         <div class="input-group">
             <label for="imagenes">Imagenes</label>

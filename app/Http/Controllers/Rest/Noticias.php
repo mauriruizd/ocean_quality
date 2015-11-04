@@ -37,12 +37,13 @@ class Noticias extends Controller {
 	 */
 	public function store(Request $request)
 	{
-		$noticia = Noticia::create($request->all());
-		foreach($request->imagen_url as $imagen){
-			ImagenNoticia::create([
-				'img_url' => $imagen,
-				'noticia_cod' => $noticia->id
-			]);
+		$noticia = Noticia::create([
+			'titulo' => $request->titulo,
+			'cuerpo' => $request->cuerpo,
+			'adm_cod' => 1
+		]);
+		if($request->hasFile('imagenes')) {
+			$this->uploadImages($request->file('imagenes'), $noticia->id);
 		}
 		return new Response('Noticia creada con exito', 200);
 	}
@@ -66,7 +67,8 @@ class Noticias extends Controller {
 	 */
 	public function edit($id)
 	{
-		//
+		$noticia = Noticia::with('imagenes')->find($id);
+		return view('admin.forms.noticia', compact('noticia'));
 	}
 
 	/**
@@ -77,7 +79,14 @@ class Noticias extends Controller {
 	 */
 	public function update($id, Request $request)
 	{
-		Noticia::where('id', $id)->update($request->all());
+		$imagenes_antiguas = $request->has('imagenes_antiguas') ? $request->imagenes_antiguas : [];
+
+		ImagenNoticia::where('noticia_cod', '=', $id)->whereNotIn('id', $imagenes_antiguas)->delete();
+		if($request->hasFile('imagenes')) {
+			$this->uploadImages($request->file('imagenes'), $id);
+		}
+		Noticia::where('id', $id)->update($request->only(['titulo', 'cuerpo']));
+
 		return new Response('Noticia actualizada con exito', 200);
 	}
 
@@ -94,6 +103,20 @@ class Noticias extends Controller {
 			$imagen->delete();
 		}
 		Noticia::destroy($id);
+	}
+
+	private function uploadImages($imagenes, $noticiaId) {
+		$files = $imagenes;
+		foreach($files as $imagen) {
+			$filename = $imagen->getClientOriginalName();
+			$path = 'noticias';
+			$imagen->move($path, $filename);
+
+			ImagenNoticia::create([
+				'img_url' => $path.'/'.$filename,
+				'noticia_cod' => $noticiaId
+			]);
+		}
 	}
 
 }

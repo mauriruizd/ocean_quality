@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 
 use App\CorreoEmpleado;
 use App\TelefonoEmpleado;
+use App\Zona;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
@@ -38,21 +39,10 @@ class Empleados extends Controller {
 	 */
 	public function store(Request $request)
 	{
-		$empleado = Empleado::create($request->all());
+		$empleado = Empleado::create($request->only('nombre', 'zona_cod'));
+		$this->saveTelefonos($request->telefonos, $empleado->id);
+		$this->saveCorreos($request->correos, $empleado->id);
 
-		foreach($request->telefonos as $telefono){
-			TelefonoEmpleado::create([
-				'telefono'		=> $telefono,
-				'empleado_cod'	=> $empleado->id
-			]);
-		}
-
-		foreach($request->correos as $correo){
-			CorreoEmpleado::create([
-				'correo'		=> $correo,
-				'empleado_cod'	=> $empleado->id
-			]);
-		}
 		return new Response('Empleado creado con exito', 200);
 	}
 
@@ -75,7 +65,12 @@ class Empleados extends Controller {
 	 */
 	public function edit($id)
 	{
-		//
+		$empleado = Empleado::select('id', 'nombre', 'zona_cod', 'cargo')
+			->find($id);
+		$correos = CorreoEmpleado::where('empleado_cod', '=', $id)->lists('correo');
+		$telefonos = TelefonoEmpleado::where('empleado_cod', '=', $id)->lists('telefono');
+		$zonas = Zona::with('departamento')->select('nombre', 'id', 'depto_cod')->get();
+		return view('admin.forms.empleado', compact('empleado', 'zonas', 'correos', 'telefonos'));
 	}
 
 	/**
@@ -86,7 +81,11 @@ class Empleados extends Controller {
 	 */
 	public function update($id, Request $request)
 	{
-		Empleado::where('id', $id)->update($request->all());
+		Empleado::where('id', $id)->update($request->only(['nombre', 'zona_cod']));
+		CorreoEmpleado::where('empleado_cod', '=', $id)->delete();
+		TelefonoEmpleado::where('empleado_cod', '=', $id)->delete();
+		$this->saveTelefonos($request->telefonos, $id);
+		$this->saveCorreos($request->correos, $id);
 		return new Response('Empleado actualizado con exito', 200);
 	}
 
@@ -100,6 +99,28 @@ class Empleados extends Controller {
 	{
 		Empleado::destroy($id);
 		return new Response('Empleado eliminado con exito', 200);
+	}
+
+	private function saveTelefonos($telefonos, $empId) {
+		$telefonos = explode(',', str_replace(' ', '', $telefonos));
+
+		foreach($telefonos as $telefono){
+			TelefonoEmpleado::create([
+				'telefono'		=> $telefono,
+				'empleado_cod'	=> $empId
+			]);
+		}
+	}
+
+	private function saveCorreos($correos, $empId) {
+		$correos = explode(',', str_replace(' ', '', $correos));
+
+		foreach($correos as $correo){
+			CorreoEmpleado::create([
+				'correo'		=> $correo,
+				'empleado_cod'	=> $empId
+			]);
+		}
 	}
 
 }

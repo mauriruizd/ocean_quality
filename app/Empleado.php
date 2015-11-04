@@ -8,7 +8,7 @@ class Empleado extends Model {
     protected $fillable = ['nombre', 'zona_cod', 'cargo'];
 
     public function zona(){
-        return $this->hasOne('App\Zona', 'zona_cod', 'id');
+        return $this->belongsTo('App\Zona', 'zona_cod', 'id');
     }
 
     public function telefonos(){

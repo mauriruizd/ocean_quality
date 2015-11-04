@@ -26,6 +26,9 @@ Route::group(['prefix' => 'admin'], function(){
 	Route::get('subcategorias', 'AdminController@subcategorias');
 	Route::get('proveedores', 'AdminController@proveedores');
 	Route::get('productos', 'AdminController@productos');
+	Route::get('zonas', 'AdminController@zonas');
+	Route::get('empleados', 'AdminController@empleados');
+	Route::get('noticias', 'AdminController@noticias');
 });
 
 Route::group(['prefix' => 'api'], function(){

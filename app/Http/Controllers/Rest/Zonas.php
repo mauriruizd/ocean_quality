@@ -1,5 +1,6 @@
 <?php namespace App\Http\Controllers\Rest;
 
+use App\Departamento;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -37,7 +38,7 @@ class Zonas extends Controller {
 	 */
 	public function store(Request $request)
 	{
-		Zona::create($request->all());
+		Zona::create($request->only(['nombre', 'depto_cod']));
 		return new Response('Zona creada con exito', 200);
 	}
 
@@ -60,7 +61,10 @@ class Zonas extends Controller {
 	 */
 	public function edit($id)
 	{
-		//
+		$zona = Zona::find($id);
+		$departamentos = Departamento::lists('nombre', 'id');
+		return view('admin.forms.zona', compact('zona', 'departamentos
+		'));
 	}
 
 	/**
@@ -71,7 +75,7 @@ class Zonas extends Controller {
 	 */
 	public function update($id, Request $request)
 	{
-		Zona::where('id', $id)->update($request->all());
+		Zona::where('id', $id)->update($request->only(['nombre', 'depto_cod']));
 		return new Response('Zona actualizada con exito', 200);
 	}
 

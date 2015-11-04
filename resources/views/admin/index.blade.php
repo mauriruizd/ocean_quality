@@ -101,16 +101,16 @@
                         <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Empleados<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="flot.html">Zonas</a>
+                                <a href="{{ URL::to('admin/zonas') }}">Zonas</a>
                             </li>
                             <li>
-                                <a href="morris.html">Empleados</a>
+                                <a href="{{ URL::to('admin/empleados') }}">Empleados</a>
                             </li>
                         </ul>
                         <!-- /.nav-second-level -->
                     </li>
                     <li>
-                        <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Noticias</a>
+                        <a href="{{ URL::to('admin/noticias') }}"><i class="fa fa-dashboard fa-fw"></i> Noticias</a>
                     </li>
                     <li>
                         <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Banners</a>

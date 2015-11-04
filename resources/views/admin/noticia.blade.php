@@ -1,12 +1,12 @@
 @extends('admin.index')
 @section('titulo')
-    Zonas
+    Noticias
 @stop
 @section('content')
     <div class="col-lg-12">
         <div class="panel panel-default">
             <div class="panel-heading">
-                Cadastro de Zonas
+                Cadastro de Noticias
             </div>
             <div class="panel-body">
                 <div class="form-inline">
@@ -19,21 +19,25 @@
                                 <thead>
                                 <tr>
                                     <th>Codigo</th>
-                                    <th>Nombre</th>
-                                    <th>Departamento</th>
+                                    <th>Titulo</th>
+                                    <th>Cuerpo</th>
+                                    <th style="max-width: 280px;">Imagenes</th>
                                     <th>Editar</th>
                                 </tr>
                                 </thead>
                                 <tbody>
-                                @foreach($zonas as $zona)
+                                @foreach($noticias as $noticia)
                                     <tr>
-                                        <td>{{ $zona->id }}</td>
-                                        <td>{{ $zona->nombre }}</td>
-                                        <td><span class="depto_cod">
-                                                {{ $zona->departamento->nombre }}
-                                            </span></td>
+                                        <td>{{ $noticia->id }}</td>
+                                        <td>{{ $noticia->titulo }}</td>
+                                        <td>{{ $noticia->cuerpo }}</td>
                                         <td>
-                                            <button class="btn btn-success m-edit" value="{{ $zona->id }}" data-target="#editModal" data-toggle="modal">
+                                            @foreach($noticia->imagenes as $imagen)
+                                                <img src="{{ URL::to($imagen->img_url) }}" alt="{{ $noticia->nombre }}" class="img-rounded" width="60px" height="60px">
+                                            @endforeach
+                                        </td>
+                                        <td>
+                                            <button class="btn btn-success m-edit" value="{{ $noticia->id }}" data-target="#editModal" data-toggle="modal">
                                                 <i class="fa fa-pencil"></i>
                                             </button>
                                         </td>
@@ -42,7 +46,7 @@
                                 </tbody>
                             </table>
                             <div class="text-center">
-                                {!! $zonas->render() !!}
+                                {!! $noticias->render() !!}
                             </div>
                             <button class="btn btn-default btn-circle btn-lg text-center" data-target="#new" data-toggle="modal">
                                 <i class="fa fa-plus"></i>
@@ -52,35 +56,38 @@
                         <div id="new" class="modal fade" aria-labelledby="new" role="dialog" tabindex="1" aria-hidden="true" style="display: none;">
                             <div class="modal-dialog">
                                 <div class="modal-content">
-                                    <form action="{{ URL::to('api/zonas') }}" method="POST" class="dropzone" enctype="multipart/form-data">
+                                    <form action="{{ URL::to('api/noticias') }}" method="POST" class="dropzone" enctype="multipart/form-data">
                                         <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                             <h4 class="modal-title" id="myModalLabel">Nueva producto</h4>
                                         </div>
                                         <div class="modal-body">
                                             <div class="input-group">
-                                                <label for="nombre">Nombre</label>
-                                                <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre" required>
+                                                <label for="nombre">Titulo</label>
+                                                <input type="text" class="form-control" name="titulo" id="titulo" placeholder="Titulo" required>
                                             </div>
                                             <div class="input-group">
-                                                <label for="subcat_cod">Departamento</label>
-                                                <select name="depto_cod" id="depto_cod" class="form-control" required>
-                                                    @foreach($departamentos as $departamento_cod => $departamento)
-                                                        <option value="{{ $departamento_cod }}">{{ $departamento_cod.' - '.$departamento }}</option>
-                                                    @endforeach
-                                                </select>
+                                                <label for="cuerpo">Cuerpo</label>
+                                                <textarea name="cuerpo" id="cuerpo" cols="100" rows="10" class="form-control" required></textarea>
+                                            </div>
+                                            <div class="input-group">
+                                                <label for="imagenes">Imagenes</label>
+                                                <input type="file" name="imagenes[]" class="form-control imagenes">
+                                                <button type="button" id="m-more-images" class="btn btn-circle btn-sm btn-success">
+                                                    <i class="fa fa-plus"></i>
+                                                </button>
                                             </div>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                            <button type="button" class="btn btn-primary" id="m-submit">Guardar</button>
+                                            <button type="button" class="btn btn-primary" id="m-i-submit">Guardar</button>
                                         </div>
                                     </form>
                                 </div>
                             </div>
                         </div>
                         <div id="editModal" class="modal fade" aria-labelledby="editModal" role="dialog" tabindex="1" aria-hidden="true" style="display: none;">
-                            <input type="hidden" id="editUrl" value="{{ URL::to('api/zonas').'/' }}">
+                            <input type="hidden" id="editUrl" value="{{ URL::to('api/noticias').'/' }}">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <form action="" id="editForm" method="PUT">
@@ -111,4 +118,33 @@
 @stop
 @section('javascript')
     <script src="{{ URL::to('js/m-modal.js') }}"></script>
+    <script>
+        $('#m-more-images').on('click', function(){
+            $(this).parent().append($(this).prev()[0].outerHTML);
+        });
+
+        //nuevo
+        (function(){
+            var button = $('#m-i-submit');
+            var form = button.closest('form');
+            var url = form.attr('action');
+            var method = form.attr('method');
+            function save(){
+                $.ajax({
+                    method : method,
+                    url : url,
+                    data : new FormData(form[0]),
+                    enctype : 'multipart/form-data',
+                    processData : false,
+                    contentType : false,
+                    success : function(response){
+                        //location.reload();
+                        console.log(response);
+                    }
+                });
+            }
+
+            button.on('click', save);
+        })();
+    </script>
 @stop

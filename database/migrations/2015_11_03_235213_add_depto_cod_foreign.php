@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateZonasTable extends Migration {
+class AddDeptoCodForeign extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -12,12 +12,10 @@ class CreateZonasTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('zonas', function(Blueprint $table)
+		Schema::table('zonas', function(Blueprint $table)
 		{
-			$table->increments('id');
-			$table->string('nombre', 60);
-			$table->integer('depto_cod', false, true);
-			$table->timestamps();
+
+			$table->foreign('depto_cod')->references('id')->on('departamentos');
 		});
 	}
 
@@ -28,7 +26,10 @@ class CreateZonasTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('zonas');
+		Schema::table('zonas', function(Blueprint $table)
+		{
+			$table->dropForeign('depto_cod');
+		});
 	}
 
 }

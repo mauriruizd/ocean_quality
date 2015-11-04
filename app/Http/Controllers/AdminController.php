@@ -1,9 +1,12 @@
 <?php namespace App\Http\Controllers;
 
 use App\Categoria;
+use App\Departamento;
+use App\Empleado;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
+use App\Noticia;
 use App\Producto;
 use App\Proveedor;
 use App\ProveedorProducto;
@@ -57,8 +60,34 @@ class AdminController extends Controller {
     }
 
     public function zonas(){
-        $zonas = Zona::select('id', 'nombre', 'depto_cod')->get();
-        return view('admin.zona', compact('zonas'));
+        $zonas = Zona::select('id', 'nombre', 'depto_cod')
+            ->with(['departamento' => function($query) {
+                $query->select('id', 'nombre');
+            }])
+            ->paginate(5);
+        $departamentos = Departamento::lists('nombre', 'id');
+        return view('admin.zona', compact('zonas', 'departamentos'));
+    }
+
+    public function empleados() {
+        $empleados = Empleado::select('id', 'nombre', 'zona_cod', 'cargo')
+            ->with(['zona' => function($query) {
+                $query->select('id', 'nombre', 'depto_cod');
+            }, 'zona.departamento' => function($query) {
+                $query->select('id', 'nombre');
+            }, 'telefonos' => function($query) {
+                $query->select('id', 'telefono', 'empleado_cod');
+            }, 'correos' => function($query) {
+                $query->select('id', 'correo', 'empleado_cod');
+            }])
+            ->paginate(5);
+        $zonas = Zona::with('departamento')->select('nombre', 'id', 'depto_cod')->get();
+        return view('admin.empleado', compact('empleados', 'zonas'));
+    }
+
+    public function noticias(){
+        $noticias = Noticia::with('imagenes')->paginate(5);
+        return view('admin.noticia', compact('noticias'));
     }
 
 }

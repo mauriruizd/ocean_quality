@@ -40,9 +40,9 @@
                                         <td>{{ $producto->categoria->nombre }}</td>
                                         <td>{{ $producto->subcategoria->nombre }}</td>
                                         <td>
-                                            <ul class="list-group">
+                                            <ul>
                                             @foreach($producto->proveedorProducto as $provProd)
-                                                <li class="list-group-item">{{ $provProd->nombre }}</li>
+                                                <li>{{ $provProd->proveedor->nombre }}</li>
                                             @endforeach
                                             </ul>
                                         </td>

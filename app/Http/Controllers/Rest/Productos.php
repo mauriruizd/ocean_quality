@@ -58,17 +58,7 @@ class Productos extends Controller {
 		}
 
 		if($request->hasFile('imagenes')) {
-			$files = $request->file('imagenes');
-			foreach($files as $imagen) {
-				$filename = $imagen->getClientOriginalName();
-				$path = 'productos';
-				$imagen->move($path, $filename);
-
-				ImagenProducto::create([
-					'img_url' => $path.'/'.$filename,
-					'producto_cod' => $producto->id
-				]);
-			}
+			$this->uploadImages($request->file('imagenes'), $producto->id);
 		}
 
 		return new Response('Producto creado con exito', 200);
@@ -95,7 +85,7 @@ class Productos extends Controller {
 	{
 		$producto = Producto::with('categoria', 'subcategoria', 'imagenes')
 			->find($id);
-		$proveedoresProd = ProveedorProducto::where('cod_producto', '=', $id)->lists('cod_producto');
+		$proveedoresProd = ProveedorProducto::where('cod_producto', '=', $id)->lists('cod_proveedor');
 		$categorias = Categoria::lists('nombre', 'id');
 		$subcategorias = Subcategoria::select('id', 'nombre')->get();
 		$proveedores = Proveedor::lists('nombre', 'id');
@@ -110,6 +100,7 @@ class Productos extends Controller {
 	 */
 	public function update($id, Request $request)
 	{
+		$imagenes_antiguas = $request->has('imagenes_antiguas') ? $request->imagenes_antiguas : [];
 		ProveedorProducto::where('cod_producto', '=', $id)->delete();
 
 		foreach($request->proveedores as $proveedor) {
@@ -117,6 +108,11 @@ class Productos extends Controller {
 				'cod_producto' => $id,
 				'cod_proveedor' => $proveedor
 			]);
+		}
+
+		ImagenProducto::where('producto_cod', '=', $id)->whereNotIn('id', $imagenes_antiguas)->delete();
+		if($request->hasFile('imagenes')) {
+			$this->uploadImages($request->file('imagenes'), $id);
 		}
 
 		Producto::where('id', $id)->update($request->only([
@@ -136,6 +132,20 @@ class Productos extends Controller {
 		ProveedorProducto::where('cod_producto', '=', $id)->delete();
 		Producto::destroy($id);
 		return new Response('Producto eliminado con exito', 200);
+	}
+
+	private function uploadImages($imagenes, $prodId) {
+		$files = $imagenes;
+		foreach($files as $imagen) {
+			$filename = $imagen->getClientOriginalName();
+			$path = 'productos';
+			$imagen->move($path, $filename);
+
+			ImagenProducto::create([
+				'img_url' => $path.'/'.$filename,
+				'producto_cod' => $prodId
+			]);
+		}
 	}
 
 }

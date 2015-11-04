@@ -1,12 +1,12 @@
 @extends('admin.index')
 @section('titulo')
-    Zonas
+    Empleado
 @stop
 @section('content')
     <div class="col-lg-12">
         <div class="panel panel-default">
             <div class="panel-heading">
-                Cadastro de Zonas
+                Cadastro de Empleados
             </div>
             <div class="panel-body">
                 <div class="form-inline">
@@ -20,20 +20,36 @@
                                 <tr>
                                     <th>Codigo</th>
                                     <th>Nombre</th>
-                                    <th>Departamento</th>
+                                    <th>Zona</th>
+                                    <th>Correos Electronicos</th>
+                                    <th>Telefonos</th>
                                     <th>Editar</th>
                                 </tr>
                                 </thead>
                                 <tbody>
-                                @foreach($zonas as $zona)
+                                @foreach($empleados as $empleado)
                                     <tr>
-                                        <td>{{ $zona->id }}</td>
-                                        <td>{{ $zona->nombre }}</td>
+                                        <td>{{ $empleado->id }}</td>
+                                        <td>{{ $empleado->nombre }}</td>
                                         <td><span class="depto_cod">
-                                                {{ $zona->departamento->nombre }}
+                                                {{ $empleado->zona->nombre.' ('.$empleado->zona->departamento->nombre.')' }}
                                             </span></td>
                                         <td>
-                                            <button class="btn btn-success m-edit" value="{{ $zona->id }}" data-target="#editModal" data-toggle="modal">
+                                            <ul>
+                                            @foreach($empleado->correos as $correo)
+                                                <li>{{ $correo->correo }}</li>
+                                            @endforeach
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                            @foreach($empleado->telefonos as $telefono)
+                                                <li>{{ $telefono->telefono }}</li>
+                                            @endforeach
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <button class="btn btn-success m-edit" value="{{ $empleado->id }}" data-target="#editModal" data-toggle="modal">
                                                 <i class="fa fa-pencil"></i>
                                             </button>
                                         </td>
@@ -42,7 +58,7 @@
                                 </tbody>
                             </table>
                             <div class="text-center">
-                                {!! $zonas->render() !!}
+                                {!! $empleados->render() !!}
                             </div>
                             <button class="btn btn-default btn-circle btn-lg text-center" data-target="#new" data-toggle="modal">
                                 <i class="fa fa-plus"></i>
@@ -52,7 +68,7 @@
                         <div id="new" class="modal fade" aria-labelledby="new" role="dialog" tabindex="1" aria-hidden="true" style="display: none;">
                             <div class="modal-dialog">
                                 <div class="modal-content">
-                                    <form action="{{ URL::to('api/zonas') }}" method="POST" class="dropzone" enctype="multipart/form-data">
+                                    <form action="{{ URL::to('api/empleados') }}" method="POST" class="dropzone" enctype="multipart/form-data">
                                         <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                             <h4 class="modal-title" id="myModalLabel">Nueva producto</h4>
@@ -63,10 +79,18 @@
                                                 <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre" required>
                                             </div>
                                             <div class="input-group">
-                                                <label for="subcat_cod">Departamento</label>
-                                                <select name="depto_cod" id="depto_cod" class="form-control" required>
-                                                    @foreach($departamentos as $departamento_cod => $departamento)
-                                                        <option value="{{ $departamento_cod }}">{{ $departamento_cod.' - '.$departamento }}</option>
+                                                <label for="correos">Correos electronicos</label> Separados por coma
+                                                <input type="text" class="form-control" name="correos" placeholder="Correos" required>
+                                            </div>
+                                            <div class="input-group">
+                                                <label for="telefonos">Telefonos</label> Separados por coma
+                                                <input type="text" class="form-control" name="telefonos" placeholder="Telefonos" required>
+                                            </div>
+                                            <div class="input-group">
+                                                <label for="subcat_cod">Zona</label>
+                                                <select name="zona_cod" id="zona_cod" class="form-control" required>
+                                                    @foreach($zonas as $zona)
+                                                        <option value="{{ $zona->id }}">{{ $zona->nombre.' ('.$zona->departamento->nombre.')' }}</option>
                                                     @endforeach
                                                 </select>
                                             </div>
@@ -80,7 +104,7 @@
                             </div>
                         </div>
                         <div id="editModal" class="modal fade" aria-labelledby="editModal" role="dialog" tabindex="1" aria-hidden="true" style="display: none;">
-                            <input type="hidden" id="editUrl" value="{{ URL::to('api/zonas').'/' }}">
+                            <input type="hidden" id="editUrl" value="{{ URL::to('api/empleados').'/' }}">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <form action="" id="editForm" method="PUT">

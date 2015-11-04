@@ -15,6 +15,19 @@ class DatabaseSeeder extends Seeder {
 		Model::unguard();
 
 		// $this->call('UserTableSeeder');
+		$this->call('DepartamentosTableSeeder');
 	}
 
+}
+
+class DepartamentosTableSeeder extends Seeder {
+	public function run() {
+		$departamentos = ['Concepcion', 'San Pedro', 'Cordillera', 'Guaira', 'Caaguazu', 'Caazapa',
+		'Itapua', 'Misiones', 'Paraguari', 'Alto Parana', 'Central', 'Neembucu', 'Amambay', 'Canindeyu',
+		'Presidente Hayes', 'Boqueron', 'Alto Paraguay'];
+
+		foreach($departamentos as $departamento) {
+			\App\Departamento::create(['nombre' => $departamento]);
+		}
+	}
 }

@@ -11,4 +11,8 @@ class Zona extends Model {
         return $this->hasMany('App\Empleado', 'zona_cod', 'id');
     }
 
+    public function departamento(){
+        return $this->belongsTo('App\Departamento', 'depto_cod', 'id');
+    }
+
 }

@@ -10,7 +10,7 @@ class ProveedorProducto extends Model {
     public $timestamps = false;
 
     public function proveedor(){
-        $this->belongsTo('App\Proveedor', 'cod_proveedor', 'id');
+        return $this->belongsTo('App\Proveedor', 'cod_proveedor', 'id');
     }
 
 }
