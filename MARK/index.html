@@ -13,13 +13,42 @@
     <title>Ocean</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-   
+
     <link rel="stylesheet" type="text/css" href="css/styleMark.css">
     <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-    
+
   <style type="text/css"></style><style type="text/css"></style></head>
-  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<!--  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
+<link href="css/flatWeatherPlugin.css" rel="stylesheet">
+<!-- include a copy of jquery (if you haven't already) -->
+<script src="js/jquery-2.1.1.min.js"></script>
+<!-- include flatWeatherPlugin.js -->
+
+<script src="js/jquery.flatWeatherPlugin.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+  //Setup the plugin, see readme for more examples
+  var example = $("#example").flatWeatherPlugin({
+    location: "ciudad del este, cde", //city and region *required
+    country: "paraguay",         //country *required
+    //optional:
+    api: "yahoo", //default: openweathermap (openweathermap or yahoo)
+    //apikey: "your-api-key",   //optional api key for openweather
+    view : "full", //default: full (partial, full, simple, today or forecast)
+    displayCityNameOnly : true, //default: false (true/false) if you want to display only city name
+    forecast: 4, //default: 5 (0 -5) how many days you want forecast
+    render: true, //default: true (true/false) if you want plugin to generate markup
+    loadingAnimation: true //default: true (true/false) if you want plugin to show loading animation
+    //units : "metric" or "imperial" default: "auto"
+  });
+
+});
+</script>
+
+
   <script type="text/javascript">
 
 
@@ -30,17 +59,17 @@ jQuery(document).ready(function ($) {
         moveRight();
     }, 7000);
   //});
-  
+
     var slideCount = $('#slider ul li').length;
     var slideWidth = $('#slider ul li').width();
     var slideHeight = $('#slider ul li').height();
     var sliderUlWidth = slideCount * slideWidth;
 
-    
+
     $('#slider').css({ width: slideWidth, height: slideHeight });
-    
+
     $('#slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
-    
+
     $('#slider ul li:last-child').prependTo('#slider ul');
 
     function moveLeft() {
@@ -69,12 +98,30 @@ jQuery(document).ready(function ($) {
         moveRight();
     });
 
-});    
+});
 
 </script>
+<style>
 
+  /* style the container however you please */
+  #example {
+    color:#0967a4;
+    /*background: silver;*/
+    padding: 1px;
+    margin: 0 auto; ;
+    width: 250px;
+
+
+  }
+
+  /* styling for this page only, ignore */
+
+
+
+</style>
 
   <body>
+
 
 
     <nav class="bar ">
@@ -89,11 +136,11 @@ jQuery(document).ready(function ($) {
       <div class="centro"><!--logo-->
         <a href="index.html" id="logo">
           <img src="img/logo.png">
-        </a> 
+        </a>
       </div><!--logo-->
        </div><!-- /.container -->
-   
-    
+
+
       <div id="slider">
       <a href="#" class="control_next">></a>
       <a href="#" class="control_prev"><</a>
@@ -101,17 +148,17 @@ jQuery(document).ready(function ($) {
         <li><img src="img/banner.jpg"></li>
         <li ><img src="img/banner2.jpg"></li>
         <li><img src="img/banner3.jpg"></li>
-        
-      </ul>  
+
+      </ul>
       </div>
-    
+
     <div class="lineablu"></div>
     <div class=" container">
       <div class="menu">
        <nav>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Servicios</a>
+      <ul class="menu_mayor">
+        <li><a href="#">Home /</a></li>
+        <li><a href="#">Productos /</a>
 
         <div>
 
@@ -159,8 +206,9 @@ jQuery(document).ready(function ($) {
         </div>
 
         </li>
-        <li><a href="#">Productos</a></li>
-        <li><a href="#">Acerca de</a></li>
+        <li><a href="#">Noticias y Eventos /</a></li>
+        <li><a href="#">Empresa /</a></li>
+          <li><a href="#">Trabaje con nosotros /</a></li>
         <li><a href="#">Contacto</a></li>
       </ul>
     </nav>
@@ -178,7 +226,7 @@ jQuery(document).ready(function ($) {
           <div class="col-md-4 mascota"><img src="img/mascota.png"></div>
           <div class="col-md-8 text"><img src="img/text.png"></div>
         </div>
-       
+
          <div class="linea2"><img src="img/linea2.png"></div>
          <div class="espacio"></div>
          <div class="col-md-4">
@@ -195,10 +243,13 @@ jQuery(document).ready(function ($) {
               <div class="col-md-4">
           <div class="box">
             <div class="box_interno">
-              <div class="box_blanco"></div></div>
+              <div class="box_blanco">
+                    <div id="example"></div>
+
+              </div></div>
           </div>
          </div>
-        
+
                  <div class="col-md-4">
           <div class="box">
             <div class="box_interno">
@@ -231,7 +282,7 @@ jQuery(document).ready(function ($) {
 
         </div><!--socios-->
 
-        
+
 
      </div><!-- /.container -->
      <div class="container-fluid menu_inferior"></div>
@@ -256,12 +307,12 @@ jQuery(document).ready(function ($) {
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-  
+
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    
-  
-<script src="js/jquery.lbslider.js"></script> 
+
+
+<script src="js/jquery.lbslider.js"></script>
 <script>
 jQuery('.slider1').lbSlider({
     leftBtn: '.sa-left',
