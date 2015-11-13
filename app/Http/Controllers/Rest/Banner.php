@@ -40,7 +40,7 @@ class Banner extends Controller {
 			'titulo'	=> $request->titulo,
 			'link'		=> $request->link,
 			'adm_cod'	=> Auth::user()->id,
-			'img_url'	=> $request->img_url
+			'img_url'	=> $this->uploadImage($request->file('image'))
 		]);
 		return new Response('Banner creado con exito', 200);
 	}
@@ -64,7 +64,8 @@ class Banner extends Controller {
 	 */
 	public function edit($id)
 	{
-		//
+		$banner = \App\Banner::find($id);
+		return view('admin.forms.banner', compact('banner'));
 	}
 
 	/**
@@ -75,8 +76,18 @@ class Banner extends Controller {
 	 */
 	public function update($id, Request $request)
 	{
+		$toUpdate = [
+			'titulo'	=> $request->titulo,
+			'link'		=> $request->link,
+			'adm_cod'	=> Auth::user()->id
+		];
+
+		if($request->hasFile('imagen')){
+			$toUpdate['img_url'] = $this->uploadImage($request->file('image'));
+		}
+
 		\App\Banner::where('id', $id)
-			->update($request->all());
+			->update($toUpdate);
 		return new Response('Banner actualizado con exito', 200);
 	}
 
@@ -90,6 +101,13 @@ class Banner extends Controller {
 	{
 		\App\Banner::destroy($id);
 		return new Response('Banner eliminado con exito', 200);
+	}
+
+	private function uploadImage($image){
+		$filename = $image->getClientOriginalName();
+		$path = 'banners';
+		$image->move($path, $filename);
+		return $path.'/'.$filename;
 	}
 
 }

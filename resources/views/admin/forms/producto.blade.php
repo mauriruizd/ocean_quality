@@ -1,8 +1,8 @@
-<form action="{{ URL::to('api/productos/'.$producto->id) }}" method="POST">
+<form action="{{ URL::to('api/productos/'.$producto->id) }}" method="POST" enctype="multipart/form-data">
     <input type="hidden" name="_method" value="PUT">
     <input type="hidden" name="_token" value="{{ csrf_token() }}">
     <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">ï¿½</button>
         <h4 class="modal-title" id="myModalLabel">Editar Categoria</h4>
     </div>
     <div class="modal-body">

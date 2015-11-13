@@ -1,10 +1,14 @@
 <?php namespace App\Http\Controllers;
 
+use App\Administrador;
 use App\Categoria;
 use App\Departamento;
 use App\Empleado;
+use App\Banner;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Auth;
+use URL;
 
 use App\Noticia;
 use App\Producto;
@@ -13,8 +17,29 @@ use App\ProveedorProducto;
 use App\Subcategoria;
 use App\Zona;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 
 class AdminController extends Controller {
+
+    public function __construct(){
+        $this->middleware('auth', ['except' => ['login', 'loginAttempt'] ]);
+    }
+
+    public function login(){
+        return view('admin.login');
+    }
+
+    public function loginAttempt(Request $request){
+        if(Auth::attempt(['email' => $request->email, 'password' => $request->password])) {
+            return redirect()->intended(URL::to('admin/'));
+        }
+        return view('admin.login');
+    }
+
+    public function logout(){
+        Auth::logout();
+        return redirect('admin/login');
+    }
 
     public function index(){
         return view('admin.dashboard');
@@ -88,6 +113,11 @@ class AdminController extends Controller {
     public function noticias(){
         $noticias = Noticia::with('imagenes')->paginate(5);
         return view('admin.noticia', compact('noticias'));
+    }
+
+    public function banners(){
+        $banners = Banner::paginate(5);
+        return view('admin.banner', compact('banners'));
     }
 
 }

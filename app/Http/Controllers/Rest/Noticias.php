@@ -7,6 +7,7 @@ use App\ImagenNoticia;
 use App\Noticia;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
+use Illuminate\Support\Facades\Log;
 
 class Noticias extends Controller {
 
