@@ -21,6 +21,9 @@ Route::controllers([
 ]);
 
 Route::group(['prefix' => 'admin'], function(){
+	Route::get('login', 'AdminController@login');
+	Route::post('login', 'AdminController@loginAttempt');
+	Route::get('logout', 'AdminController@logout');
 	Route::get('/', 'AdminController@index');
 	Route::get('categorias', 'AdminController@categorias');
 	Route::get('subcategorias', 'AdminController@subcategorias');
@@ -29,6 +32,7 @@ Route::group(['prefix' => 'admin'], function(){
 	Route::get('zonas', 'AdminController@zonas');
 	Route::get('empleados', 'AdminController@empleados');
 	Route::get('noticias', 'AdminController@noticias');
+	Route::get('banners', 'AdminController@banners');
 });
 
 Route::group(['prefix' => 'api'], function(){

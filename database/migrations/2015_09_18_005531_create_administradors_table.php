@@ -17,7 +17,7 @@ class CreateAdministradorsTable extends Migration {
 			$table->increments('id');
 			$table->string('nombre', 80);
 			$table->string('email', 125)->unique();
-			$table->string('clave', 60);
+			$table->string('password', 60);
 			$table->timestamps();
 		});
 	}

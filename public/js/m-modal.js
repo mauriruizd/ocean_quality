@@ -8,7 +8,10 @@
         $.ajax({
             method : method,
             url : url,
-            data : form.serialize(),
+            data : new FormData(form[0]),
+            enctype : 'multipart/form-data',
+            processData : false,
+            contentType : false,
             success : function(response){
                 location.reload();
                 //console.log(response);
@@ -43,7 +46,10 @@
         $.ajax({
             method : method,
             url : url,
-            data : form.serialize(),
+            data : new FormData(form[0]),
+            enctype : 'multipart/form-data',
+            processData : false,
+            contentType : false,
             success : function(response) {
                 location.reload();
                 //console.log(response);

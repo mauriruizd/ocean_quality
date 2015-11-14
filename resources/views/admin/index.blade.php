@@ -29,6 +29,9 @@
     <!-- Morris Charts CSS -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
 
+    <!-- M CSS -->
+    @yield('css')
+
     <!-- Custom Fonts -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
@@ -64,7 +67,7 @@
                     <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
                 </a>
                 <ul class="dropdown-menu dropdown-user">
-                    <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Cerrar Sesion</a>
+                    <li><a href="{{ URL::to('admin/logout') }}"><i class="fa fa-sign-out fa-fw"></i> Cerrar Sesion</a>
                     </li>
                 </ul>
                 <!-- /.dropdown-user -->
@@ -113,10 +116,7 @@
                         <a href="{{ URL::to('admin/noticias') }}"><i class="fa fa-dashboard fa-fw"></i> Noticias</a>
                     </li>
                     <li>
-                        <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Banners</a>
-                    </li>
-                    <li>
-                        <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Cotizaciones</a>
+                        <a href="{{ URL::to('admin/banners') }}"><i class="fa fa-dashboard fa-fw"></i> Banners</a>
                     </li>
                 </ul>
             </div>
