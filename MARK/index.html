@@ -13,7 +13,6 @@
     <title>Ocean</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" type="text/css" href="css/styleMark.css">
     <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
@@ -76,7 +75,7 @@ jQuery(document).ready(function ($) {
     function moveLeft() {
         $('#slider ul').animate({
             left: + slideWidth
-        }, 2000, function () {
+        }, 600, function () {
             $('#slider ul li:last-child').prependTo('#slider ul');
             $('#slider ul').css('left', '');
         });
@@ -122,7 +121,7 @@ jQuery(document).ready(function ($) {
 </style>
 
   <body>
-  <html ng-app="myApp" ng-controller="AppCtrl" lang="en">
+
 
 
     <nav class="bar ">
@@ -156,64 +155,62 @@ jQuery(document).ready(function ($) {
     <div class="lineablu"></div>
     <div class=" container">
       <div class="menu">
-          <nav>
-              <ul class="menu_mayor">
-                  <li><a href="index.html"><i class="glyphicon glyphicon-home"></i> |</a></li>
-                  <li><a href="productos.html">Productos |</a>
+       <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Servicios</a>
 
-                      <div>
+        <div>
 
-                          <ul>
-                              <li class="titulo"><a href=""><img src="img/semilla.png">  Semillas</a></li>
-                              <li><a href="">• Categoria #2</a></li>
-                              <li><a href="">• Categoria #3</a></li>
-                              <li><a href="">• Categoria #4</a></li>
-                              <li><a href="">• Categoria #5</a></li>
-                              <li><a href="">• Categoria #5</a></li>
-                              <li><a href="">• Categoria #5</a></li>
-                          </ul>
+          <ul>
+            <li class="titulo"><a href=""><img src="img/semilla.png">  Semillas</a></li>
+            <li><a href="">• Categoria #2</a></li>
+            <li><a href="">• Categoria #3</a></li>
+            <li><a href="">• Categoria #4</a></li>
+            <li><a href="">• Categoria #5</a></li>
+            <li><a href="">• Categoria #5</a></li>
+            <li><a href="">• Categoria #5</a></li>
+          </ul>
 
-                          <ul>
-                              <li class="titulo "><a href=""><img src="img/fertilizante.png"> Fertilizantes</a></li>
-                              <li><a href="">• Categoria #2</a></li>
-                              <li><a href="">• Categoria #3</a></li>
-                              <li><a href="">• Categoria #4</a></li>
-                              <li><a href="">• Categoria #5</a></li>
-                          </ul>
+          <ul>
+            <li class="titulo"><a href=""><img src="img/fertilizante.png"> Fertilizantes</a></li>
+            <li><a href="">• Categoria #2</a></li>
+            <li><a href="">• Categoria #3</a></li>
+            <li><a href="">• Categoria #4</a></li>
+            <li><a href="">• Categoria #5</a></li>
+          </ul>
 
-                          <ul>
-                              <li class="titulo"><a href=""><img src="img/sistema.png"> Sistema de riego</a></li>
-                              <li><a href="">• Categoria #2</a></li>
-                              <li><a href="">• Categoria #3</a></li>
-                              <li><a href="">• Categoria #4</a></li>
-                              <li><a href="">• Categoria #5</a></li>
-                          </ul>
+          <ul>
+            <li class="titulo"><a href=""><img src="img/sistema.png"> Sistema de riego</a></li>
+            <li><a href="">• Categoria #2</a></li>
+            <li><a href="">• Categoria #3</a></li>
+            <li><a href="">• Categoria #4</a></li>
+            <li><a href="">• Categoria #5</a></li>
+          </ul>
 
-                          <ul>
-                              <li class="titulo "><a href=""><img src="img/agro.png"> Agroquimicos</a></li>
-                              <li><a href="">• Categoria #2</a></li>
-                              <li><a href="">• Categoria #3</a></li>
-                              <li><a href="">• Categoria #4</a></li>
-                              <li><a href="">• Categoria #5</a></li>
-                          </ul>
+          <ul>
+            <li class="titulo "><a href=""><img src="img/agro.png"> Agroquimicos</a></li>
+            <li><a href="">• Categoria #2</a></li>
+            <li><a href="">• Categoria #3</a></li>
+            <li><a href="">• Categoria #4</a></li>
+            <li><a href="">• Categoria #5</a></li>
+          </ul>
 
-                          <ul>
-                              <li class="titulo"><a href=""><img src="img/semilla.png"> Ambientes protegidos</a></li>
-                              <li><a href="">Categoria #2</a></li>
-                              <li><a href="">Categoria #3</a></li>
-                              <li><a href="">Categoria #4</a></li>
-                              <li><a href="">Categoria #5</a></li>
-                          </ul>
-                      </div>
+          <ul>
+            <li class="titulo "><a href=""><img src="img/semilla.png"> Ambientes protegidos</a></li>
+            <li><a href="">Categoria #2</a></li>
+            <li><a href="">Categoria #3</a></li>
+            <li><a href="">Categoria #4</a></li>
+            <li><a href="">Categoria #5</a></li>
+          </ul>
+        </div>
 
-                  </li>
-                  <li><a href="noticias.html">Noticias y Eventos |</a></li>
-                  <li><a href="vendedores.html">Vendedores |</a></li>
-                  <li><a href="empresa.html">Empresa |</a></li>
-                  <li><a href="trabaje_con_nosotros.html">Trabaje con nosotros |</a></li>
-                  <li><a href="contacto.html">Contacto</a></li>
-              </ul>
-          </nav>
+        </li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="#">Acerca de</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
 <div class="search">
           <form action="busca" class="box01" method="post">
                     <input name="busca" type="text" class="box02" placeholder="Digite aqui o que procura">
@@ -255,12 +252,9 @@ jQuery(document).ready(function ($) {
                  <div class="col-md-4">
           <div class="box">
             <div class="box_interno">
-              <div class="box_blanco">
-                  <div calendar class="calendar" id="calendar"></div>
-              </div></div>
+              <div class="box_blanco"></div></div>
           </div>
          </div>
-        <div class="espacio"></div>
         <h3>SOCIOS COMERCIALES</h3>
         <div class="linea2"><img src="img/linea3.png"></div>
         <div class="socios">
@@ -315,12 +309,6 @@ jQuery(document).ready(function ($) {
 
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-
-    <!--<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>-->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.8/angular.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js'></script>
-
-    <script src="js/index.js"></script>
 
 
 <script src="js/jquery.lbslider.js"></script>

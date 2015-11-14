@@ -330,19 +330,17 @@ footer{
   float: left;
   margin: 0;
   padding: 0;
-    max-width: 1700px;
-    min-width: 400px;
-  height: 400px;
+  width: 100%;
+  height: 500px;
   background: #ccc;
   text-align: center;
   line-height: 300px;
 }
 #slider ul li img {
 
-width: 1700px;
-  max-width: 1700px;
-    min-width: 400px;
-  height: 400px;
+
+  width: 100%;
+  height: 500px;
 
 }
 .container{
@@ -351,7 +349,7 @@ width: 1700px;
 
 a.control_prev, a.control_next {
   position: absolute;
-  top:25%;
+  top:230px;
   z-index: 999;
   display: block;
   padding: 3% 2%;
@@ -391,18 +389,10 @@ a.control_next {
 
 
 .menu nav{
-    padding-right: 5px;
-  padding-top: 19px;
+  padding-top: 18px;
   float: right;
 }
-  .menu_mayor li{
-      padding: 3px;
 
-  }
-  .menu_mayor li a i{
-      margin-top: -5px;
-  font-size: 23px;
-  }
 nav {
 
 }
@@ -424,7 +414,7 @@ nav > ul > li {
 nav ul li a {
 
   font-family: 'Oswald', sans-serif;
-  font-size: 17px;
+  font-size: 20px;
   text-decoration:none;
   color:#fff;
   display:block;
@@ -677,9 +667,7 @@ width: 100%;
 .slider1 {
 position: relative;
 width: 100%;
-    height: 80px;
 margin: auto;
-
 }
 ul {
 margin: 0;
@@ -689,7 +677,7 @@ ul li {
 list-style: none;
 text-align: center;
 }
-ul li span .black {
+ul li span {
 display: inline-block;
 vertical-align: middle;
 width: 150px;
@@ -697,7 +685,7 @@ height: 60px;
 
 
 }
-ul li span .black:hover{
+ul li span img:hover{
   width: 160px;
   height: 80px;
 
@@ -743,58 +731,4 @@ background: silver;
 
 .yellow {
 background: silver;
-}
-.box_noti{
-    padding: 10px;
-    width: 90%;
-    height: 250px;
-    border: 1px solid #e6e7e8;
-}
-.text_azul{
-padding: 5px;
-    font-size: 27px;
-    font-family: 'Oswald', sans-serif;
-   color: #0967a4;
-}
-.box_fecha{
-    text-align: center;
-    margin: 20px;
-    float: left;
-    margin-top: -20px;
-   position: absolute;
-    width: 50px;
-    height: 50px;
-    background: #0967a4;
-}
-   p.mes{
-      margin-top: -15px;
-
-      font-size: 17px;
-
-      font-family: 'Oswald', sans-serif;
-      color: white;
-  }
-  p.textogra{
-
-      font-size: 22px;
-
-      font-family: 'Oswald', sans-serif;
-      color: white;
-  }
-  .noticuadro{
-    padding-top: 20px;
-      cursor: pointer;
-  }
-.aba{
-   float: right;
-
-    margin-top: 70px;
-}
-.formulario{
-    margin: 0 auto;
-    padding: 0;
-
-    width: 600px;
-    height: auto;
-    
 }
