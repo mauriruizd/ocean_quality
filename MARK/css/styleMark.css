@@ -58,8 +58,8 @@
       color: white;
     }
         #text2{
-          display: inline-block;
-     font-size: 16px;
+            display: inline-block;
+     font-size: 15px;
       font-family: 'Oswald', sans-serif;
       color: white;
     }
@@ -330,8 +330,10 @@ footer{
   float: left;
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 500px;
+  width: 1520px;
+    max-width: 1700px;
+    min-width: 400px;
+  height: 400px;
   background: #ccc;
   text-align: center;
   line-height: 300px;
@@ -349,7 +351,7 @@ footer{
 
 a.control_prev, a.control_next {
   position: absolute;
-  top:230px;
+    top: 180px;;
   z-index: 999;
   display: block;
   padding: 3% 2%;
@@ -398,6 +400,7 @@ nav {
 }
 
 nav ul {
+    margin-right: 5px;
   list-style:none;
   padding:0;
   margin:0;
@@ -407,6 +410,7 @@ nav ul {
 
 nav > ul > li {
   float:left;
+    padding: 5px;
 
 
 }
@@ -414,7 +418,7 @@ nav > ul > li {
 nav ul li a {
 
   font-family: 'Oswald', sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   text-decoration:none;
   color:#fff;
   display:block;
@@ -729,6 +733,55 @@ background: silver;
 background: silver;
 }
 
+
 .yellow {
 background: silver;
+}
+.formulario
+{
+   margin: 0 auto;
+    padding: 0;
+    width: 600px;
+    height: auto;
+}
+.noticuadro{
+    padding-top: 40px;
+    width: 300px;
+    height: 250px;
+    border: 1px solid silver;
+}
+.box_fecha{
+    margin-top: -75px;
+    width: 50px;
+    height: 60px;
+    background:#0967a4 ;
+    position: relative;
+
+}
+.textogra{
+    text-align: center;
+    margin: 0 auto;
+    padding: 3px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.mes{
+
+
+    text-align: center;
+    margin: 0 auto;
+top: -20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: white;
+
+
+}
+.text_azul{
+    color:#0967a4 ;
+}
+.aba{
+    float: right;
+    margin-top: 50px;
 }
