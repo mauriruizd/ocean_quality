@@ -20,6 +20,9 @@
   <style type="text/css"></style><style type="text/css"></style></head>
   <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/jquery-jvectormap-2.0.3.min.js"></script>
+<script src="js/jvector_paraguay.js"></script>
+<link rel="stylesheet" href="css/jquery-jvectormap-2.0.3.css">
   <script type="text/javascript">
 
 
@@ -187,6 +190,20 @@ jQuery(document).ready(function ($) {
                             <div class="container ">
 
                                 <!-- ACA VA EL MAPA DE PARAGUAY -->
+                                <div class="row">
+                                    <div id="mapa" style="width: 500px; height: 400px; margin: auto;"></div>
+                                </div>
+                                <div class="row">
+                                    <span class="empleado depto1">
+                                        Jose Mendez
+                                    </span>
+                                    <span class="empleado depto10">
+                                        Jose Lesme
+                                    </span>
+                                    <span class="empleado depto10">
+                                        Jose Ortiz
+                                    </span>
+                                </div>
 
 
                             </div>
@@ -291,12 +308,41 @@ $(document).ready(function(){
   });
 });
 
+function getFuncionarios(e, code, isSelected, selectedRegions) {
+    console.log(code, isSelected, selectedRegions);
+}
+
+function getFuncionariosByClick(e, code) {
+    $('.empleado').hide('fast');
+    $('.depto' + code).show('fast');
+}
+
 jQuery('.slider1').lbSlider({
     leftBtn: '.sa-left',
     rightBtn: '.sa-right',
     visible: 5,
     autoPlay: true,
     autoPlayDelay: 5
+});
+$('#mapa').vectorMap({
+    map : 'paraguay',
+    backgroundColor : '#FFF',
+    regionsSelectable : true,
+    regionsSelectableOne : true,
+    onRegionClick : getFuncionariosByClick,
+    regionStyle : {
+        initial : {
+            fill : '#044D99',
+            'fill-opacity' : 1
+        },
+        hover : {
+            'fill-opacity' : 0.8,
+            cursor : 'pointer'
+        },
+        selected : {
+            fill : '#EB1D21'
+        }
+    }
 });
 </script>
 
