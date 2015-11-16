@@ -31,3 +31,12 @@ class DepartamentosTableSeeder extends Seeder {
 		}
 	}
 }
+
+class CategoriasTableSeeder extends Seeder {
+	public function run() {
+		$categorias = ['Semillas', 'Fertilizantes', 'Sistemas de riego', 'Agroquímicos', 'Ambientes protegidos'];
+		foreach($categorias as $categoria) {
+			\App\Categoria::create(['nombre' => $categoria]);
+		}
+	}
+}

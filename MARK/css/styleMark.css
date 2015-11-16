@@ -57,7 +57,7 @@
       font-family: 'Oswald', sans-serif;
       color: white;
     }
-        #text2{
+    .text2{
             display: inline-block;
      font-size: 15px;
       font-family: 'Oswald', sans-serif;
@@ -83,11 +83,10 @@
      display: inline-block;
     }
       .texto li a{
-         padding-top:14px;
-       text-decoration: none;
-       color: white;
-       padding: 10px;
-       background: ;
+          padding: 10px;
+          padding-top:14px;
+          text-decoration: none;
+          color: white;
            -webkit-transition: color 2s; /* For Safari 3.1 to 6.0 */
     transition: color 2s;
 
@@ -661,7 +660,7 @@ padding-top:  15px;
 .menu_prod ul li:hover{
   background: gray;
   color: white;
-};
+}
 /*carrocel*/
 .slider-wrap {
 position: relative;

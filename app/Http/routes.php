@@ -11,14 +11,23 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
-
+/*
 Route::get('home', 'HomeController@index');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
+*/
+
+Route::get('/', 'WelcomeController@index');
+Route::get('news', 'WelcomeController@noticias');
+Route::get('vendedores', 'WelcomeController@vendedores');
+Route::get('empresa', 'WelcomeController@empresa');
+Route::get('trabaje_con_nosotros', 'WelcomeController@trabajeConNosotros');
+Route::post('trabaje_con_nosotros', 'WelcomeController@postTrabajeConNosotros');
+Route::get('contacto', 'WelcomeController@contacto');
+Route::post('contacto', 'WelcomeController@postContacto');
 
 Route::group(['prefix' => 'admin'], function(){
 	Route::get('login', 'AdminController@login');
@@ -43,6 +52,7 @@ Route::group(['prefix' => 'api'], function(){
 	Route::resource('empleados', 'Rest\Empleados');
 	Route::resource('monedas', 'Rest\Monedas');
 	Route::resource('noticias', 'Rest\Noticias');
+	Route::get('noticias/{id}/modal', 'Rest\Noticias@modal');
 	Route::resource('proveedores', 'Rest\Proveedores');
 	Route::resource('productos', 'Rest\Productos');
 	Route::resource('subcategorias', 'Rest\Subcategorias');

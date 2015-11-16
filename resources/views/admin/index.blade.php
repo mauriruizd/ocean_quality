@@ -86,9 +86,6 @@
                         <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Cadastro<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="{{ URL::to('admin/categorias') }}">Categorias</a>
-                            </li>
-                            <li>
                                 <a href="{{ URL::to('admin/subcategorias') }}">Subcategorias</a>
                             </li>
                             <li>

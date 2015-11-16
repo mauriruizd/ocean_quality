@@ -61,3 +61,25 @@
         $('#m-update').on('click', update);
     }
 })();
+
+//eliminar registro
+(function(){
+    function eliminar(){
+        var form = $(this).closest('form');
+        var method = form.attr('method');
+        var url = form.attr('action');
+        $.ajax({
+            method : method,
+            url : url,
+            data : new FormData(form[0]),
+            enctype : 'multipart/form-data',
+            processData : false,
+            contentType : false,
+            success : function(response) {
+                location.reload();
+                //console.log(response);
+            }
+        });
+    }
+    $('.btn-delete').on('click', eliminar);
+})();

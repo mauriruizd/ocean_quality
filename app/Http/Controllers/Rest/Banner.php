@@ -40,7 +40,7 @@ class Banner extends Controller {
 			'titulo'	=> $request->titulo,
 			'link'		=> $request->link,
 			'adm_cod'	=> Auth::user()->id,
-			'img_url'	=> $this->uploadImage($request->file('image'))
+			'img_url'	=> $this->uploadImage($request->file('imagen'))
 		]);
 		return new Response('Banner creado con exito', 200);
 	}

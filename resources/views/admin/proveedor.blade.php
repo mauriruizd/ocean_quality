@@ -21,6 +21,7 @@
                                     <th>Codigo</th>
                                     <th>Nombre</th>
                                     <th>Editar</th>
+                                    <th>Eliminar</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -32,6 +33,15 @@
                                             <button class="btn btn-success m-edit" value="{{ $proveedor->id }}" data-target="#editModal" data-toggle="modal">
                                                 <i class="fa fa-pencil"></i>
                                             </button>
+                                        </td>
+                                        <td>
+                                            <form action="{{ URL::to('api/proveedores/'.$proveedor->id) }}" method="POST">
+                                                <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                                <input type="hidden" name="_method" value="delete">
+                                                <button type="button" class="btn btn-danger btn-delete">
+                                                    <i class="fa fa-times"></i>
+                                                </button>
+                                            </form>
                                         </td>
                                     </tr>
                                 @endforeach
@@ -50,7 +60,7 @@
                                 <div class="modal-content">
                                     <form action="{{ URL::to('api/proveedores') }}" method="POST">
                                         <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">ï¿½</button>
                                             <h4 class="modal-title" id="myModalLabel">Nueva Categoria</h4>
                                         </div>
                                         <div class="modal-body">
@@ -73,7 +83,7 @@
                                 <div class="modal-content">
                                     <form action="" id="editForm" method="PUT">
                                         <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">ï¿½</button>
                                             <h4 class="modal-title" id="myModalLabel">Nueva Categoria</h4>
                                         </div>
                                         <div class="modal-body">

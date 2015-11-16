@@ -54,7 +54,7 @@ return [
 	|
 	*/
 
-	'from' => ['address' => null, 'name' => null],
+	'from' => ['address' => 'rd_mauri@hotmail.com', 'name' => 'Ocean Quality'],
 
 	/*
 	|--------------------------------------------------------------------------

@@ -1,5 +1,7 @@
 <?php namespace App\Providers;
 
+use App\Banner;
+use App\Categoria;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider {
@@ -11,7 +13,8 @@ class AppServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		//
+		view()->share('categorias', Categoria::with('subcategorias')->get());
+		view()->share('banner', Banner::orderByRaw("RAND()")->select('img_url', 'link')->first());
 	}
 
 	/**

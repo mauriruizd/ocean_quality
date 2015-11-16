@@ -97,6 +97,8 @@ class Empleados extends Controller {
 	 */
 	public function destroy($id)
 	{
+		TelefonoEmpleado::where('empleado_cod', '=', $id)->delete();
+		CorreoEmpleado::where('empleado_cod', '=', $id)->delete();
 		Empleado::destroy($id);
 		return new Response('Empleado eliminado con exito', 200);
 	}

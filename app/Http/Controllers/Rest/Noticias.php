@@ -106,6 +106,11 @@ class Noticias extends Controller {
 		Noticia::destroy($id);
 	}
 
+	public function modal($id){
+		$noticia = Noticia::with('imagenes')->find($id);
+		return view('front.noticiaModal', compact('noticia'));
+	}
+
 	private function uploadImages($imagenes, $noticiaId) {
 		$files = $imagenes;
 		foreach($files as $imagen) {

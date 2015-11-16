@@ -22,6 +22,8 @@
                                     <th>Titulo</th>
                                     <th>Link</th>
                                     <th>Imagen</th>
+                                    <th>Editar</th>
+                                    <th>Eliminar</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -37,6 +39,15 @@
                                             <button class="btn btn-success m-edit" value="{{ $banner->id }}" data-target="#editModal" data-toggle="modal">
                                                 <i class="fa fa-pencil"></i>
                                             </button>
+                                        </td>
+                                        <td>
+                                            <form action="{{ URL::to('api/banners/'.$banner->id) }}" method="POST">
+                                                <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                                <input type="hidden" name="_method" value="delete">
+                                                <button type="button" class="btn btn-danger btn-delete">
+                                                    <i class="fa fa-times"></i>
+                                                </button>
+                                            </form>
                                         </td>
                                     </tr>
                                 @endforeach
