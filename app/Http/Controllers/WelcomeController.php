@@ -6,6 +6,7 @@ use App\Empleado;
 use Illuminate\Http\Request;
 use App\Noticia;
 use App\Zona;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Mail;
 
 class WelcomeController extends Controller {
@@ -40,6 +41,10 @@ class WelcomeController extends Controller {
 	{
 		$banners = Banner::all();
 		return view('front.index', compact('banners'));
+	}
+
+	public function productos(){
+		return view('front.productos');
 	}
 
 	public function noticias(){

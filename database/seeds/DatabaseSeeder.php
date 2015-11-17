@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder {
 		// $this->call('UserTableSeeder');
 		$this->call('DepartamentosTableSeeder');
 		$this->call('CategoriasTableSeeder');
+		$this->call('AdminTableSeeder');
 	}
 
 }
@@ -39,5 +40,15 @@ class CategoriasTableSeeder extends Seeder {
 		foreach($categorias as $categoria) {
 			\App\Categoria::create(['nombre' => $categoria]);
 		}
+	}
+}
+
+class AdminTableSeeder extends  Seeder {
+	public function run() {
+		\App\Administrador::create([
+			'nombre' => 'Ocean',
+			'email' => 'admin@oceanquality.net',
+			'password' => \Illuminate\Support\Facades\Hash::make('ocean123')
+		]);
 	}
 }

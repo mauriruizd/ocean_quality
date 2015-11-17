@@ -56,7 +56,7 @@
 
         // $('#checkbox').change(function(){
         setInterval(function () {
-            moveRight();
+            moveLeft();
         }, 7000);
         //});
 
@@ -73,7 +73,7 @@
         $('#slider ul li:last-child').prependTo('#slider ul');
 
         function moveLeft() {
-            $('#slider ul').animate({
+           $('#slider ul').animate({
                 left: + slideWidth
             }, 600, function () {
                 $('#slider ul li:last-child').prependTo('#slider ul');

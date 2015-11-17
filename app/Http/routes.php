@@ -21,6 +21,7 @@ Route::controllers([
 */
 
 Route::get('/', 'WelcomeController@index');
+Route::get('productos', 'WelcomeController@productos');
 Route::get('news', 'WelcomeController@noticias');
 Route::get('vendedores', 'WelcomeController@vendedores');
 Route::get('empresa', 'WelcomeController@empresa');

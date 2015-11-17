@@ -2,7 +2,7 @@
     <nav>
         <ul class="menu_mayor">
             <li><a href="{{ URL::to('/') }}"><i class="glyphicon glyphicon-home"></i> |</a></li>
-            <li><a href="#">Productos |</a>
+            <li><a href="{{ URL::to('productos') }}">Productos |</a>
 
                 <div>
 
