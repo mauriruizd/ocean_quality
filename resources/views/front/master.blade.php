@@ -138,7 +138,7 @@
         <h4 class="text2"><i class="glyphicon glyphicon-earphone"></i> 061 - 501 313</h4>
     </div>
     <div class="col-md-2 blanco"><h3>SOCIAL</h3></div>
-    <div class="col-md-2 py"><img src="img/py.png"></div>
+    <div class="col-md-2 py"><img src="{{ URL::to('img/py.png') }}"></div>
 </footer>
 <div class="container">
     <div class="linea_footer"></div>
@@ -158,21 +158,6 @@
 
 <script src="{{ URL::to('js/jquery.lbslider.js') }}"></script>
 <script type="text/javascript">
-    $(document).ready(function(){
-
-        $('.menu_delos_prod:first li').click(function(e) {
-            e.preventDefault();
-            var id = $(this).children('a').attr('href');
-            var elm = $(id).prev();
-            var prod_cont = $('.foto_produc:first');
-            var pos = prod_cont.scrollTop() + elm.position().top - 5;
-
-            prod_cont.animate({
-                scrollTop : pos
-            }, 400);
-        });
-    });
-
     jQuery('.slider1').lbSlider({
         leftBtn: '.sa-left',
         rightBtn: '.sa-right',

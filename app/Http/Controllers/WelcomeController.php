@@ -1,12 +1,18 @@
 <?php namespace App\Http\Controllers;
 
 use App\Banner;
+use App\Categoria;
 use App\Departamento;
 use App\Empleado;
+use App\Producto;
+use App\Proveedor;
+use App\ProveedorProducto;
+use App\Subcategoria;
 use Illuminate\Http\Request;
 use App\Noticia;
 use App\Zona;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Mail;
 
 class WelcomeController extends Controller {
@@ -43,13 +49,29 @@ class WelcomeController extends Controller {
 		return view('front.index', compact('banners'));
 	}
 
-	public function productos(){
-		return view('front.productos');
-	}
-
 	public function noticias(){
 		$noticias = Noticia::select('id', 'updated_at', 'titulo', 'cuerpo')->get();
 		return view('front.noticias', compact('noticias'));
+	}
+
+	public function productos($cat, $subcat){
+		$productos = Producto::with('imagenes', 'proveedorProducto.proveedor')
+			->where('cat_cod', '=', $cat)
+			->where('subcat_cod', '=', $subcat)
+			->get();
+		$categoria = Categoria::select('nombre')->find($cat);
+		$subcategoria = Subcategoria::select('nombre')->find($subcat);
+		return view('front.productos', compact('productos', 'categoria', 'subcategoria'));
+	}
+
+	public function search(){
+		$query = Input::get('q');
+		$productos = Producto::where('nombre', 'LIKE', $query)
+			->orWhere('descripcion', 'LIKE', "%$query%")
+			->select('id', 'nombre', 'descripcion', 'cat_cod', 'subcat_cod')
+			->with('imagenes')
+			->paginate(5);
+		return view('front.busqueda', compact('productos'));
 	}
 
 	public function vendedores(){

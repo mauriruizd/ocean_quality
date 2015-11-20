@@ -21,7 +21,7 @@ Route::controllers([
 */
 
 Route::get('/', 'WelcomeController@index');
-Route::get('productos', 'WelcomeController@productos');
+Route::get('productos/{cat_id}/{subcat_id}', 'WelcomeController@productos');
 Route::get('news', 'WelcomeController@noticias');
 Route::get('vendedores', 'WelcomeController@vendedores');
 Route::get('empresa', 'WelcomeController@empresa');
@@ -29,6 +29,7 @@ Route::get('trabaje_con_nosotros', 'WelcomeController@trabajeConNosotros');
 Route::post('trabaje_con_nosotros', 'WelcomeController@postTrabajeConNosotros');
 Route::get('contacto', 'WelcomeController@contacto');
 Route::post('contacto', 'WelcomeController@postContacto');
+Route::get('busqueda', 'WelcomeController@search');
 
 Route::group(['prefix' => 'admin'], function(){
 	Route::get('login', 'AdminController@login');

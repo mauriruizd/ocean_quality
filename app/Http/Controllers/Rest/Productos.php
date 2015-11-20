@@ -3,6 +3,7 @@
 use App\Categoria;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Auth;
 
 use App\ImagenProducto;
 use App\Producto;
@@ -46,8 +47,13 @@ class Productos extends Controller {
 			'nombre' => $request->nombre,
 			'cat_cod' => $request->cat_cod,
 			'subcat_cod' => $request->subcat_cod,
+			'slug' => str_slug($request->nombre),
 			'descripcion' => $request->descripcion,
-			'adm_cod' => 1
+			'adm_cod' => Auth::user()->id,
+			'epoca' => $request->epoca,
+			'ciclo_promedio' => $request->ciclo_promedio,
+			'segmento' => $request->segmento,
+			'envase' => $request->envase
 		]);
 
 		foreach($request->proveedores as $proveedor) {
@@ -103,11 +109,13 @@ class Productos extends Controller {
 		$imagenes_antiguas = $request->has('imagenes_antiguas') ? $request->imagenes_antiguas : [];
 		ProveedorProducto::where('cod_producto', '=', $id)->delete();
 
-		foreach($request->proveedores as $proveedor) {
-			ProveedorProducto::create([
-				'cod_producto' => $id,
-				'cod_proveedor' => $proveedor
-			]);
+		if(isset($request->proveedores)){
+			foreach($request->proveedores as $proveedor) {
+				ProveedorProducto::create([
+					'cod_producto' => $id,
+					'cod_proveedor' => $proveedor
+				]);
+			}
 		}
 
 		ImagenProducto::where('producto_cod', '=', $id)->whereNotIn('id', $imagenes_antiguas)->delete();
@@ -115,9 +123,12 @@ class Productos extends Controller {
 			$this->uploadImages($request->file('imagenes'), $id);
 		}
 
-		Producto::where('id', $id)->update($request->only([
+		$toUpdate = $request->only([
 			'nombre', 'cat_cod', 'subcat_cod', 'descripcion', 'epoca', 'ciclo_promedio', 'segmento', 'envase'
-		]));
+		]);
+		$toUpdate['slug'] = str_slug($request->nombre);
+
+		Producto::where('id', $id)->update($toUpdate);
 		return new Response('Producto actualizado con exito', 200);
 	}
 

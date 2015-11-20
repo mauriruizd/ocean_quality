@@ -13,4 +13,8 @@ class ProveedorProducto extends Model {
         return $this->belongsTo('App\Proveedor', 'cod_proveedor', 'id');
     }
 
+    public function producto(){
+        return $this->belongsTo('App\Producto', 'cod_producto', 'id');
+    }
+
 }
