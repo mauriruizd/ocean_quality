@@ -170,11 +170,11 @@
       var size = (1 / this.maxEvents) * todayEvents.events.length;
       circle.style.webkitTransform = 'scale(' + size + ')';
       circle.style.MozProperty = 'scale(' + size + ')';
-      circle.style.transform = 'scale(' + size + ')';      
+      circle.style.transform = 'scale(' + size + ')';
     } else {
       circle.style.webkitTransform = 'scale(0, 0)';
       circle.style.MozProperty = 'scale(0, 0)';
-      circle.style.transform = 'scale(0, 0)';      
+      circle.style.transform = 'scale(0, 0)';
       outer.style.cursor = 'default';
     }
 

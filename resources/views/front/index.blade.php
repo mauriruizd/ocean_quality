@@ -10,6 +10,9 @@
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link rel="icon" href="">
 
+    <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.2/owl.carousel.css'>
+    <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.2/owl.theme.css'>
+    <link rel="stylesheet" href="{{ URL::to('css/reset.css') }}">
     <title>Ocean</title>
     <link href="{{ URL::to('css/bootstrap.min.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ URL::to('css/style.css') }}">
@@ -120,7 +123,7 @@
 
 </style>
 
-<body>
+<body ng-app="myApp" ng-controller="AppCtrl" lang="en">
 
 <nav class="bar ">
     <div class="container-fluid">
@@ -132,7 +135,7 @@
 
 <div class=" container">
     <div class="centro"><!--logo-->
-        <a href="index.html" id="logo">
+        <a href="{{URL::to('/')}}" id="logo">
             <img src="{{ URL::to('img/logo.png') }}">
         </a>
     </div><!--logo-->
@@ -140,19 +143,38 @@
 
 
 <div id="slider">
-    <a href="#" class="control_next">></a>
-    <a href="#" class="control_prev"><</a>
-    <ul>
-        <!--<li><img src="{{ URL::to('img/banner.jpg') }}"></li>
-        <li ><img src="{{ URL::to('img/banner2.jpg') }}"></li>
-        <li><img src="{{ URL::to('img/banner3.jpg') }}"></li>-->
-        @foreach($banners as $banner)
-            <li>
-                <a href="{{ $banner->link }}"><img src="{{ $banner->img_url }}"></a>
-            </li>
-        @endforeach
 
-    </ul>
+
+
+
+    {{--banner--}}
+
+    <div id="carousel" class="owl-carousel owl-theme">
+        @foreach($banners as $banner)
+        <div class="item"><a href="{{ $banner->link }}"><img src="{{ $banner->img_url }}"></a></div>
+        @endforeach
+    </div>
+    {{--banner--}}
+
+
+
+
+
+
+
+    {{--<a href="#" class="control_next">></a>--}}
+    {{--<a href="#" class="control_prev"><</a>--}}
+    {{--<ul>--}}
+        {{--<!--<li><img src="{{ URL::to('img/banner.jpg') }}"></li>--}}
+        {{--<li ><img src="{{ URL::to('img/banner2.jpg') }}"></li>--}}
+        {{--<li><img src="{{ URL::to('img/banner3.jpg') }}"></li>-->--}}
+        {{--@foreach($banners as $banner)--}}
+            {{--<li>--}}
+                {{--<a href="{{ $banner->link }}"><img src="{{ $banner->img_url }}"></a>--}}
+            {{--</li>--}}
+        {{--@endforeach--}}
+
+    {{--</ul>--}}
 </div>
 
 <div class="lineablu"></div>
@@ -192,7 +214,7 @@
         <div class="box">
             <div class="box_interno">
                 <div class="box_blanco">
-                    <div calendar class="calendar" id="calendar"></div>
+                    <div calendar class="calendar" id="calendar"> </div>
                 </div></div>
         </div>
     </div>
@@ -218,6 +240,51 @@
         <h4>Av. San Blás, Esquina Venezuela, Km 9  Acaray, Ciudad Del Este - PY</h4>
     </div>
 </div>
+<style>
+    #carousel{
+        width: 100%;
+        height: 400px;
+    }
+    #carousel .item img {
+        display: block;
+        width: 100%;
+        height: 400px;
+        cursor:grab;
+        cursor:-webkit-grab;
+    }
+
+    /* Styling Pagination*/
+    .owl-theme .owl-controls .owl-page span{
+        margin-top: -50px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        background: black;
+        border:1px solid #000;
+    }
+
+    .owl-theme .owl-controls .owl-page.active span,
+    .owl-theme .owl-controls.clickable .owl-page:hover span{
+        background:#fff;
+        border:1px solid #888;
+
+
+    }
+</style>
+<script >
+    $(document).ready(function() {
+        $("#carousel").owlCarousel({
+            navigation : false,
+            slideSpeed : 500,
+            paginationSpeed : 800,
+            rewindSpeed : 500,
+            singleItem:true,
+            autoPlay : true,
+            stopOnHover : true,
+        });
+    });
+</script>
+
 
 
 <!-- Bootstrap core JavaScript
@@ -230,6 +297,7 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.8/angular.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js'></script>
 <script src="{{ URL::to('js/index.js') }}"></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.2/owl.carousel.js'></script>
 
 
 <script src="{{ URL::to('js/jquery.lbslider.js') }}"></script>
