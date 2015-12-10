@@ -255,7 +255,7 @@
 
     /* Styling Pagination*/
     .owl-theme .owl-controls .owl-page span{
-        margin-top: -50px;
+        margin-top: -100px;
         -webkit-border-radius: 20px;
         -moz-border-radius: 20px;
         border-radius: 20px;
@@ -265,8 +265,9 @@
 
     .owl-theme .owl-controls .owl-page.active span,
     .owl-theme .owl-controls.clickable .owl-page:hover span{
-        background:#fff;
-        border:1px solid #888;
+        background:white;
+        border:2px solid black;
+        margin-top: -100px;
 
 
     }
