@@ -83,7 +83,7 @@ class Banner extends Controller {
 		];
 
 		if($request->hasFile('imagen')){
-			$toUpdate['img_url'] = $this->uploadImage($request->file('image'));
+			$toUpdate['img_url'] = $this->uploadImage($request->file('imagen'));
 		}
 
 		\App\Banner::where('id', $id)
@@ -104,7 +104,7 @@ class Banner extends Controller {
 	}
 
 	private function uploadImage($image){
-		$filename = $image->getClientOriginalName();
+		$filename = time().$image->getClientOriginalName();
 		$path = 'banners';
 		$image->move($path, $filename);
 		return $path.'/'.$filename;

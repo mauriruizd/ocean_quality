@@ -114,7 +114,7 @@ class Noticias extends Controller {
 	private function uploadImages($imagenes, $noticiaId) {
 		$files = $imagenes;
 		foreach($files as $imagen) {
-			$filename = $imagen->getClientOriginalName();
+			$filename = time().$imagen->getClientOriginalName();
 			$path = 'noticias';
 			$imagen->move($path, $filename);
 

@@ -148,7 +148,7 @@ class Productos extends Controller {
 	private function uploadImages($imagenes, $prodId) {
 		$files = $imagenes;
 		foreach($files as $imagen) {
-			$filename = $imagen->getClientOriginalName();
+			$filename = time().$imagen->getClientOriginalName();
 			$path = 'productos';
 			$imagen->move($path, $filename);
 

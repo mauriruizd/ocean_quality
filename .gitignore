@@ -1,3 +1,6 @@
 /vendor
 /node_modules
 .env
+/public/banners
+/public/productos
+/public/noticias
