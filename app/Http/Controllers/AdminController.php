@@ -55,10 +55,26 @@ class AdminController extends Controller {
             ->select('id', 'nombre')
             ->get();
         $provs = Proveedor::select('nombre')->get();
+        $zons = Zona::with(['empleados' => function($query){
+               $query->select('id', 'zona_cod');
+            }, 'departamento' => function($query){
+               $query->select('id', 'nombre');
+            }])
+            ->select('id', 'nombre', 'depto_cod')
+            ->get();
+        $notis = Noticia::with(['imagenes' => function($query){
+               $query->select('img_url', 'noticia_cod');
+            }])
+            ->select('id', 'titulo', 'cuerpo')
+            ->orderBy('updated_at', 'DESC')
+            ->limit(3)
+            ->get();
+        $bannrs = Banner::select('img_url')
+            ->get();
         $cont = ( $subcategorias > 0 ? 1 : 0 ) + ( $proveedores > 0 ? 1 : 0 ) + ( $productos > 0 ? 1 : 0 ) + ( $zonas > 0 ? 1 : 0 );
         $cont +=  + ( $empleados > 0 ? 1 : 0 ) + ( $banners > 0 ? 1 : 0 ) + ( $noticias > 0 ? 1 : 0 );
         $progress = $cont * 100 / 7;
-        return view('admin.dashboard', compact('progress', 'prodSub', 'provs'));
+        return view('admin.dashboard', compact('progress', 'prodSub', 'provs', 'zons', 'notis', 'bannrs'));
     }
 
     public function categorias(){
