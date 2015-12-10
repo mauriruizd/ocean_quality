@@ -9,6 +9,9 @@
                 Cadastro de Productos
             </div>
             <div class="panel-body">
+                @if(count($proveedores) <= 0)
+                    <div class="alert alert-danger" role="alert">Aún no hay proveedores cadastrados. <b>No se recomienda cadastro de productos sin proveedores!</b></div>
+                @endif
                 <div class="form-inline">
                     <div class="row">
                         <div class="col-lg-12">

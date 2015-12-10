@@ -42,7 +42,23 @@ class AdminController extends Controller {
     }
 
     public function index(){
-        return view('admin.dashboard');
+        $subcategorias = Subcategoria::count();
+        $proveedores = Proveedor::count();
+        $productos = Producto::count();
+        $zonas = Zona::count();
+        $empleados = Empleado::count();
+        $banners = Banner::count();
+        $noticias = Noticia::count();
+        $prodSub = Subcategoria::with(['productos' => function($query){
+               $query->select('id', 'nombre', 'subcat_cod');
+            }])
+            ->select('id', 'nombre')
+            ->get();
+        $provs = Proveedor::select('nombre')->get();
+        $cont = ( $subcategorias > 0 ? 1 : 0 ) + ( $proveedores > 0 ? 1 : 0 ) + ( $productos > 0 ? 1 : 0 ) + ( $zonas > 0 ? 1 : 0 );
+        $cont +=  + ( $empleados > 0 ? 1 : 0 ) + ( $banners > 0 ? 1 : 0 ) + ( $noticias > 0 ? 1 : 0 );
+        $progress = $cont * 100 / 7;
+        return view('admin.dashboard', compact('progress', 'prodSub', 'provs'));
     }
 
     public function categorias(){
