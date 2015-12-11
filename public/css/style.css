@@ -157,8 +157,10 @@
 }
 .week-days .day {
 
-margin:15px;
+
   cursor: default;
+  -moz-margin-start: 28px;
+
 }
 .week {
   background-color: #fff;
@@ -211,7 +213,7 @@ margin:15px;
   letter-spacing: .7px;
 }
 .day-number {
-  margin: 0 14px 0;
+  margin: 4px 14px 4px;
   font-size: 1em;
   letter-spacing: 1.5px;
 }
