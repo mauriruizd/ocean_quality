@@ -68,7 +68,7 @@
     @endif
 @stop
 @section('includes')
-    <script src="{{ URL::to('js/scrollto.js') }}"></script>
+    <script src="{{ URL::to('js/jquery.scrollTo.min.js') }}"></script>
     <script>
         $(document).ready(function(){
 
@@ -77,13 +77,7 @@
                 var id = $(this).children('a').attr('href');
                 var elm = $(id).prev();
                 console.log(elm);
-                $('.foto_produc:first').scrollTo(elm, 5);
-                /*var prod_cont = $('.foto_produc:first');
-                var pos = prod_cont.scrollTop() + elm.position().top - 5;
-
-                prod_cont.animate({
-                    scrollTop : pos
-                }, 400);*/
+                $('.foto_produc:first').scrollTo(elm, 200);
             });
         });
     </script>

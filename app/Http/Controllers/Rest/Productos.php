@@ -47,7 +47,7 @@ class Productos extends Controller {
 			'nombre' => $request->nombre,
 			'cat_cod' => $request->cat_cod,
 			'subcat_cod' => $request->subcat_cod,
-			'slug' => str_slug($request->nombre),
+			'slug' => str_slug($request->nombre.time()),
 			'descripcion' => $request->descripcion,
 			'adm_cod' => Auth::user()->id,
 			'epoca' => $request->epoca,
@@ -126,7 +126,7 @@ class Productos extends Controller {
 		$toUpdate = $request->only([
 			'nombre', 'cat_cod', 'subcat_cod', 'descripcion', 'epoca', 'ciclo_promedio', 'segmento', 'envase'
 		]);
-		$toUpdate['slug'] = str_slug($request->nombre);
+		$toUpdate['slug'] = str_slug($request->nombre.time());
 
 		Producto::where('id', $id)->update($toUpdate);
 		return new Response('Producto actualizado con exito', 200);
