@@ -211,9 +211,9 @@
     </div>
 
     <div class="col-md-4">
-        <div class="box">
-            <div class="box_interno">
-                <div class="box_blanco">
+        <div class="box ">
+            <div class="box_interno box3">
+                <div class="box_blanco ">
                     <div calendar class="calendar" id="calendar"> </div>
                 </div></div>
         </div>
@@ -237,6 +237,8 @@
 <div class="container">
     <div class="linea_footer"></div>
     <div class="linea_footer_box">
+        {{--aca--}}
+        {{--fin--}}
         <h4>Av. San Blás, Esquina Venezuela, Km 9  Acaray, Ciudad Del Este - PY</h4>
     </div>
 </div>

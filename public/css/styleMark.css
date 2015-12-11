@@ -497,18 +497,24 @@ nav ul li div ul .titulo a:hover {
   background:none;
 
 }
+li a.subcatlist{
+    color: gray;
+}
+  li a.subcatlist:hover{
+      color: #0967a4;
+  }
 
 nav ul li div ul li a {
   text-align: center;
   font-size: 17px;
   color:gray;
-
 }
+
 
 nav ul li div ul li a:hover {
 
   text-decoration: underline;
-  color:#0967a4;
+
 
 }
 
@@ -694,8 +700,8 @@ height: 60px;
 
 }
 ul li span img:hover{
-  width: 160px;
-  height: 80px;
+  /*width: 160px;*/
+  /*height: 80px;*/
 
 
 }

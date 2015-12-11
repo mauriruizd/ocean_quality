@@ -3,7 +3,7 @@
     padding:0 ;
   }
     .bar{
-
+background-color: #044d99;
       background-image: url("../img/bk.jpg");
     background-repeat: repeat-x;
      box-shadow: 0 0 15px #000000;
@@ -36,7 +36,7 @@
     .lineablu{
      width:100%;
       height: 4px;
-      background: #044d99;
+      background-color: #044d99;
     }
     .menu{
       margin: 0 auto;
@@ -736,3 +736,4 @@ background: silver;
 .yellow {
 background: silver;
 }
+

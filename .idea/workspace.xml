@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cafa0a44-83ad-40d4-942a-d261f89dcc4d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/blade.xml" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/reset.css" afterPath="$PROJECT_DIR$/public/css/reset.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/master.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/master.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/menu.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/menu.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/styleMark (copia).css" afterPath="$PROJECT_DIR$/public/css/styleMark (copia).css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/styleMark.css" afterPath="$PROJECT_DIR$/public/css/styleMark.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -32,21 +36,9 @@
     <favorites_list name="Ocean Quality" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.8201499">
+    <splitter split-orientation="horizontal" split-proportion="0.576049">
       <split-first>
         <leaf>
-          <file leaf-file-name="vendedores.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/MARK/vendedores.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name=".env" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/.env">
               <provider selected="true" editor-type-id="text-editor">
@@ -57,85 +49,31 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+          <file leaf-file-name="master.blade.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/resources/views/front/master.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+                <state vertical-scroll-proportion="-3.4827585">
+                  <caret line="117" column="72" selection-start-line="117" selection-start-column="67" selection-end-line="117" selection-end-column="72" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/resources/views/front/index.blade.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="144" column="15" selection-start-line="144" selection-start-column="9" selection-end-line="144" selection-end-column="15" />
-                  <folding>
-                    <marker date="1449145681068" expanded="false" signature="1574:1647" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Productos.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Rest/Productos.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/css/reset.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="styleMark.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/css/styleMark.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="336" column="14" selection-start-line="336" selection-start-column="11" selection-end-line="336" selection-end-column="14" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AppServiceProvider.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="16" column="98" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="98" />
-                  <folding>
-                    <element signature="e#32#47#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="menu.blade.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="menu.blade.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/views/front/menu.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="10" column="80" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
+                <state vertical-scroll-proportion="0.7358491">
+                  <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="styleMark.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/MARK/css/styleMark.css">
+          <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/resources/views/front/index.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="332" column="16" selection-start-line="332" selection-start-column="16" selection-end-line="332" selection-end-column="16" />
+                <state vertical-scroll-proportion="-3.4827585">
+                  <caret line="15" column="6" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -148,8 +86,18 @@
           <file leaf-file-name="styleMark.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/css/styleMark.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.61904764">
-                  <caret line="274" column="23" selection-start-line="274" selection-start-column="23" selection-end-line="274" selection-end-column="23" />
+                <state vertical-scroll-proportion="0.38535032">
+                  <caret line="500" column="16" selection-start-line="500" selection-start-column="16" selection-end-line="500" selection-end-column="16" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-3.2950819">
+                  <caret line="351" column="4" selection-start-line="351" selection-start-column="3" selection-end-line="351" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
@@ -166,11 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/admin/subcategoria.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/categoria.blade.php" />
-        <option value="$PROJECT_DIR$/public/css/m-style.css" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_09_18_005543_create_productos_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_11_01_225800_create_proveedors_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_11_01_230335_add_campos_productos.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_11_01_225932_create_proveedor_productos_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Rest/Proveedores.php" />
@@ -215,7 +158,12 @@
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/public/css/reset.css" />
+        <option value="$PROJECT_DIR$/public/css/timeline.css" />
+        <option value="$PROJECT_DIR$/public/css/styleMark (copia).css" />
+        <option value="$PROJECT_DIR$/resources/views/front/master.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/front/index.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/resources/views/front/menu.blade.php" />
         <option value="$PROJECT_DIR$/public/css/styleMark.css" />
       </list>
     </option>
@@ -265,7 +213,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -281,20 +229,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ocean_quality" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocean_quality" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocean_quality" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -352,46 +286,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocean_quality" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocean_quality" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocean_quality" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocean_quality" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="pro&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/Controllers/Rest/Productos.php&#10;AppServiceProvider&#9;null&#9;null&#10;.env&#9;FILE&#9;file:///var/www/html/ocean_quality/.env&#10;menu.&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/menu.blade.php&#10;appser&#9;null&#9;null&#10;se&#9;FILE&#9;file:///var/www/html/ocean_quality/database/seeds/DatabaseSeeder.php&#10;m-modal&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/public/js/m-modal.js&#10;noticia.blade.&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/noticia.blade.php&#10;noticias.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/Rest/Noticias.php&#10;noticia.ph&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Noticia.php&#10;noticia.bl&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/noticia.blade.php&#10;m-moda&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/public/js/m-modal.js&#10;image&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/ImagenNoticia.php&#10;noticias&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/Rest/Noticias.php&#10;producto.bla&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/forms/producto.blade.php&#10;producto.blade&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/forms/producto.blade.php&#10;imagen&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/ImagenNoticia.php&#10;productos.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/Rest/Productos.php&#10;imagenno&#9;null&#9;null&#10;admin&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/AdminController.php&#10;routes.&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/routes.php&#10;index.b&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/index.blade.php&#10;producto.bl&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/producto.blade.php&#10;noticia.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Noticia.php&#10;noticia.&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Noticia.php&#10;corre&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/CorreoEmpleado.php&#10;correo&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/CorreoEmpleado.php&#10;empleados.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/Rest/Empleados.php&#10;empleado.blade&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/empleado.blade.php&#10;empleado.ph&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Empleado.php&#10;m-mod&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/public/js/m-modal.js&#10;empleado.&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Empleado.php&#10;telefp&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/TelefonoEmpleado.php&#10;empleado.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Empleado.php&#10;zona.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Zona.php&#10;zonas&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/Rest/Zonas.php&#10;empleado.bla&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/empleado.blade.php&#10;index&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/index.blade.php&#10;routes.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/routes.php&#10;departame&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Departamento.php&#10;CorreoE&#9;null&#9;null&#10;telefono.&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/TelefonoEmpleado.php&#10;Admin&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/AdminController.php&#10;inde&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/index.blade.php&#10;zona.bla&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/zona.blade.php&#10;create_zonas&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/database/migrations/2015_09_18_005700_create_zonas_table.php&#10;add_depto_&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/database/migrations/2015_11_03_235213_add_depto_cod_foreign.php&#10;zona&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Zona.php&#10;departamento.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Departamento.php&#10;databaseseed&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="inde&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/index.blade.php&#10;pro&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/Controllers/Rest/Productos.php&#10;AppServiceProvider&#9;null&#9;null&#10;.env&#9;FILE&#9;file:///var/www/html/ocean_quality/.env&#10;menu.&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/menu.blade.php&#10;appser&#9;null&#9;null&#10;se&#9;FILE&#9;file:///var/www/html/ocean_quality/database/seeds/DatabaseSeeder.php&#10;m-modal&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/public/js/m-modal.js&#10;noticia.blade.&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/noticia.blade.php&#10;noticias.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/Rest/Noticias.php&#10;noticia.ph&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Noticia.php&#10;noticia.bl&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/noticia.blade.php&#10;m-moda&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/public/js/m-modal.js&#10;image&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/ImagenNoticia.php&#10;noticias&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/Rest/Noticias.php&#10;producto.bla&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/forms/producto.blade.php&#10;producto.blade&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/forms/producto.blade.php&#10;imagen&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/ImagenNoticia.php&#10;productos.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/Rest/Productos.php&#10;imagenno&#9;null&#9;null&#10;admin&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/AdminController.php&#10;routes.&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/routes.php&#10;index.b&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/index.blade.php&#10;producto.bl&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/producto.blade.php&#10;noticia.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Noticia.php&#10;noticia.&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Noticia.php&#10;corre&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/CorreoEmpleado.php&#10;correo&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/CorreoEmpleado.php&#10;empleados.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/Rest/Empleados.php&#10;empleado.blade&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/empleado.blade.php&#10;empleado.ph&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Empleado.php&#10;m-mod&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/public/js/m-modal.js&#10;empleado.&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Empleado.php&#10;telefp&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/TelefonoEmpleado.php&#10;empleado.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Empleado.php&#10;zona.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Zona.php&#10;zonas&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/Rest/Zonas.php&#10;empleado.bla&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/empleado.blade.php&#10;index&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/index.blade.php&#10;routes.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/routes.php&#10;departame&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Departamento.php&#10;CorreoE&#9;null&#9;null&#10;telefono.&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/TelefonoEmpleado.php&#10;Admin&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/AdminController.php&#10;zona.bla&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/zona.blade.php&#10;create_zonas&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/database/migrations/2015_09_18_005700_create_zonas_table.php&#10;add_depto_&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/database/migrations/2015_11_03_235213_add_depto_cod_foreign.php&#10;zona&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Zona.php&#10;departamento.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Departamento.php&#10;databaseseed&#9;null&#9;null" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../clasificados" />
   </component>
@@ -498,7 +400,13 @@
       <option name="project" value="LOCAL" />
       <updated>1449142162607</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="modificacion  del index">
+      <created>1449766612526</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1449766612526</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -520,20 +428,20 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1808765" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19043824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35493827" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4212963" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21141975" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -553,62 +461,14 @@
     <MESSAGE value="panel de noticias  modal ok" />
     <MESSAGE value="panel de TRABAJE CON NOSOTROS" />
     <MESSAGE value="modificacion de archivos y pruebas" />
-    <option name="LAST_COMMIT_MESSAGE" value="modificacion de archivos y pruebas" />
+    <MESSAGE value="modificacion  del index" />
+    <option name="LAST_COMMIT_MESSAGE" value="modificacion  del index" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Producto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Proveedor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ProveedorProducto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.0384617">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_11_03_232916_create_departamentos_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8490567">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_09_18_005700_create_zonas_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.269231">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_11_03_235213_add_depto_cod_foreign.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5094337">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/forms/zona.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Departamento.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.9230769">
@@ -837,9 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -847,22 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="332" column="16" selection-start-line="332" selection-start-column="16" selection-end-line="332" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/menu.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="80" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -881,13 +722,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Rest/Productos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="98" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="98" />
-          <folding>
-            <element signature="e#32#47#0#PHP" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-31.333334">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/timeline.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4699248">
+          <caret line="112" column="29" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -895,7 +741,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.037623763">
+          <caret line="16" column="98" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="98" />
         </state>
       </provider>
     </entry>
@@ -907,28 +759,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Rest/Productos.php">
+    <entry file="file://$PROJECT_DIR$/public/css/styleMark (copia).css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/vendedores.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/api/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2950819">
+          <caret line="351" column="4" selection-start-line="351" selection-start-column="3" selection-end-line="351" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/front/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="144" column="15" selection-start-line="144" selection-start-column="9" selection-end-line="144" selection-end-column="15" />
-          <folding>
-            <marker date="1449145681068" expanded="false" signature="1574:1647" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="-3.4827585">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4827585">
+          <caret line="117" column="72" selection-start-line="117" selection-start-column="67" selection-end-line="117" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/menu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7358491">
+          <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/styleMark.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61904764">
-          <caret line="274" column="23" selection-start-line="274" selection-start-column="23" selection-end-line="274" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.38535032">
+          <caret line="500" column="16" selection-start-line="500" selection-start-column="16" selection-end-line="500" selection-end-column="16" />
           <folding />
         </state>
       </provider>

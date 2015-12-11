@@ -9,7 +9,7 @@
                     <ul>
                         <li class="titulo"><a href="#"><img src="{{ URL::to('img/semilla.png') }}">  {{ $categorias[0]->nombre }}</a></li>
                         @foreach($categorias[0]->subcategorias as $subcategoria)
-                                <li><a href="{{ URL::to('productos/'.$categorias[0]->id.'/'.$subcategoria->id) }}">• {{ $subcategoria->nombre }}</a></li>
+                                <li><a class="subcatlist" href="{{ URL::to('productos/'.$categorias[0]->id.'/'.$subcategoria->id) }}">• {{ $subcategoria->nombre }}</a></li>
                         @endforeach
                         <!--<li><a href="">• Categoria #2</a></li>
                         <li><a href="">• Categoria #3</a></li>

@@ -140,6 +140,7 @@
     <div class="col-md-2 blanco"><h3>SOCIAL</h3></div>
     <div class="col-md-2 py"><img src="{{ URL::to('img/py.png') }}"></div>
 </footer>
+
 <div class="container">
     <div class="linea_footer"></div>
     <div class="linea_footer_box">
