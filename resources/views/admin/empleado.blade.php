@@ -3,6 +3,9 @@
     Empleado
 @stop
 @section('content')
+    @if(count($zonas) <=0)
+        <div class="alert alert-danger">No hay zonas cadastradas. <b>No es posible el cadastro de empleados sin zona</b></div>
+    @endif
     <div class="col-lg-12">
         <div class="panel panel-default">
             <div class="panel-heading">
@@ -70,9 +73,11 @@
                             <div class="text-center">
                                 {!! $empleados->render() !!}
                             </div>
-                            <button class="btn btn-default btn-circle btn-lg text-center" data-target="#new" data-toggle="modal">
-                                <i class="fa fa-plus"></i>
-                            </button>
+                            @unless(count($zonas) <= 0)
+                                <button class="btn btn-default btn-circle btn-lg text-center" data-target="#new" data-toggle="modal">
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                            @endunless
                         </div>
                         <!-- BOOTSTRAP MODAL -->
                         <div id="new" class="modal fade" aria-labelledby="new" role="dialog" tabindex="1" aria-hidden="true" style="display: none;">

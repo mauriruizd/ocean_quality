@@ -119,4 +119,7 @@
 @stop
 @section('javascript')
     <script src="{{ URL::to('js/m-modal.js') }}"></script>
+    <script>
+        var errorMsg = 'Hubo un error al eliminar la subcategoria! Posiblemente tenga productos asociados a la misma.';
+    </script>
 @stop

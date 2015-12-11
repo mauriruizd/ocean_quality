@@ -63,8 +63,7 @@ class Zonas extends Controller {
 	{
 		$zona = Zona::find($id);
 		$departamentos = Departamento::lists('nombre', 'id');
-		return view('admin.forms.zona', compact('zona', 'departamentos
-		'));
+		return view('admin.forms.zona', compact('zona', 'departamentos'));
 	}
 
 	/**

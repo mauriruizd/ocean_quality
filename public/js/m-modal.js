@@ -1,5 +1,35 @@
+function errorHandler(err) {
+    $('#errWell').html(err).show('fast');
+    setTimeout(function(){
+        $('#errWell').hide('fast');
+    }, 8000);
+}
+function deleteErrorHandler(xhr, txtStatus, err){
+    if (typeof deleteErrorMsg == 'undefined') {
+        errorHandler('Hubo un error inesperado en el servidor! Por favor intente de nuevo más tarde.');
+    } else {
+        errorHandler(deleteErrorMsg);
+    }
+}
+
+function saveErrorHandler(xhr, txtStatus, err) {
+    if (typeof saveErrorMsg == 'undefined') {
+        errorHandler('Hubo un error inesperado en el servidor! Por favor intente de nuevo más tarde.');
+    } else {
+        errorHandler(saveErrorMsg);
+    }
+}
+
+function editErrorHandler(xhr, txtStatus, err) {
+    if (typeof editErrorMsg == 'undefined') {
+        errorHandler('Hubo un error inesperado en el servidor! Por favor intente de nuevo más tarde.');
+    } else {
+        errorHandler(editErrorMsg);
+    }
+}
+
 //nuevo registro;
-(function(){
+(function(errorHandler){
     var button = $('#m-submit');
     var form = button.closest('form');
     var url = form.attr('action');
@@ -15,14 +45,16 @@
             success : function(response){
                 location.reload();
                 //console.log(response);
-            }
+            },
+            error : errorHandler
         });
     }
 
     button.on('click', save);
-})();
+})(saveErrorHandler);
+
 //editar registro
-(function(){
+(function(errorHandler){
     var url = $('#editUrl').val();
     var editModal = $('#editModal').children('.modal-dialog:first').children('.modal-content:first');
     $('.m-edit').on('click', function(){
@@ -53,17 +85,18 @@
             success : function(response) {
                 location.reload();
                 //console.log(response);
-            }
+            },
+            error : errorHandler
         });
     }
 
     function setBtnSend(){
         $('#m-update').on('click', update);
     }
-})();
+})(editErrorHandler);
 
 //eliminar registro
-(function(){
+(function(errorHandler){
     function eliminar(){
         var form = $(this).closest('form');
         var method = form.attr('method');
@@ -78,8 +111,9 @@
             success : function(response) {
                 location.reload();
                 //console.log(response);
-            }
+            },
+            error : errorHandler
         });
     }
     $('.btn-delete').on('click', eliminar);
-})();
+})(deleteErrorHandler);

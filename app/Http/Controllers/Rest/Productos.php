@@ -56,11 +56,13 @@ class Productos extends Controller {
 			'envase' => $request->envase
 		]);
 
-		foreach($request->proveedores as $proveedor) {
-			ProveedorProducto::create([
-				'cod_producto' => $producto->id,
-				'cod_proveedor' => $proveedor
-			]);
+		if(isset($request->proveedores)) {
+			foreach ($request->proveedores as $proveedor) {
+				ProveedorProducto::create([
+					'cod_producto' => $producto->id,
+					'cod_proveedor' => $proveedor
+				]);
+			}
 		}
 
 		if($request->hasFile('imagenes')) {
@@ -141,6 +143,7 @@ class Productos extends Controller {
 	public function destroy($id)
 	{
 		ProveedorProducto::where('cod_producto', '=', $id)->delete();
+		ImagenProducto::where('producto_cod', '=', $id)->delete();
 		Producto::destroy($id);
 		return new Response('Producto eliminado con exito', 200);
 	}

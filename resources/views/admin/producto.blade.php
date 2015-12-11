@@ -12,6 +12,9 @@
                 @if(count($proveedores) <= 0)
                     <div class="alert alert-danger" role="alert">Aún no hay proveedores cadastrados. <b>No se recomienda cadastro de productos sin proveedores!</b></div>
                 @endif
+                @if(count($subcategorias) <= 0)
+                    <div class="alert alert-danger" role="alert">Aún no hay subcategorias cadastradas. <b>No será posible el cadastro de productos sin subcategorias!</b></div>
+                @endif
                 <div class="form-inline">
                     <div class="row">
                         <div class="col-lg-12">
@@ -81,9 +84,11 @@
                             <div class="text-center">
                                 {!! $productos->render() !!}
                             </div>
-                            <button class="btn btn-default btn-circle btn-lg text-center" data-target="#new" data-toggle="modal">
-                                <i class="fa fa-plus"></i>
-                            </button>
+                            @unless(count($subcategorias) <= 0)
+                                <button class="btn btn-default btn-circle btn-lg text-center" data-target="#new" data-toggle="modal">
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                            @endunless
                         </div>
                         <!-- BOOTSTRAP MODAL -->
                         <div id="new" class="modal fade" aria-labelledby="new" role="dialog" tabindex="1" aria-hidden="true" style="display: none;">

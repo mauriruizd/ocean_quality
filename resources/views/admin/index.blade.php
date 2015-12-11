@@ -131,6 +131,7 @@
         </div>
         <!-- /.row -->
         <div class="row">
+            <div id="errWell" class="alert alert-danger" style="display: none;"></div>
             @yield('content')
         </div>
         <!-- /.row -->
