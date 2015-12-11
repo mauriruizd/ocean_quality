@@ -77,7 +77,7 @@
         </div>
         <div class="panel-body">
             @if(count($zons) <= 0)
-                <div class="alert alert-danger" role="alert">Aún no hay proveedores cadastrados. <b>No se recomienda cadastro de productos sin proveedores!</b></div>
+                <div class="alert alert-danger" role="alert">Aún no hay zonas cadastradas.</div>
             @else
                 <div class="list-group">
                     @foreach($zons as $zon)
@@ -97,7 +97,7 @@
         </div>
         <div class="panel-body">
             @if(count($notis) <= 0)
-                <h3>Aún no hay noticias cadastrados.</h3>
+                <h3>Aún no hay noticias cadastradas.</h3>
             @else
                 <div class="row">
                     @foreach($notis as $noti)
