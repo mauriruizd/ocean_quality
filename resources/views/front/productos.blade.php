@@ -20,8 +20,16 @@
                     <div class="titulo_prod"><h3><img src="{{ URL::to('img/flecha.png') }}"> {{ $producto->nombre }}</h3></div>
                     <div class="container" id="{{ $producto->slug }}">
                         <div class="col-md-8" >
-                            <div class="col-md-4 fo">
-                                <img src="{{ count($producto->imagenes) > 0 ? URL::to($producto->imagenes[0]->img_url) : '' }}">
+                            <div class="col-md-4 fo jcarousel" dir="rtl">
+                                @if(count($producto->imagenes) > 0)
+                                <ul>
+                                    @foreach($producto->imagenes as $imagen)
+                                        <li>
+                                            <img src="{{ URL::to($imagen->img_url) }}" alt="{{ $producto->nombre }}">
+                                        </li>
+                                    @endforeach
+                                </ul>
+                                @endif
                             </div>
                             <div class="col-md-4 fo1"><!--datos de foto-->
                                 <div class="cuadr"><h4>• EPOCA</h4></div>
@@ -68,7 +76,44 @@
     @endif
 @stop
 @section('includes')
+    <style>
+        /*
+This is the visible area of you carousel.
+Set a width here to define how much items are visible.
+The width can be either fixed in px or flexible in %.
+Position must be relative!
+*/
+        .jcarousel {
+            position: relative;
+            overflow: hidden;
+        }
+
+        /*
+        This is the container of the carousel items.
+        You must ensure that the position is relative or absolute and
+        that the width is big enough to contain all items.
+        */
+        .jcarousel ul {
+            width: 20000em;
+            position: relative;
+
+            /* Optional, required in this case since it's a <ul> element */
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        /*
+        These are the item elements. jCarousel works best, if the items
+        have a fixed width and height (but it's not required).
+        */
+        .jcarousel li {
+            /* Required only for block elements like <li>'s */
+            float: left;
+        }
+    </style>
     <script src="{{ URL::to('js/jquery.scrollTo.min.js') }}"></script>
+    <script src="{{ URL::to('js/jquery.jcarousel-core.min.js') }}"></script>
     <script>
         $(document).ready(function(){
 
@@ -79,6 +124,8 @@
                 console.log(elm);
                 $('.foto_produc:first').scrollTo(elm, 200);
             });
+
+            $('.jcarousel').jcarousel();
         });
     </script>
 @stop
