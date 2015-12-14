@@ -40,7 +40,7 @@
                         @if(strlen($noticia->cuerpo) <= 30)
                             {{ $noticia->cuerpo }}
                         @else
-                            {{ substr($noticia->cuerpo, 0, 30) }}
+                            {{ substr(trim(preg_replace('/\s\s+/', ' ', $noticia->cuerpo)), 0, 30) }}
                         @endif
                     </h4>
                     <div class="aba">
