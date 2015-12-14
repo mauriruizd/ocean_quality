@@ -90,7 +90,7 @@
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                            <button type="button" class="btn btn-primary" id="m-i-submit">Guardar</button>
+                                            <button type="button" class="btn btn-primary" id="m-submit">Guardar</button>
                                         </div>
                                     </form>
                                 </div>
@@ -132,29 +132,5 @@
         $('#m-more-images').on('click', function(){
             $(this).parent().append($(this).prev()[0].outerHTML);
         });
-
-        //nuevo
-        (function(){
-            var button = $('#m-i-submit');
-            var form = button.closest('form');
-            var url = form.attr('action');
-            var method = form.attr('method');
-            function save(){
-                $.ajax({
-                    method : method,
-                    url : url,
-                    data : new FormData(form[0]),
-                    enctype : 'multipart/form-data',
-                    processData : false,
-                    contentType : false,
-                    success : function(response){
-                        //location.reload();
-                        console.log(response);
-                    }
-                });
-            }
-
-            button.on('click', save);
-        })();
     </script>
 @stop
