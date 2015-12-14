@@ -117,3 +117,9 @@ function editErrorHandler(xhr, txtStatus, err) {
     }
     $('.btn-delete').on('click', eliminar);
 })(deleteErrorHandler);
+
+(function(){
+    $('#m-more-images').on('click', function(){
+        $(this).parent().append($(this).prev()[0].outerHTML);
+    });
+})();

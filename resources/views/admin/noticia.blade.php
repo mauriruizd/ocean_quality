@@ -128,9 +128,4 @@
 @stop
 @section('javascript')
     <script src="{{ URL::to('js/m-modal.js') }}"></script>
-    <script>
-        $('#m-more-images').on('click', function(){
-            $(this).parent().append($(this).prev()[0].outerHTML);
-        });
-    </script>
 @stop
