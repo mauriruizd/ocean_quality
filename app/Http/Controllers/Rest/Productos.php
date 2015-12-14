@@ -56,7 +56,7 @@ class Productos extends Controller {
 			'envase' => $request->envase
 		]);
 
-		if(isset($request->proveedores)) {
+		if($request->has('proveedores')){
 			foreach ($request->proveedores as $proveedor) {
 				ProveedorProducto::create([
 					'cod_producto' => $producto->id,
@@ -111,7 +111,7 @@ class Productos extends Controller {
 		$imagenes_antiguas = $request->has('imagenes_antiguas') ? $request->imagenes_antiguas : [];
 		ProveedorProducto::where('cod_producto', '=', $id)->delete();
 
-		if(isset($request->proveedores)){
+		if($request->has('proveedores')){
 			foreach($request->proveedores as $proveedor) {
 				ProveedorProducto::create([
 					'cod_producto' => $id,
