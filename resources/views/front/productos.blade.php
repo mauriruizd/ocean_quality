@@ -44,7 +44,7 @@
                                 <div class="cuadr1">
                                     <ol>
                                         @foreach($producto->proveedorProducto as $prov)
-                                            <li>{{ $prov->proveedor->nombre }}</li>
+                                            <li><h4>{{ $prov->proveedor->nombre }} </h4></li>
                                         @endforeach
                                     </ol>
                                 </div>
