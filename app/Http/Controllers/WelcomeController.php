@@ -66,7 +66,7 @@ class WelcomeController extends Controller {
 
 	public function search(){
 		$query = Input::get('q');
-		$productos = Producto::where('nombre', 'LIKE', $query)
+		$productos = Producto::where('nombre', 'LIKE', "%$query%")
 			->orWhere('descripcion', 'LIKE', "%$query%")
 			->select('id', 'nombre', 'descripcion', 'cat_cod', 'subcat_cod')
 			->with('imagenes')

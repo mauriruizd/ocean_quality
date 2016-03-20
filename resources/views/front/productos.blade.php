@@ -28,19 +28,35 @@
                                 @endif
                             </div>
                             <div class="col-md-4 fo1"><!--datos de foto-->
-                                <div class="cuadr"><h4>• EPOCA</h4></div>
-                                <div class="cuadr1"><h4>• CICLO PROMEDIO</h4></div>
-                                <div class="cuadr1"><h4>• SEGMENTO</h4></div>
-                                <div class="cuadr1"><h4>• ENVASE</h4></div>
+                                @if($producto->epoca !== '')
+                                    <div class="cuadr"><h4>• EPOCA</h4></div>
+                                @endif
+                                @if($producto->ciclo_promedio !== '')
+                                    <div class="cuadr1"><h4>• CICLO PROMEDIO</h4></div>
+                                @endif
+                                @if($producto->segmento !== '')
+                                    <div class="cuadr1"><h4>• SEGMENTO</h4></div>
+                                @endif
+                                @if($producto->envase !== '')
+                                    <div class="cuadr1"><h4>• ENVASE</h4></div>
+                                @endif
                                 <div class="cuadr1"><h4>• PROVEDOR</h4></div>
 
                             </div><!--datos de foto-->
 
                             <div class="col-md-4 fo1"><!--datos de foto-->
-                                <div class="cuadr"><h4> {{ $producto->epoca }}</h4></div>
-                                <div class="cuadr1"><h4> {{ $producto->ciclo_promedio }}</h4></div>
-                                <div class="cuadr1"><h4> {{ $producto->segmento }}</h4></div>
-                                <div class="cuadr1"><h4> {{ $producto->envase }}</h4></div>
+                                @if($producto->epoca !== '')
+                                    <div class="cuadr"><h4> {{ $producto->epoca }}</h4></div>
+                                @endif
+                                @if($producto->ciclo_promedio !== '')
+                                    <div class="cuadr1"><h4> {{ $producto->ciclo_promedio }}</h4></div>
+                                @endif
+                                @if($producto->segmento !== '')
+                                    <div class="cuadr1"><h4> {{ $producto->segmento }}</h4></div>
+                                @endif
+                                @if($producto->envase !== '')
+                                    <div class="cuadr1"><h4> {{ $producto->envase }}</h4></div>
+                                @endif
                                 <div class="cuadr1">
                                     <ol>
                                         @foreach($producto->proveedorProducto as $prov)

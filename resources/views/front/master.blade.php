@@ -100,7 +100,9 @@
     <ul>
         <!--<li><img src="{{ URL::to('img/banner.jpg') }}"></li>-->
         <li>
-            <a href="{{ $banner->link }}"><img src="{{ URL::to($banner->img_url) }}"></a>
+            @if(isset($banner))
+                <a href="{{ $banner->link }}"><img src="{{ URL::to($banner->img_url) }}"></a>
+            @endif
         </li>
     </ul>
 </div>
