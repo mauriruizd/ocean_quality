@@ -8,6 +8,8 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    {{--font-family: 'Arizonia', cursive;--}}
     <link rel="icon" href="">
 
     <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.2/owl.carousel.css'>
@@ -116,7 +118,21 @@
 
 
     }
+    .fuentes_banner{
+        width: 90%;
 
+        font-family: 'Indie Flower', cursive;
+        /*font: 400 100px/1.3 'Oleo Script', Helvetica, sans-serif;*/
+        font-size: 45px;
+        color: #2b2b2b;
+        text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+    margin-top: 80px;
+
+    }
+    .cuadro{
+
+        vertical-align: middle;
+    }
     /* styling for this page only, ignore */
 
 
@@ -184,7 +200,8 @@
         <img src="{{ URL::to('img/linea.png') }}"></div>
     <div class="cuadro">
         <div class="col-md-4 mascota"><img src="{{ URL::to('img/mascota.png') }}"></div>
-        <div class="col-md-8 text"><img src="{{ URL::to('img/text.png') }}"></div>
+        {{--<div class="col-md-8 text"><img src="{{ URL::to('img/text.png') }}"></div>--}}
+        <div class="fuentes_banner">“Una buena cosecha comienza en Ocean Quality”</div>
     </div>
 
     <div class="linea2"><img src="{{ URL::to('img/linea2.png') }}"></div>

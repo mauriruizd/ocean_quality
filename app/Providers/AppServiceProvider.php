@@ -13,8 +13,8 @@ class AppServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		view()->share('banner', Banner::orderByRaw("RAND()")->select('img_url', 'link')->first());
 		view()->share('categorias', Categoria::with('subcategorias')->get());
+		view()->share('banner', Banner::orderByRaw("RAND()")->select('img_url', 'link')->first());
 	}
 
 	/**
