@@ -14,7 +14,16 @@
 
         frutales. Siempre buscando llevar a sus clientes productos de altísima calidad y garantía.
     </p>
-    <ul>
+
+    <style>
+        .lis_empre h1{
+            text-align: left;
+        }
+        .lis_empre p{
+            text-align: left;
+        }
+    </style>
+    <ul class="lis_empre">
         <li>
             <h1>Satisfacción</h1>
             <p>

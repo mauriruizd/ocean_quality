@@ -1,6 +1,11 @@
 <h3>SOCIOS COMERCIALES</h3>
 <div class="linea2"><img src="{{ URL::to('img/linea3.png') }}"></div>
 <div class="socios">
+    <style>
+        ul li span.black{
+            height: auto;
+        }
+    </style>
 
     <div class="slider-wrap">
         <div class="slider1">
@@ -28,3 +33,4 @@
 
 
 </div><!--socios-->
+<br>

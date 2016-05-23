@@ -2,77 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cafa0a44-83ad-40d4-942a-d261f89dcc4d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/imagen/06.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/imagen/16.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/banners/Verduras-a-Domicilio-Canasta-Facebook-Banner-Size.jpg" afterPath="$PROJECT_DIR$/banners/Verduras-a-Domicilio-Canasta-Facebook-Banner-Size.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/banners/banner-index-ocean[1].png" afterPath="$PROJECT_DIR$/banners/banner-index-ocean[1].png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/banners/banner.jpg" afterPath="$PROJECT_DIR$/banners/banner.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/banners/banner2.jpg" afterPath="$PROJECT_DIR$/banners/banner2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/banners/banner3.jpg" afterPath="$PROJECT_DIR$/banners/banner3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/banners/ratchet_socket_fail_log.png" afterPath="$PROJECT_DIR$/banners/ratchet_socket_fail_log.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imagen/10.jpg" afterPath="$PROJECT_DIR$/imagen/10.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imagen/11.jpg" afterPath="$PROJECT_DIR$/imagen/11.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imagen/12.jpg" afterPath="$PROJECT_DIR$/imagen/12.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imagen/13.jpg" afterPath="$PROJECT_DIR$/imagen/13.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imagen/14.jpg" afterPath="$PROJECT_DIR$/imagen/14.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imagen/15.jpg" afterPath="$PROJECT_DIR$/imagen/15.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imagen/2.jpg" afterPath="$PROJECT_DIR$/imagen/2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imagen/3.jpg" afterPath="$PROJECT_DIR$/imagen/3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imagen/4.jpg" afterPath="$PROJECT_DIR$/imagen/4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imagen/7.jpg" afterPath="$PROJECT_DIR$/imagen/7.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imagen/8.jpg" afterPath="$PROJECT_DIR$/imagen/8.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imagen/9.jpg" afterPath="$PROJECT_DIR$/imagen/9.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/1.jpg" afterPath="$PROJECT_DIR$/img/1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/agro.png" afterPath="$PROJECT_DIR$/img/agro.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/banner - Copy.jpg" afterPath="$PROJECT_DIR$/img/banner - Copy.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/banner.jpg" afterPath="$PROJECT_DIR$/img/banner.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/banner2.jpg" afterPath="$PROJECT_DIR$/img/banner2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/banner3.jpg" afterPath="$PROJECT_DIR$/img/banner3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg.jpg" afterPath="$PROJECT_DIR$/img/bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg.png" afterPath="$PROJECT_DIR$/img/bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bk.jpg" afterPath="$PROJECT_DIR$/img/bk.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bk.png" afterPath="$PROJECT_DIR$/img/bk.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/box.jpg" afterPath="$PROJECT_DIR$/img/box.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/box.png" afterPath="$PROJECT_DIR$/img/box.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/face.png" afterPath="$PROJECT_DIR$/img/face.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/fertilizante.png" afterPath="$PROJECT_DIR$/img/fertilizante.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/flecha.png" afterPath="$PROJECT_DIR$/img/flecha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/footer.jpg" afterPath="$PROJECT_DIR$/img/footer.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/google.png" afterPath="$PROJECT_DIR$/img/google.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in.jpg" afterPath="$PROJECT_DIR$/img/in.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/linea.png" afterPath="$PROJECT_DIR$/img/linea.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/linea2.png" afterPath="$PROJECT_DIR$/img/linea2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/linea3.png" afterPath="$PROJECT_DIR$/img/linea3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/logo.png" afterPath="$PROJECT_DIR$/img/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/logo_blanco.png" afterPath="$PROJECT_DIR$/img/logo_blanco.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/mapa_py.gif" afterPath="$PROJECT_DIR$/img/mapa_py.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/mascota.png" afterPath="$PROJECT_DIR$/img/mascota.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/mn.jpg" afterPath="$PROJECT_DIR$/img/mn.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/producto.jpg" afterPath="$PROJECT_DIR$/img/producto.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/py.png" afterPath="$PROJECT_DIR$/img/py.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/semilla.png" afterPath="$PROJECT_DIR$/img/semilla.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/sistema.png" afterPath="$PROJECT_DIR$/img/sistema.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/subbg.jpg" afterPath="$PROJECT_DIR$/img/subbg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/text.png" afterPath="$PROJECT_DIR$/img/text.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/you.png" afterPath="$PROJECT_DIR$/img/you.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Rest/Banner.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Rest/Banner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MARK/css/style.css" afterPath="$PROJECT_DIR$/MARK/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MARK/css/styleMark.css" afterPath="$PROJECT_DIR$/MARK/css/styleMark.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styleMark.css" afterPath="$PROJECT_DIR$/css/styleMark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/mapa_py.svg" afterPath="$PROJECT_DIR$/img/mapa_py.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/m-modal.js" afterPath="$PROJECT_DIR$/js/m-modal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/empresa.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/empresa.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/menu.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/menu.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/socios.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/socios.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/.gitignore" afterPath="$PROJECT_DIR$/storage/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/app/.gitignore" afterPath="$PROJECT_DIR$/storage/app/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/logs/.gitignore" afterPath="$PROJECT_DIR$/storage/logs/.gitignore" />
     </list>
     <ignored path="Ocean Quality.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -100,31 +41,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/front/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="237" column="24" selection-start-line="237" selection-start-column="24" selection-end-line="237" selection-end-column="24" />
+              <caret line="253" column="9" selection-start-line="253" selection-start-column="9" selection-end-line="253" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="socios.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="socios.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/front/socios.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55774647">
-              <caret line="11" column="96" selection-start-line="11" selection-start-column="96" selection-end-line="11" selection-end-column="96" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -134,7 +65,57 @@
         <entry file="file://$PROJECT_DIR$/css/styleMark.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="262" column="7" selection-start-line="262" selection-start-column="1" selection-end-line="262" selection-end-column="7" />
+              <caret line="507" column="24" selection-start-line="507" selection-start-column="24" selection-end-line="507" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="empresa.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/front/empresa.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/front/menu.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styleMark.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MARK/css/styleMark.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.041284405">
+              <caret line="447" column="10" selection-start-line="447" selection-start-column="10" selection-end-line="447" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MARK/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="200" column="8" selection-start-line="200" selection-start-column="7" selection-end-line="200" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppServiceProvider.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -145,36 +126,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="169" column="19" selection-start-line="169" selection-start-column="18" selection-end-line="169" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Banner.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Banner.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Banner.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Rest/Banner.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -211,7 +162,6 @@
         <option value="$PROJECT_DIR$/public/js/m-modal.js" />
         <option value="$PROJECT_DIR$/.env.example" />
         <option value="$PROJECT_DIR$/config/database.php" />
-        <option value="$PROJECT_DIR$/MARK/css/style.css" />
         <option value="$PROJECT_DIR$/MARK/js/index.js" />
         <option value="$PROJECT_DIR$/MARK/index.html" />
         <option value="$PROJECT_DIR$/MARK/productos.html" />
@@ -220,26 +170,27 @@
         <option value="$PROJECT_DIR$/MARK/empresa.html" />
         <option value="$PROJECT_DIR$/MARK/contacto.html" />
         <option value="$PROJECT_DIR$/MARK/vendedores.html" />
-        <option value="$PROJECT_DIR$/MARK/css/styleMark.css" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/public/css/reset.css" />
         <option value="$PROJECT_DIR$/public/css/timeline.css" />
         <option value="$PROJECT_DIR$/public/css/styleMark (copia).css" />
         <option value="$PROJECT_DIR$/resources/views/front/master.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/front/menu.blade.php" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/front/productos.blade.php" />
         <option value="$PROJECT_DIR$/public/css/styleMark.css" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/resources/views/front/empresa.blade.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Rest/Banner.php" />
         <option value="$PROJECT_DIR$/js/m-modal.js" />
-        <option value="$PROJECT_DIR$/resources/views/front/index.blade.php" />
-        <option value="$PROJECT_DIR$/css/styleMark.css" />
         <option value="$PROJECT_DIR$/resources/views/front/socios.blade.php" />
+        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/MARK/css/style.css" />
+        <option value="$PROJECT_DIR$/resources/views/front/empresa.blade.php" />
+        <option value="$PROJECT_DIR$/css/styleMark.css" />
+        <option value="$PROJECT_DIR$/resources/views/front/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/menu.blade.php" />
+        <option value="$PROJECT_DIR$/MARK/css/styleMark.css" />
       </list>
     </option>
   </component>
@@ -288,8 +239,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -372,6 +323,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="MARK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocean_quality" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocean_quality" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MARK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocean_quality" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocean_quality" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -428,7 +411,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="laravel-2016-03-2&#9;FILE&#9;file:///var/www/html/ocean_quality/storage/logs/laravel-2016-03-21.log&#10;banner.bl&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/admin/forms/banner.blade.php&#10;rou&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/routes.php&#10;Banner&#9;null&#9;null&#10;Bann&#9;null&#9;null&#10;sty&#9;FILE&#9;file:///var/www/html/ocean_quality/MARK/css/styleMark.css&#10;WelcomeController&#9;null&#9;null&#10;route&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/routes.php&#10;empre&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/empresa.blade.php&#10;ap&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Providers/AppServiceProvider.php&#10;inde&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/index.blade.php&#10;pro&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/Controllers/Rest/Productos.php&#10;AppServiceProvider&#9;null&#9;null&#10;.env&#9;FILE&#9;file:///var/www/html/ocean_quality/.env&#10;menu.&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/menu.blade.php&#10;appser&#9;null&#9;null&#10;se&#9;FILE&#9;file:///var/www/html/ocean_quality/database/seeds/DatabaseSeeder.php&#10;m-modal&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/public/js/m-modal.js&#10;noticia.blade.&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/noticia.blade.php&#10;noticias.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/Rest/Noticias.php&#10;noticia.ph&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Noticia.php&#10;noticia.bl&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/noticia.blade.php&#10;m-moda&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/public/js/m-modal.js&#10;image&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/ImagenNoticia.php&#10;noticias&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/Rest/Noticias.php&#10;producto.bla&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/forms/producto.blade.php&#10;producto.blade&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/forms/producto.blade.php&#10;imagen&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/ImagenNoticia.php&#10;productos.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/Rest/Productos.php&#10;imagenno&#9;null&#9;null&#10;admin&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/AdminController.php&#10;routes.&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/routes.php&#10;index.b&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/index.blade.php&#10;producto.bl&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/producto.blade.php&#10;noticia.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Noticia.php&#10;noticia.&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Noticia.php&#10;corre&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/CorreoEmpleado.php&#10;correo&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/CorreoEmpleado.php&#10;empleados.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/Rest/Empleados.php&#10;empleado.blade&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/empleado.blade.php&#10;empleado.ph&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Empleado.php&#10;m-mod&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/public/js/m-modal.js&#10;empleado.&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Empleado.php&#10;telefp&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/TelefonoEmpleado.php&#10;empleado.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Empleado.php&#10;zona.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Zona.php&#10;zonas&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/Rest/Zonas.php&#10;empleado.bla&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/empleado.blade.php&#10;index&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/index.blade.php&#10;routes.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/routes.php" />
+    <property name="SearchEverywhereHistoryKey" value="apps&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Providers/AppServiceProvider.php&#10;menu.blade&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/menu.blade.php&#10;laravel-2016-03-2&#9;FILE&#9;file:///var/www/html/ocean_quality/storage/logs/laravel-2016-03-21.log&#10;banner.bl&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/admin/forms/banner.blade.php&#10;rou&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/routes.php&#10;Banner&#9;null&#9;null&#10;Bann&#9;null&#9;null&#10;sty&#9;FILE&#9;file:///var/www/html/ocean_quality/MARK/css/styleMark.css&#10;WelcomeController&#9;null&#9;null&#10;route&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/routes.php&#10;empre&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/empresa.blade.php&#10;ap&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Providers/AppServiceProvider.php&#10;inde&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/index.blade.php&#10;pro&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/Controllers/Rest/Productos.php&#10;AppServiceProvider&#9;null&#9;null&#10;.env&#9;FILE&#9;file:///var/www/html/ocean_quality/.env&#10;menu.&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/menu.blade.php&#10;appser&#9;null&#9;null&#10;se&#9;FILE&#9;file:///var/www/html/ocean_quality/database/seeds/DatabaseSeeder.php&#10;m-modal&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/public/js/m-modal.js&#10;noticia.blade.&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/noticia.blade.php&#10;noticias.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/Rest/Noticias.php&#10;noticia.ph&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Noticia.php&#10;noticia.bl&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/noticia.blade.php&#10;m-moda&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/public/js/m-modal.js&#10;image&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/ImagenNoticia.php&#10;noticias&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/Rest/Noticias.php&#10;producto.bla&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/forms/producto.blade.php&#10;producto.blade&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/forms/producto.blade.php&#10;imagen&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/ImagenNoticia.php&#10;productos.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/Rest/Productos.php&#10;imagenno&#9;null&#9;null&#10;admin&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/AdminController.php&#10;routes.&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/routes.php&#10;index.b&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/index.blade.php&#10;producto.bl&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/producto.blade.php&#10;noticia.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Noticia.php&#10;noticia.&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Noticia.php&#10;corre&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/CorreoEmpleado.php&#10;correo&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/CorreoEmpleado.php&#10;empleados.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/Rest/Empleados.php&#10;empleado.blade&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/empleado.blade.php&#10;empleado.ph&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Empleado.php&#10;m-mod&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/public/js/m-modal.js&#10;empleado.&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Empleado.php&#10;telefp&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/TelefonoEmpleado.php&#10;empleado.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Empleado.php&#10;zona.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Zona.php&#10;zonas&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/Rest/Zonas.php&#10;empleado.bla&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/empleado.blade.php" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../APILaravel5.1-Angular.js/API" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -591,13 +574,13 @@
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17922284" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14353688" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36321485" sideWeight="0.19032514" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23802164" sideWeight="0.4964314" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59969085" sideWeight="0.5226011" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23802164" sideWeight="0.5035686" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36321485" sideWeight="0.80967486" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2812983" sideWeight="0.7906423" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -712,13 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MARK/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8360655">
-          <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -841,13 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/menu.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/front/productos.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -859,13 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.1007957">
           <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66843504">
-          <caret line="16" column="89" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="89" />
         </state>
       </provider>
     </entry>
@@ -883,13 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/empresa.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -897,26 +852,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MARK/css/styleMark.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="341" column="0" selection-start-line="341" selection-start-column="0" selection-end-line="341" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -924,7 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -946,7 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -964,13 +901,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styleMark (copia).css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5344828">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -979,10 +909,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styleMark.css">
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="262" column="7" selection-start-line="262" selection-start-column="1" selection-end-line="262" selection-end-column="7" />
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0434783">
+          <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/empresa.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -990,15 +935,54 @@
     <entry file="file://$PROJECT_DIR$/resources/views/front/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="237" column="24" selection-start-line="237" selection-start-column="24" selection-end-line="237" selection-end-column="24" />
+          <caret line="253" column="9" selection-start-line="253" selection-start-column="9" selection-end-line="253" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/menu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styleMark (copia).css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04347826">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/front/socios.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55774647">
-          <caret line="11" column="96" selection-start-line="11" selection-start-column="96" selection-end-line="11" selection-end-column="96" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styleMark.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="507" column="24" selection-start-line="507" selection-start-column="24" selection-end-line="507" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MARK/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="200" column="8" selection-start-line="200" selection-start-column="7" selection-end-line="200" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MARK/css/styleMark.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.041284405">
+          <caret line="447" column="10" selection-start-line="447" selection-start-column="10" selection-end-line="447" selection-end-column="10" />
           <folding />
         </state>
       </provider>

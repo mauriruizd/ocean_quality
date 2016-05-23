@@ -244,11 +244,12 @@
 <div class="espacio"></div>
 <footer class="">
     <div class="col-md-4 footer_logo"><img src="{{ URL::to('img/logo_blanco.png') }}"></div>
-    <div class="col-md-2 blanco"><h3>ATENDIMIENTO</h3>
-        <h4 class="text2"><i class="glyphicon glyphicon-envelope"></i> Oceanquality@Oceanquality.Net</h4>
-        <h4 class="text2"><i class="glyphicon glyphicon-earphone"></i> 061 - 501 313</h4>
+    <div class="col-md-4 blanco"><h3>ATENDIMIENTO</h3>
+        <h4 class="text2"><i class="glyphicon glyphicon-envelope"></i> Oceanquality@Oceanquality.Net</h4><br>
+        <h4 class="text2"><i class="glyphicon glyphicon-earphone"></i> Tel./Fax: Local: 061-579813  -
+            Tel./Fax: De otros países: 595 61 579813</h4>
     </div>
-    <div class="col-md-2 blanco"><h3>SOCIAL</h3></div>
+    {{--<div class="col-md-2 blanco"><h3></h3></div>--}}
     <div class="col-md-2 py"><img src="{{ URL::to('img/py.png') }}"></div>
 </footer>
 <div class="container">
@@ -256,7 +257,7 @@
     <div class="linea_footer_box">
         {{--aca--}}
         {{--fin--}}
-        <h4>Av. San Blás, Esquina Venezuela, Km 9  Acaray, Ciudad Del Este - PY</h4>
+        <h4>Av. San Blás, Esquina Venezuela, Km 9  Acaray, Ciudad Del Este -  Alto Paraná – Paraguay</h4>
     </div>
 </div>
 <style>

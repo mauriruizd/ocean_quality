@@ -399,7 +399,7 @@ nav {
 }
 
 nav ul {
-    margin-right: 5px;
+    /*margin-right: 10px;*/
   list-style:none;
   padding:0;
   margin:0;
@@ -408,7 +408,7 @@ nav ul {
 }
 
 nav > ul > li {
-  float:left;
+  /*float:left;*/
     padding: 5px;
 
 

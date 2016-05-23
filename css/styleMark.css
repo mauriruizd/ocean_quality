@@ -351,6 +351,7 @@ footer{
 }
 .container{
   min-width: 1160px;
+    text-align: left;
 }
 
 a.control_prev, a.control_next {
@@ -498,14 +499,21 @@ nav ul li div ul .titulo a:hover {
 
 }
 li a.subcatlist{
+
     color: gray;
 }
   li a.subcatlist:hover{
       color: #0967a4;
+      text-decoration: none;
+      background: silver;
   }
 
 nav ul li div ul li a {
-  text-align: center;
+    text-decoration: none;
+    padding-top: 3px;
+    padding-left: 10px;
+    text-align: left;
+  /*text-align: center;*/
   font-size: 17px;
   color:gray;
 }
@@ -713,7 +721,7 @@ ul li span img:hover{
 }
 ul li span img{
   width: 150px;
-height: 70px;
+height: auto;
 -webkit-transition: width 1s, height 1s; /* Safari */
     transition: width 1s, height 1s;
 }
