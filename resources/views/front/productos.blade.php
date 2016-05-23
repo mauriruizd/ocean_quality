@@ -48,6 +48,9 @@
                                 @if($producto->epoca !== '')
                                     <div class="cuadr"><h4> {{ $producto->epoca }}</h4></div>
                                 @endif
+                                @if($producto->variedad !== '')
+                                    <div class="cuadr"><h4> {{ $producto->variedad }}</h4></div>
+                                @endif
                                 @if($producto->ciclo_promedio !== '')
                                     <div class="cuadr1"><h4> {{ $producto->ciclo_promedio }}</h4></div>
                                 @endif

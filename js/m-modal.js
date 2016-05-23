@@ -43,8 +43,8 @@ function editErrorHandler(xhr, txtStatus, err) {
             processData : false,
             contentType : false,
             success : function(response){
-                //location.reload();
-                console.log(response);
+                location.reload();
+                //console.log(response);
             },
             error : errorHandler
         });
@@ -109,8 +109,8 @@ function editErrorHandler(xhr, txtStatus, err) {
             processData : false,
             contentType : false,
             success : function(response) {
-                //location.reload();
-                console.log(response);
+                location.reload();
+                //console.log(response);
             },
             error : errorHandler
         });

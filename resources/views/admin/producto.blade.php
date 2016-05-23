@@ -135,19 +135,23 @@
                                             </div>
                                             <div class="input-group">
                                                 <label for="epoca">Epoca</label>
-                                                <input type="text" class="form-control" name="epoca" id="epoca" placeholder="Epoca" required>
+                                                <input type="text" class="form-control" name="epoca" id="epoca" placeholder="Epoca">
+                                            </div>
+                                            <div class="input-group">
+                                                <label for="epoca">Variedad</label>
+                                                <input type="text" class="form-control" name="variedad" id="variedad" placeholder="Variedad">
                                             </div>
                                             <div class="input-group">
                                                 <label for="ciclo_promedio">Ciclo Promedio</label>
-                                                <input type="text" class="form-control" name="ciclo_promedio" id="ciclo_promedio" placeholder="Ciclo Promedio" required>
+                                                <input type="text" class="form-control" name="ciclo_promedio" id="ciclo_promedio" placeholder="Ciclo Promedio">
                                             </div>
                                             <div class="input-group">
                                                 <label for="segmento">Segmento</label>
-                                                <input type="text" class="form-control" name="segmento" id="segmento" placeholder="Segmento" required>
+                                                <input type="text" class="form-control" name="segmento" id="segmento" placeholder="Segmento">
                                             </div>
                                             <div class="input-group">
                                                 <label for="nombre">Envase</label>
-                                                <input type="text" class="form-control" name="envase" id="envase" placeholder="Envase" required>
+                                                <input type="text" class="form-control" name="envase" id="envase" placeholder="Envase">
                                             </div>
                                             <div class="input-group">
                                                 <label for="imagenes">Imagenes</label>

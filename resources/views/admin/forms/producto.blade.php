@@ -41,19 +41,23 @@
         </div>
         <div class="input-group">
             <label for="epoca">Epoca</label>
-            <input type="text" class="form-control" name="epoca" id="epoca" placeholder="Epoca" required value="{{ $producto->epoca }}">
+            <input type="text" class="form-control" name="epoca" id="epoca" placeholder="Epoca" value="{{ $producto->epoca }}">
+        </div>
+        <div class="input-group">
+            <label for="epoca">Variedad</label>
+            <input type="text" class="form-control" name="variedad" id="variedad" placeholder="Variedad" value="{{ $producto->variedad }}">
         </div>
         <div class="input-group">
             <label for="ciclo_promedio">Ciclo Promedio</label>
-            <input type="text" class="form-control" name="ciclo_promedio" id="ciclo_promedio" placeholder="Ciclo Promedio" required value="{{ $producto->ciclo_promedio }}">
+            <input type="text" class="form-control" name="ciclo_promedio" id="ciclo_promedio" placeholder="Ciclo Promedio" value="{{ $producto->ciclo_promedio }}">
         </div>
         <div class="input-group">
             <label for="segmento">Segmento</label>
-            <input type="text" class="form-control" name="segmento" id="segmento" placeholder="Segmento" required value="{{ $producto->segmento }}">
+            <input type="text" class="form-control" name="segmento" id="segmento" placeholder="Segmento" value="{{ $producto->segmento }}">
         </div>
         <div class="input-group">
             <label for="nombre">Envase</label>
-            <input type="text" class="form-control" name="envase" id="envase" placeholder="Envase" required value="{{ $producto->envase }}">
+            <input type="text" class="form-control" name="envase" id="envase" placeholder="Envase" value="{{ $producto->envase }}">
         </div>
         <div class="input-group">
             @foreach($producto->imagenes as $imagen)

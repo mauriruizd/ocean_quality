@@ -51,6 +51,7 @@ class Productos extends Controller {
 			'descripcion' => $request->descripcion,
 			'adm_cod' => Auth::user()->id,
 			'epoca' => $request->epoca,
+			'variedad' => $request->variedad,
 			'ciclo_promedio' => $request->ciclo_promedio,
 			'segmento' => $request->segmento,
 			'envase' => $request->envase
@@ -126,7 +127,7 @@ class Productos extends Controller {
 		}
 
 		$toUpdate = $request->only([
-			'nombre', 'cat_cod', 'subcat_cod', 'descripcion', 'epoca', 'ciclo_promedio', 'segmento', 'envase'
+			'nombre', 'cat_cod', 'subcat_cod', 'descripcion', 'epoca', 'ciclo_promedio', 'segmento', 'envase', 'variedad'
 		]);
 		$toUpdate['slug'] = str_slug($request->nombre.time());
 
