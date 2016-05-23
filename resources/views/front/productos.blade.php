@@ -28,8 +28,11 @@
                                 @endif
                             </div>
                             <div class="col-md-4 fo1"><!--datos de foto-->
+                                @if($producto-> variedad !== '')
+                                    <div class="cuadr"><h4>• VARIEDAD</h4></div>
+                                @endif
                                 @if($producto->epoca !== '')
-                                    <div class="cuadr"><h4>• EPOCA</h4></div>
+                                    <div class="cuadr1"><h4>• EPOCA</h4></div>
                                 @endif
                                 @if($producto->ciclo_promedio !== '')
                                     <div class="cuadr1"><h4>• CICLO PROMEDIO</h4></div>
@@ -45,15 +48,16 @@
                             </div><!--datos de foto-->
 
                             <div class="col-md-4 fo1"><!--datos de foto-->
-                                @if($producto->epoca !== '')
-                                    <div class="cuadr"><h4> {{ $producto->epoca }}</h4></div>
-                                @endif
                                 @if($producto->variedad !== '')
                                     <div class="cuadr"><h4> {{ $producto->variedad }}</h4></div>
                                 @endif
-                                @if($producto->ciclo_promedio !== '')
+                                @if($producto->epoca !== '')
+                                    <div class="cuadr1"><h4> {{ $producto->epoca }}</h4></div>
+                                @endif
+                                @if($producto->variedad !== '')
                                     <div class="cuadr1"><h4> {{ $producto->ciclo_promedio }}</h4></div>
                                 @endif
+
                                 @if($producto->segmento !== '')
                                     <div class="cuadr1"><h4> {{ $producto->segmento }}</h4></div>
                                 @endif
@@ -72,8 +76,9 @@
 
                         </div>
 
+
                         <div class="col-md-8">
-                            <div class="carac">
+                            <div class="">
                                 <h4>• CARACTERISTICAS GENERALES</h4>
                             </div>
 

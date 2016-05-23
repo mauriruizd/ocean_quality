@@ -2,6 +2,8 @@
     <nav>
         <ul class="menu_mayor">
             <li><a href="{{ URL::to('/') }}"><i class="glyphicon glyphicon-home"></i> |</a></li>
+            <li><a href="{{ URL::to('empresa') }}">Empresa |</a></li>
+            <li><a href="{{ URL::to('news') }}">Noticias y Eventos |</a></li>
             <li><a href="#">Productos |</a>
 
                 <div>
@@ -49,11 +51,11 @@
                 </div>
 
             </li>
-            <li><a href="{{ URL::to('news') }}">Noticias y Eventos |</a></li>
+
             <li><a href="{{ URL::to('vendedores') }}">Vendedores |</a></li>
-            <li><a href="{{ URL::to('empresa') }}">Empresa |</a></li>
+
             {{--<li><a href="{{ URL::to('trabaje_con_nosotros') }}">Trabaje con nosotros |</a></li>--}}
-            <li><a href="{{ URL::to('contacto') }}">Contacto</a></li>
+            <li><a href="{{ URL::to('contacto') }}">Contactos</a></li>
         </ul>
     </nav>
     <div class="search">
