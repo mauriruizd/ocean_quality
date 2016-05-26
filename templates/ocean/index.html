@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- saved from url=(0042)http://getbootstrap.com/examples/carousel/ -->
-<!-- <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="ISO-8859-1">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,6 +16,8 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
     <link href="./Carousel Template for Bootstrap_files/bootstrap.min.css" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="./Carousel Template for Bootstrap_files/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -72,6 +74,7 @@
 
       .navbar-inverse .navbar-nav>li>a{
         font-family: 'Oswald', sans-serif;
+        padding-left: 0;
         font-size: 15px;
         color: white;
       }
@@ -321,6 +324,53 @@
               }
           }
 
+          img.masco{
+            width: 17%;
+            position: absolute;
+            margin-top: 2%
+
+
+          }
+            @media (min-width: 1000px) {
+          .fuentes_banner{
+
+           width: 70%;
+           position: absolute;
+
+           font-family: 'Indie Flower', cursive;
+           /*font: 400 100px/1.3 'Oleo Script', Helvetica, sans-serif;*/
+           font-size:3em;
+           color: #2b2b2b;
+           text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+           margin-top: 80px;
+
+           }
+        }
+        .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+      position: none ;
+      min-height: 1px;
+       padding-right: 0;
+      padding-left: 0;
+  }
+
+          @media (max-width: 999px) {
+        .fuentes_banner{
+
+         width: 70%;
+         position: absolute;
+
+         font-family: 'Indie Flower', cursive;
+         /*font: 400 100px/1.3 'Oleo Script', Helvetica, sans-serif;*/
+         font-size:2em;
+         color: #2b2b2b;
+         text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+         margin-top: 80px;
+
+         }
+
+      }
+
+
 
 
           /****************/
@@ -348,11 +398,11 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active1"><a href="http://getbootstrap.com/examples/carousel/#">Home</a></li>
-                <li><a href="http://getbootstrap.com/examples/carousel/#about">Noticias y Eventos</a></li>
-                <li><a href="http://getbootstrap.com/examples/carousel/#contact">Productos</a></li>
-                <li><a href="http://getbootstrap.com/examples/carousel/#contact">Vendedores</a></li>
-                <li><a href="http://getbootstrap.com/examples/carousel/#contact">Contacto</a></li>
+                <li class="active1"><a href="http://getbootstrap.com/examples/carousel/#">Home |</a></li>
+                <li><a href="http://getbootstrap.com/examples/carousel/#about">Noticias y Eventos |</a></li>
+                <li><a href="http://getbootstrap.com/examples/carousel/#contact">Productos |</a></li>
+                <li><a href="http://getbootstrap.com/examples/carousel/#contact">Vendedores |</a></li>
+                <li><a href="http://getbootstrap.com/examples/carousel/#contact">Contacto </a></li>
                 <!-- <li class="dropdown">
                   <a href="http://getbootstrap.com/examples/carousel/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                   <ul class="dropdown-menu">
@@ -389,16 +439,16 @@
         <div class="item active">
           <img src="http://contenido.com.mx/revista/wp-content/uploads/2015/04/banner-productos-tomates.jpg" alt="...">
           <div class="carousel-caption">
-            ...
+
           </div>
         </div>
         <div class="item">
           <img src="http://www.buhlergroup.com/static/europe/es/media/02-Process_Technologies/Banner_Broccolisorting_001.jpg" alt="...">
           <div class="carousel-caption">
-            ...
+
           </div>
         </div>
-        ...
+
       </div>
 
       <!-- Controls -->
@@ -423,6 +473,42 @@
 
     <div class="container marketing">
 
+
+
+      <!-- START THE FEATURETTES -->
+
+
+
+      <div class="row featurette">
+
+        <div class="col-md-12 ">
+
+          <img class="col-md-3 col-md-pull-9 featurette-image img-responsive center-block masco" src="img/mascota.png" data-holder-rendered="true">
+          <p class="col-md-4 col-md-offset-4 fuentes_banner  ">
+            “Una buena cosecha comienza en Ocean Quality”
+          </p>
+
+          <div class="col-md-12">    <img class="featurette-image img-responsive center-block" src="img/linea.png" data-holder-rendered="true"></div>
+
+
+          <img class="featurette-image img-responsive center-block" src="img/bg.png" data-holder-rendered="true">
+          <div class="col-md-12">    <img class="featurette-image img-responsive center-block" src="img/linea2.png" data-holder-rendered="true"></div>
+        </div>
+
+
+        <!-- <div class="col-md-7">
+          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div> -->
+
+      </div>
+      <br>
+      <!-- <hr class="featurette-divider"> -->
+
+
+      <!-- /END THE FEATURETTES -->
+
+
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
@@ -446,47 +532,6 @@
       </div><!-- /.row -->
 
 
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzUwMHg1MDAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNi4wLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsjaG9sZGVyXzE1NGUwYTU4MjI2IHRleHQgeyBmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjVwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTU0ZTBhNTgyMjYiPjxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjRUVFRUVFIi8+PGc+PHRleHQgeD0iMTg1LjEzMjgxMjUiIHk9IjI2MS4xIj41MDB4NTAwPC90ZXh0PjwvZz48L2c+PC9zdmc+" data-holder-rendered="true">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzUwMHg1MDAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNi4wLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsjaG9sZGVyXzE1NGUwYTVjNzY4IHRleHQgeyBmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjVwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTU0ZTBhNWM3NjgiPjxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjRUVFRUVFIi8+PGc+PHRleHQgeD0iMTg1LjEzMjgxMjUiIHk9IjI2MS4xIj41MDB4NTAwPC90ZXh0PjwvZz48L2c+PC9zdmc+" data-holder-rendered="true">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzUwMHg1MDAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNi4wLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsjaG9sZGVyXzE1NGUwYTVjNzI0IHRleHQgeyBmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjVwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTU0ZTBhNWM3MjQiPjxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjRUVFRUVFIi8+PGc+PHRleHQgeD0iMTg1LjEzMjgxMjUiIHk9IjI2MS4xIj41MDB4NTAwPC90ZXh0PjwvZz48L2c+PC9zdmc+" data-holder-rendered="true">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
 
 
       <!-- FOOTER -->
