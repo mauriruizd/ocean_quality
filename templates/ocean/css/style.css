@@ -221,8 +221,8 @@ img.masco{
 /* INNER QUERY */
 @media (min-width: 768px){
     .navbar-nav {
-        float: right;
-        margin: 0;
+        /*float: right;*/
+        /*margin: 0;*/
     }
 }
 
