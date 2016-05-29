@@ -2,6 +2,21 @@
 /*********************/
 
 /********************/
+.barra {
+    background: #EB1D21;
+    background: url(../img/in.jpg);
+    color: white;
+    height: 50px;
+}
+.footer{
+  /*margin: 0 auto;
+  padding: 0;*/
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+    color: silver;
+}
+
+
 .socios{
     font-size: 27px;
     font-family: 'Oswald', sans-serif;
