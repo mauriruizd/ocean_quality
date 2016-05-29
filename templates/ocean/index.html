@@ -13,6 +13,7 @@
 
     <title>Carousel Template for Bootstrap</title>
 
+    <script src="./Carousel Template for Bootstrap_files/jquery.min.js"></script>
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
     <link href="./Carousel Template for Bootstrap_files/bootstrap.min.css" rel="stylesheet">
@@ -25,7 +26,7 @@
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
     <script src="./Carousel Template for Bootstrap_files/ie-emulation-modes-warning.js"></script><style type="text/css">:root #content > #right > .dose > .dosesingle,
 :root #content > #center > .dose > .dosesingle
 {display:none !important;}</style><style type="text/css"></style>
@@ -42,6 +43,34 @@
 <!-- NAVBAR
 ================================================== -->
   <body data-pinterest-extension-installed="cr1.39.1">
+  <div class="modal fade" id="fasesLunaresModal" role="dialog">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">
+                      Fases Lunares
+                  </h4>
+              </div>
+              <div class="modal-body">
+                  <div id="CalendarioLunarTutiempo"><a href="http://www.tutiempo.net">El Tiempo</a> | <a href="http://www.tutiempo.net/luna/fases.htm">Calendario Fases Lunares</a></div>
+                  <script type="text/javascript">
+                      /* Ancho: 420; Alto: 491 */
+                      var DatosCalendarioTutiempo = '1;0;1;1;1;10;N;000000;FFFFFF;FFFFFF';
+                      $(document).ready(function() {
+                          var urlCarpetaOcean = 'http://localhost/ocean_quality';
+                          $('#divLuna').load(urlCarpetaOcean + '/luna_actual');
+
+                      });
+                  </script>
+                  <script type="text/javascript" src="http://www.tutiempo.net/TTapi/cal/fases_0_0"></script>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+              </div>
+          </div>
+      </div>
+  </div>
     <div class="fondo">
       <p class="container mail">
          Oceanquality@Oceanquality.Net
@@ -225,15 +254,8 @@
 
           <div class="cuadr">
             <div class="cuadro">
-
-              <div id="CalendarioLunarTutiempo"><a href="http://www.tutiempo.net">El Tiempo</a> | <a href="http://www.tutiempo.net/luna/fases.htm">Calendario Fases Lunares</a></div>
-<script type="text/javascript">
-/* Ancho: 420; Alto: 491 */
-var DatosCalendarioTutiempo = '1;0;1;1;1;10;N;000000;FFFFFF;FFFFFF';
-</script>
-<script type="text/javascript" src="http://www.tutiempo.net/TTapi/cal/fases_0_0"></script>
-
-
+                <div id="divLuna"></div>
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#fasesLunaresModal">Ver más fases de la luna</button>
             </div>
 
           </div>
@@ -281,8 +303,6 @@ var DatosCalendarioTutiempo = '1;0;1;1;1;10;N;000000;FFFFFF;FFFFFF';
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./Carousel Template for Bootstrap_files/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="./Carousel Template for Bootstrap_files/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="./Carousel Template for Bootstrap_files/holder.min.js"></script>

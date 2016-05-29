@@ -30,6 +30,7 @@ Route::post('trabaje_con_nosotros', 'WelcomeController@postTrabajeConNosotros');
 Route::get('contacto', 'WelcomeController@contacto');
 Route::post('contacto', 'WelcomeController@postContacto');
 Route::get('busqueda', 'WelcomeController@search');
+Route::get('luna_actual', 'APIsController@lunaActual');
 
 Route::group(['prefix' => 'admin'], function(){
 	Route::get('login', 'AdminController@login');
