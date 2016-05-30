@@ -2,6 +2,16 @@
 /*********************/
 
 /********************/
+.logo_blanco img{
+  padding: 20px;
+  width: 150px;
+  height: auto;
+
+}
+.footer p{
+  padding: 20px;
+  font-size: 25px;
+}
 .barra {
     background: #EB1D21;
     background: url(../img/in.jpg);
@@ -11,6 +21,8 @@
 .footer{
   /*margin: 0 auto;
   padding: 0;*/
+  height: 100%;
+  background: #094C89;
     font-size: 17px;
     font-family: 'Oswald', sans-serif;
     color: silver;
