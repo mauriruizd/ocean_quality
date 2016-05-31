@@ -31,6 +31,7 @@ Route::get('contacto', 'WelcomeController@contacto');
 Route::post('contacto', 'WelcomeController@postContacto');
 Route::get('busqueda', 'WelcomeController@search');
 Route::get('luna_actual', 'APIsController@lunaActual');
+Route::get('temperaturas_actuales', 'APIsController@temperaturasActuales');
 
 Route::group(['prefix' => 'admin'], function(){
 	Route::get('login', 'AdminController@login');
