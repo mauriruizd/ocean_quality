@@ -389,3 +389,9 @@ img.masco{
     height: 203px;
     background-color: silver;
 }
+
+/* Menu desplegable */
+.yamm .dropdown-menu ul {
+    display: inline-block;
+    vertical-align: top;
+}

@@ -48,6 +48,7 @@
 
     <!-- Custom styles for this template -->
     <link href="./Carousel Template for Bootstrap_files/carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/yamm.css">
     <script>
         $(document).ready(function() {
             var urlCarpetaOcean = 'http://localhost/ocean_quality';
@@ -149,7 +150,7 @@
 
         </style>
 
-        <nav class="navbar navbar-inverse navbar-static-top menu-principal">
+        <nav class="yamm navbar navbar-inverse navbar-static-top menu-principal">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -174,7 +175,52 @@
               <ul class="nav navbar-nav navbar-right">
                 <li class="active1"><a href="http://getbootstrap.com/examples/carousel/#">Home |</a></li>
                 <li><a href="http://getbootstrap.com/examples/carousel/#about">Noticias y Eventos |</a></li>
-                <li><a href="http://getbootstrap.com/examples/carousel/#contact">Productos |</a></li>
+                <li class="dropdown">
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
+                        Productos |
+                        <i class="caret"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <ul>
+                                <li class="titulo"><a href="#"><img src="http://localhost/ocean_quality/img/semilla.png">  Semillas</a></li>
+                                <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/1/1">• Brasicas</a></li>
+                                <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/1/2">• Bulbos y Raices</a></li>
+                                <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/1/3">• Cucurbitaceas</a></li>
+                                <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/1/4">• Hojas</a></li>
+                                <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/1/5">• Solanaceas</a></li>
+                                <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/1/6">• Otros</a></li>
+                            </ul>
+
+                            <ul>
+                                <li class="titulo "><a href=""><img src="http://localhost/ocean_quality/img/fertilizante.png"> Fertilizantes</a></li>
+                                <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/2/7">• Minerales</a></li>
+                                <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/2/8">• Organominerales</a></li>
+                                <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/2/9">• Foliares</a></li>
+                                <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/2/10">• Hidrosolubles</a></li>
+                            </ul>
+
+                            <ul>
+                                <li class="titulo"><a href=""><img src="http://localhost/ocean_quality/img/sistema.png"> Sistemas de riego</a></li>
+                                <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/3/11">• Aspersores</a></li>
+                                <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/3/12">• Conexiones</a></li>
+                                <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/3/13">• Filtros</a></li>
+                                <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/3/14">• Mangueras</a></li>
+                                <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/3/15">• Otros accesorios</a></li>
+                            </ul>
+
+                            <ul style="display : none">
+                                <li class="titulo "><a href=""><img src="http://localhost/ocean_quality/img/agro.png"> Agroquímicos</a></li>
+                            </ul>
+
+                            <ul>
+                                <li class="titulo"><a href=""><img src="http://localhost/ocean_quality/img/semilla.png"> Ambientes protegidos</a></li>
+                                <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/5/16">• Plasticos</a></li>
+                                <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/5/17">• Media sombra</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
                 <li><a href="http://getbootstrap.com/examples/carousel/#contact">Vendedores |</a></li>
                 <li><a href="http://getbootstrap.com/examples/carousel/#contact">Contacto </a></li>
                 <!-- <li class="dropdown">
