@@ -48,10 +48,37 @@
 
     <!-- Custom styles for this template -->
     <link href="./Carousel Template for Bootstrap_files/carousel.css" rel="stylesheet">
+    <script>
+        $(document).ready(function() {
+            var urlCarpetaOcean = 'http://localhost/ocean_quality';
+            $('#divLuna').load(urlCarpetaOcean + '/luna_actual');
+            $('#divTiempo').load(urlCarpetaOcean + '/temperaturas_actuales', cleanResponse);
+
+            function cleanResponse() {
+                var target = $('#divTiempo');
+                var divMeteoCDE = $('#divMeteoCDE');
+                target.children('ul').each(function () {
+                    var ul = $(this);
+                    ul.children('li').each(function () {
+                        $(this).attr('class', '');
+                        var infoDiv = $(this).children('.info');
+                        if(/ciudad del este/i.test(infoDiv.children('h6').children('a').html())) {
+                            divMeteoCDE.html('<div id="silverDiv"></div>' + infoDiv.html().replace('<h6>', '<h2>').replace('</h6>', '</h2>'));
+                        }
+                        divMeteoCDE.children('a').children('img').attr({ width : '', height : '' });
+                    });
+                    var html = ul[0].outerHTML;
+                    ul.parent().append('<div class="col-md-6">' + html + '</div>');
+                    ul.remove();
+                });
+            }
+        });
+    </script>
   </head>
 <!-- NAVBAR
 ================================================== -->
   <body data-pinterest-extension-installed="cr1.39.1">
+  <!-- Modal fases lunares -->
   <div class="modal fade" id="fasesLunaresModal" role="dialog">
       <div class="modal-dialog">
           <div class="modal-content">
@@ -66,13 +93,30 @@
                   <script type="text/javascript">
                       /* Ancho: 420; Alto: 491 */
                       var DatosCalendarioTutiempo = '1;0;1;1;1;10;N;000000;FFFFFF;FFFFFF';
-                      $(document).ready(function() {
-                          var urlCarpetaOcean = 'http://localhost/ocean_quality';
-                          $('#divLuna').load(urlCarpetaOcean + '/luna_actual');
-
-                      });
                   </script>
                   <script type="text/javascript" src="http://www.tutiempo.net/TTapi/cal/fases_0_0"></script>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Modal Clima-->
+  <div class="modal fade" id="temperaturasActualesModal" role="dialog">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">
+                      Meteorología
+                  </h4>
+              </div>
+              <div class="modal-body">
+                  <div class="row" id="divTiempo">
+                      <img src="img/cargando.gif" alt="">
+                  </div>
               </div>
               <div class="modal-footer">
                   <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
@@ -257,13 +301,16 @@
         <div class="col-sm-4 col-lg-4">
           <div class="cuadr">
             <div class="cuadro">
+                <div id="divMeteoCDE">
+                    <img src="img/cargando.gif" alt="Meteorología">
+                </div>
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#temperaturasActualesModal">Ver más</button>
+                  <!--<img class="featurette-image img-responsive center-block" src="img/tiempo.jpg" data-holder-rendered="true">-->
 
-                  <img class="featurette-image img-responsive center-block" src="img/tiempo.jpg" data-holder-rendered="true">
-
-                      <!-- Button trigger modal -->
-                      <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">
-                        Meteorología
-                      </button>
+                      <!--&lt;!&ndash; Button trigger modal &ndash;&gt;-->
+                      <!--<button type="button" class="btn btn-info" data-toggle="modal" data-target="#temperaturasActualesModal">-->
+                        <!--Meteorología-->
+                      <!--</button>-->
             </div>
 
           </div>
@@ -273,7 +320,9 @@
 
           <div class="cuadr">
             <div class="cuadro">
-                <div id="divLuna"></div>
+                <div id="divLuna">
+                    <img src="img/cargando.gif" alt="Fases de la luna">
+                </div>
                 <button type="button" class="btn btn-info" data-toggle="modal" data-target="#fasesLunaresModal">Ver más fases de la luna</button>
             </div>
 

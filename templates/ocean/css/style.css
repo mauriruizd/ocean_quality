@@ -363,3 +363,29 @@ img.masco{
         background-color: transparent
     }
 }
+
+#divLuna img {
+    margin: auto;
+}
+
+/* Modal Meteorología */
+#divTiempo ul {
+    list-style-type: none;
+}
+#divTiempo ul a {
+    color: #000;
+    text-decoration: none;
+}
+#divTiempo ul h6 {
+    display: inline-block;
+    font-size: 13px;
+    min-width: 128px;
+}
+#divMeteoCDE span {
+    font-size: 28px;
+}
+#divMeteoCDE #silverDiv {
+    display: block;
+    height: 203px;
+    background-color: silver;
+}
