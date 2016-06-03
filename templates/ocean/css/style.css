@@ -18,6 +18,17 @@
     color: white;
     height: 50px;
 }
+li.titulo{
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    padding: 10px;
+    text-decoration: none;
+
+
+
+
+    /*background: #094C89;*/
+}
 .footer{
   /*margin: 0 auto;
   padding: 0;*/
