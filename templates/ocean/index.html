@@ -64,7 +64,7 @@
                         $(this).attr('class', '');
                         var infoDiv = $(this).children('.info');
                         if(/ciudad del este/i.test(infoDiv.children('h6').children('a').html())) {
-                            divMeteoCDE.html('<div id="silverDiv"></div>' + infoDiv.html().replace('<h6>', '<h2>').replace('</h6>', '</h2>'));
+                            divMeteoCDE.html('<div id="silverDiv"><img src="img/meteorologia.jpg" alt=""></div>' + infoDiv.html().replace('<h6>', '<h2>').replace('</h6>', '</h2>'));
                         }
                         divMeteoCDE.children('a').children('img').attr({ width : '', height : '' });
                     });
@@ -184,17 +184,17 @@
                     <ul class="dropdown-menu">
                         <li>
                             <ul>
-                                <li class="titulo"><a href="#"><img src="http://localhost/ocean_quality/img/semilla.png">  Semillas</a></li>
+                                <li class="titulo"><a class="lin" href="#"><img src="http://localhost/ocean_quality/img/semilla.png">  Semillas</a></li>
                                 <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/1/1">• Brasicas</a></li>
                                 <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/1/2">• Bulbos y Raices</a></li>
                                 <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/1/3">• Cucurbitaceas</a></li>
                                 <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/1/4">• Hojas</a></li>
                                 <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/1/5">• Solanaceas</a></li>
-                                <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/1/6">• Otros</a></li>
+                                <li><a class="subcatlist" href="http:class="nounderline"//localhost/ocean_quality/productos/1/6">• Otros</a></li>
                             </ul>
 
                             <ul>
-                                <li class="titulo "><a href=""><img src="http://localhost/ocean_quality/img/fertilizante.png"> Fertilizantes</a></li>
+                                <li class="titulo "><a class="lin"  href=""><img src="http://localhost/ocean_quality/img/fertilizante.png"> Fertilizantes</a></li>
                                 <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/2/7">• Minerales</a></li>
                                 <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/2/8">• Organominerales</a></li>
                                 <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/2/9">• Foliares</a></li>
@@ -202,7 +202,7 @@
                             </ul>
 
                             <ul>
-                                <li class="titulo"><a href=""><img src="http://localhost/ocean_quality/img/sistema.png"> Sistemas de riego</a></li>
+                                <li class="titulo"><a class="lin"  href=""><img src="http://localhost/ocean_quality/img/sistema.png"> Sistemas de riego</a></li>
                                 <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/3/11">• Aspersores</a></li>
                                 <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/3/12">• Conexiones</a></li>
                                 <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/3/13">• Filtros</a></li>
@@ -211,11 +211,11 @@
                             </ul>
 
                             <ul style="display : none">
-                                <li class="titulo "><a href=""><img src="http://localhost/ocean_quality/img/agro.png"> Agroquímicos</a></li>
+                                <li class="titulo "><a class="lin" href=""><img src="http://localhost/ocean_quality/img/agro.png"> Agroquímicos</a></li>
                             </ul>
 
                             <ul>
-                                <li class="titulo"><a href=""><img src="http://localhost/ocean_quality/img/semilla.png"> Ambientes protegidos</a></li>
+                                <li class="titulo"><a class="lin"  href=""><img src="http://localhost/ocean_quality/img/semilla.png"> Ambientes protegidos</a></li>
                                 <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/5/16">• Plasticos</a></li>
                                 <li><a class="subcatlist" href="http://localhost/ocean_quality/productos/5/17">• Media sombra</a></li>
                             </ul>
@@ -349,7 +349,7 @@
           <div class="cuadr">
             <div class="cuadro">
                 <div id="divMeteoCDE">
-                    <img src="img/cargando.gif" alt="Meteorología">
+                    <!--<img src="img/meteorologia.jpg" alt="Meteorología">-->
                 </div>
                 <button type="button" class="btn btn-info" data-toggle="modal" data-target="#temperaturasActualesModal">Ver más</button>
                   <!--<img class="featurette-image img-responsive center-block" src="img/tiempo.jpg" data-holder-rendered="true">-->

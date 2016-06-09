@@ -21,13 +21,26 @@
 li.titulo{
     font-family: 'Oswald', sans-serif;
     font-size: 17px;
-    padding: 10px;
+    padding: 7px;
     text-decoration: none;
-
+    border-bottom: silver solid 1px;
 
 
 
     /*background: #094C89;*/
+}
+a.lin:link{
+    text-decoration:none;
+}
+
+
+
+
+.marketing .col-lg-4 {
+    /*background: silver;*/
+    margin-bottom: 20px;
+    text-align: center;
+    height: 400px;
 }
 .footer{
   /*margin: 0 auto;
@@ -398,7 +411,11 @@ img.masco{
 #divMeteoCDE #silverDiv {
     display: block;
     height: 203px;
-    background-color: silver;
+    /*background-color: silver;*/
+    /*background: url("img/meteorologia.jpg");*/
+}
+#silverDiv img{
+    width: 320px;
 }
 
 /* Menu desplegable */
