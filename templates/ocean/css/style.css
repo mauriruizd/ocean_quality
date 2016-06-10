@@ -95,11 +95,13 @@ a.lin:link{
 }
 
 @media (max-width: 767px){
+
     .logo img{
         margin-top: 28px;
         text-align: center;
         width: 200px;
-        height: auto;display: none;
+        height: auto;
+        display: none;
     }
     .input{
         display: none;
