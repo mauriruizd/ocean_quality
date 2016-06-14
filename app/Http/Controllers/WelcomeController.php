@@ -17,41 +17,15 @@ use Illuminate\Support\Facades\Mail;
 
 class WelcomeController extends Controller {
 
-	/*
-	|--------------------------------------------------------------------------
-	| Welcome Controller
-	|--------------------------------------------------------------------------
-	|
-	| This controller renders the "marketing page" for the application and
-	| is configured to only allow guests. Like most of the other sample
-	| controllers, you are free to modify or remove it as you desire.
-	|
-	*/
-
-	/**
-	 * Create a new controller instance.
-	 *
-	 * @return void
-	 */
-/*	public function __construct()
-	{
-		$this->middleware('guest');
-	}
-*/
-	/**
-	 * Show the application welcome screen to the user.
-	 *
-	 * @return Response
-	 */
 	public function index()
 	{
 		$banners = Banner::all();
-		return view('front.index', compact('banners'));
+		return view('front.index2', compact('banners'));
 	}
 
 	public function noticias(){
 		$noticias = Noticia::select('id', 'updated_at', 'titulo', 'cuerpo')->get();
-		return view('front.noticias', compact('noticias'));
+		return view('front.ocean_v2.noticias', compact('noticias'));
 	}
 
 	public function productos($cat, $subcat){
@@ -61,7 +35,7 @@ class WelcomeController extends Controller {
 			->get();
 		$categoria = Categoria::select('nombre')->find($cat);
 		$subcategoria = Subcategoria::select('nombre')->find($subcat);
-		return view('front.productos', compact('productos', 'categoria', 'subcategoria'));
+		return view('front.ocean_v2.productos', compact('productos', 'categoria', 'subcategoria'));
 	}
 
 	public function search(){
@@ -71,20 +45,20 @@ class WelcomeController extends Controller {
 			->select('id', 'nombre', 'descripcion', 'cat_cod', 'subcat_cod')
 			->with('imagenes')
 			->paginate(5);
-		return view('front.busqueda', compact('productos'));
+		return view('front.ocean_v2.busqueda', compact('productos'));
 	}
 
 	public function vendedores(){
 		$departamentos = Departamento::has('zonas')->with('zonas.empleados.telefonos', 'zonas.empleados.correos')->get();
-		return view('front.vendedores', compact('departamentos'));
+		return view('front.ocean_v2.vendedores', compact('departamentos'));
 	}
 
 	public function empresa(){
-		return view('front.empresa');
+		return view('front.ocean_v2.empresa');
 	}
 
 	public function trabajeConNosotros(){
-		return view('front.trabajeConNosotros');
+		return view('front.ocean_v2.trabajeConNosotros');
 	}
 
 	public function postTrabajeConNosotros(Request $request){
@@ -95,7 +69,7 @@ class WelcomeController extends Controller {
 	}
 
 	public function contacto(){
-		return view('front.contacto');
+		return view('front.ocean_v2.contacto');
 	}
 
 	public function postContacto(Request $request){
