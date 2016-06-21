@@ -152,14 +152,16 @@ class Productos extends Controller {
 	private function uploadImages($imagenes, $prodId) {
 		$files = $imagenes;
 		foreach($files as $imagen) {
-			$filename = time().$imagen->getClientOriginalName();
-			$path = 'productos';
-			$imagen->move($path, $filename);
+			if(!is_null($imagen)) {
+				$filename = time() . $imagen->getClientOriginalName();
+				$path = 'productos';
+				$imagen->move($path, $filename);
 
-			ImagenProducto::create([
-				'img_url' => $path.'/'.$filename,
-				'producto_cod' => $prodId
-			]);
+				ImagenProducto::create([
+					'img_url' => $path . '/' . $filename,
+					'producto_cod' => $prodId
+				]);
+			}
 		}
 	}
 

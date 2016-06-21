@@ -537,10 +537,10 @@ img.masco{
 
 /*************fin tabs********************/
 /* CAROUSEL PRODUCTOS */
-.thumbcarousel {
+#productos-tabs-content .thumbcarousel {
     height: auto;
 }
-.thumbcarousel .carousel-inner .item {
+#productos-tabs-content .thumbcarousel .carousel-inner .item {
     height: auto;
 }
 
