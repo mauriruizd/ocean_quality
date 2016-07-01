@@ -231,7 +231,26 @@
         </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
     <br>
-
+    <style>
+        .bx-wrapper img {
+            max-width: 100%;
+            display: block;
+            height: 70px;
+        }
+        .bx-wrapper .bx-viewport {
+            -moz-box-shadow: 0 0 5px #ccc;
+            -webkit-box-shadow: 0 0 5px #ccc;
+            box-shadow: 0 0 5px #ccc;
+            border: 0px solid #fff;
+            left: -5px;
+            background: #fff;
+            -webkit-transform: translatez(0);
+            -moz-transform: translatez(0);
+            -ms-transform: translatez(0);
+            -o-transform: translatez(0);
+            transform: translatez(0);
+        }
+    </style>
     <div class=" container col-md-4">
         <p class="socios">
             SOCIOS COMERCIALES

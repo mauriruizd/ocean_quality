@@ -545,3 +545,8 @@ img.masco{
 }
 
 /* FIN CAROUSEL PRODUCTOS */
+
+#lista_empresa p{
+    padding-left: 10px;
+
+}

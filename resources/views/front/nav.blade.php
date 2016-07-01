@@ -24,7 +24,8 @@
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li class="active1"><a href="{{ url('/') }}">Home |</a></li>
-                        <li><a href="{{ url('news') }}">Noticias y Eventos |</a></li>
+                        <li><a href="{{ url('empresa') }}">Empresa |</a></li>
+                        <li><a href="{{ url('news') }}">Noticias |</a></li>
                         <li class="dropdown">
                             <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
                                 Productos
@@ -70,7 +71,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="{{ url('empresa') }}">Empresa |</a></li>
+
                         <li><a href="{{ url('vendedores') }}">Vendedores |</a></li>
                         <li><a href="{{ url('contacto') }}">Contacto </a></li>
                     </ul>
