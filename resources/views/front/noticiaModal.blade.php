@@ -8,9 +8,9 @@
             @foreach($noticia->imagenes as $imagen)
                 <img src="{{ $imagen->img_url }}" alt="{{ $noticia->titulo }}" class="img-rounded" height="150px">
             @endforeach
-            <p>
-                {{ $noticia->cuerpo }}
-            </p>
+                <div>
+                    {!! nl2br($noticia->cuerpo) !!}
+                </div>
         </div>
         <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>

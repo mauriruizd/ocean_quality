@@ -135,7 +135,7 @@
 @include('front.nav')
 <!-- Carousel
 ================================================== -->
-<div id="main-carousel" class="carousel slide" data-ride="carousel">
+<div id="main-carousel" class="carousel slide imag" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
         @for($i = 0; $i < $banners->count(); $i++)
@@ -334,13 +334,13 @@
                 <div class="col-xs-6 col-lg-4"><p>
                         ATENDIMIENTO
                     </p>
-
+                    <h5>Av. San Blás, Esquina Venezuela, Km 9  Acaray, Ciudad Del Este -  Alto Paraná – Paraguay</h5>
                     <h5> Oceanquality@Oceanquality.Net</h5>
                     <h5>Tel./Fax: Local: 061-579813 - Tel./Fax: De otros países: 595 61 579813</h5>
 
 
                 </div>
-                <div class="col-xs-6 col-lg-4 logo_blanco"><img src="{{ url('img/py.png') }}" alt="" /></div>
+                <div class="col-xs-6 col-lg-4 logo_blanco text-right"><img src="{{ url('img/py.png') }}" alt="" /></div>
 
             </div>
         </div>

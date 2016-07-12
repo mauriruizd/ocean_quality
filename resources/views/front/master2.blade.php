@@ -71,34 +71,6 @@
     <img class="featurette-image img-responsive center-block" src="http://contenido.com.mx/revista/wp-content/uploads/2015/04/banner-productos-tomates.jpg" data-holder-rendered="true">
 
 </div>
-<!--<br>-->
-<style>
-    .imag img{
-        width: 100%;
-        height: 358px;
-        overflow: hidden;
-    }
-    .imag{
-        width: 100%;
-        height: 358px;
-        overflow: hidden;
-    }
-    @media (min-width: 768px) {
-        .bu {
-            margin-top: 0px;
-        }
-
-        .menu-principal {
-
-            margin-top: 330px;
-        }
-        .espa{
-            width: 100%;
-            height: 50px;
-            /*background: silver;*/
-        }
-    }
-</style>
 <div class="bu">  </div>
 <div class="espa">  </div>
 
@@ -237,13 +209,13 @@
                 <div class="col-xs-6 col-lg-4"><p>
                         ATENDIMIENTO
                     </p>
-
+                    <h5>Av. San Blás, Esquina Venezuela, Km 9  Acaray, Ciudad Del Este -  Alto Paraná – Paraguay</h5>
                     <h5> Oceanquality@Oceanquality.Net</h5>
                     <h5>Tel./Fax: Local: 061-579813 - Tel./Fax: De otros países: 595 61 579813</h5>
 
 
                 </div>
-                <div class="col-xs-6 col-lg-4 logo_blanco"><img src="{{ url('img/py.png') }}" alt="" /></div>
+                <div class="col-xs-6 col-lg-4 logo_blanco text-right"><img src="{{ url('img/py.png') }}" alt="" /></div>
 
             </div>
         </div>

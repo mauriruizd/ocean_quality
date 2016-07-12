@@ -31,7 +31,7 @@
                                     <tr>
                                         <td>{{ $noticia->id }}</td>
                                         <td>{{ $noticia->titulo }}</td>
-                                        <td>{{ $noticia->cuerpo }}</td>
+                                        <td>{{ substr($noticia->cuerpo, 0, 250) }}...</td>
                                         <td>
                                             @foreach($noticia->imagenes as $imagen)
                                                 <img src="{{ URL::to($imagen->img_url) }}" alt="{{ $noticia->nombre }}" class="img-rounded" width="60px" height="60px">

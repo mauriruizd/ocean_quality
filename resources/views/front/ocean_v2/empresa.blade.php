@@ -7,15 +7,15 @@
 
 
     <div class="row" id="lista_empresa">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-9 col-md-offset-1">
             <ul class="">
                 <li>
-                    <h1>Satisfacción</h1>
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-5">
                             <img class="img-responsive" src="{{ url('img/alter.jpg') }}">
                         </div>
-                        <div class="col-md-9">
+                        <div class="col-md-7">
+                            <h2 class="text-center">Satisfacción</h2>
                             <p>
                                 Atender a sus clientes con productos garantizados, llevando así al productor final la
 
@@ -29,12 +29,12 @@
                 </li>
 
                 <li>
-                    <h1>Credibilidad</h1>
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-5">
                             <img class="img-responsive" src="{{ url('img/alter.jpg') }}">
                         </div>
-                        <div class="col-md-9">
+                        <div class="col-md-7">
+                            <h2 class="text-center">Credibilidad</h2>
                             <p>
                                 Ser referencia de innovación por calidad de productos y servicios ofrecidos, motivados por el suceso de los diversos parceros que actúan con nuestra empresa en Paraguay, así como al esfuerzo conjunto del equipo de colaboradores.
                             </p>
@@ -46,12 +46,12 @@
                 </li>
 
                 <li>
-                    <h1>Orgullo</h1>
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-5">
                             <img class="img-responsive" src="{{ url('img/alter.jpg') }}">
                         </div>
-                        <div class="col-md-9">
+                        <div class="col-md-7">
+                            <h2 class="text-center">Orgullo</h2>
                             <p>
                                 - Hacer todo con pasión.
                                 - Respetar y valorizar cada persona y empresa relacionada con Ocean Quality.

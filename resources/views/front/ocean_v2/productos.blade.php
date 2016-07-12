@@ -24,7 +24,7 @@
                         <!--******************tab*******************-->
                     <div class="container">
                         <div class="row">
-                            <div class="col-sm-6">
+                            <div class="col-sm-4">
                                 <div id="carousel-{{ $producto->slug }}" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
                                         @foreach($producto->imagenes as $index => $imagen)
