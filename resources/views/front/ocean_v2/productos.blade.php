@@ -6,6 +6,16 @@
 <div class="row ">
 
     <div class="col-md-12 ">
+        <style>
+
+
+            .carousel {
+                 height: 220px;
+                margin-bottom: 60px;
+            }
+
+
+        </style>
 
         <!--*******************tab**********************-->
         <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">

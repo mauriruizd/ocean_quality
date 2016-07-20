@@ -1,4 +1,4 @@
-@extends('front.master')
+@extends('front.master2')
 @section('titulo')
     # Busqueda
 @stop
