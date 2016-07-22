@@ -14,8 +14,8 @@
             <label for="cat_cod">Categoria</label>
             <select name="cat_cod" id="cat_cod" class="form-control">
                 <option value="0">--Seleccione Categoria--</option>
-                @foreach($categorias as $cod_cat => $nom_categoria)
-                    <option value="{{ $cod_cat }}" {{ $cod_cat === $producto->categoria->id ? 'selected' : '' }}>{{ $nom_categoria }}</option>
+                @foreach($categorias as $cat_cod => $nom_categoria)
+                    <option value="{{ $cat_cod }}" {{ $cat_cod == $producto->cat_cod ? 'selected' : '' }}>{{ $nom_categoria }}</option>
                 @endforeach
             </select>
         </div>
