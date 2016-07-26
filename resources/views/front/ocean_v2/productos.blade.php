@@ -88,15 +88,17 @@
                                             </table>
                                         </div>
                                     </div>
-                                    <div class="col-md-12">
-                                        <h2 class="gris"># Descripción</h2>
-                                        <p>
-                                            {{ $producto->descripcion }}
-                                        </p>
-                                    </div>
                                 </div>
                             </div> <!-- /col-sm-6 -->
                         </div> <!-- /row -->
+                        <div class="row espacio">
+                            <div class="col-md-12">
+                                <h2 class="gris"># Descripción</h2>
+                                <p>
+                                    {{ $producto->descripcion }}
+                                </p>
+                            </div>
+                        </div>
                     </div>
                     <!--*******************fin_tab******************-->
                 </div>

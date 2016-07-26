@@ -60,9 +60,18 @@ class Subcategorias extends Controller {
 	 */
 	public function edit($id)
 	{
-		$subcategoria = Subcategoria::select('id', 'nombre', 'cat_cod')->find($id);
+		$subcategoria = Subcategoria::select('id', 'nombre', 'cat_cod', 'subcat_padre_cod')->find($id);
 		$categorias = Categoria::lists('nombre', 'id');
-		return view('admin.forms.subcategoria', compact('subcategoria', 'categorias'));
+		$subcategorias = Subcategoria::padre()
+			->select('id', 'nombre', 'subcat_padre_cod')
+			->where('cat_cod', '=', $subcategoria->cat_cod)
+			->where('id', '<>', $id)
+			->get();
+		$listaSubcategorias = [];
+		foreach ($subcategorias as $item) {
+			$listaSubcategorias[$item->id] = $item->nombre;
+		}
+		return view('admin.forms.subcategoria', compact('subcategoria', 'categorias', 'listaSubcategorias'));
 	}
 
 	/**
@@ -73,7 +82,11 @@ class Subcategorias extends Controller {
 	 */
 	public function update($id, Request $request)
 	{
-		Subcategoria::where('id', $id)->update($request->only(['nombre', 'cat_cod']));
+		$datos = $request->only(['nombre', 'cat_cod', 'subcat_padre_cod']);
+		if ($datos['subcat_padre_cod'] == 0) {
+			$datos['subcat_padre_cod'] = null;
+		}
+		Subcategoria::where('id', $id)->update($datos);
 		return new Response('Subcategoria actualizada con exito', 200);
 	}
 

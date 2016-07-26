@@ -13,7 +13,9 @@ class AppServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		view()->share('categorias', Categoria::with('subcategorias')
+		view()->share('categorias', Categoria::with(['subcategorias' => function($q) {
+				$q->padre()->with('subcategoriasHijas');
+			}])
 			->get());
 		view()->share('banner', Banner::orderByRaw("RAND()")->select('img_url', 'link')->first());
 	}

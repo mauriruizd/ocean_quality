@@ -21,6 +21,7 @@
                                     <th>Codigo</th>
                                     <th>Nombre</th>
                                     <th>Categoria</th>
+                                    <th>Subcategoría Padre</th>
                                     <th>Editar</th>
                                     <th>Eliminar</th>
                                 </tr>
@@ -31,6 +32,7 @@
                                         <td>{{ $subcategoria->id }}</td>
                                         <td>{{ $subcategoria->nombre }}</td>
                                         <td>{{ $subcategoria->categoria->nombre }}</td>
+                                        <td>{{ $subcategoria->subcategoriaPadre === null ? 'Sin categoria padre' : $subcategoria->subcategoriaPadre->nombre }}</td>
                                         <td>
                                             <button class="btn btn-success m-edit" value="{{ $subcategoria->id }}" data-target="#editModal" data-toggle="modal">
                                                 <i class="fa fa-pencil"></i>
@@ -78,6 +80,15 @@
                                                     @endforeach
                                                 </select>
                                             </div>
+                                            <div class="form-group">
+                                                <label for="subcat_padre_cod">Subcategoría Padre</label>
+                                                <select name="subcat_padre_cod" id="subcat_padre_cod" class="form-control">
+                                                    <option value="0">Sin categoria padre</option>
+                                                    @foreach($listaSubcategorias as $cod_subcat => $nom_subcategoria)
+                                                        <option value="{{ $cod_subcat }}">{{ $nom_subcategoria }}</option>
+                                                    @endforeach
+                                                </select>
+                                            </div>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
@@ -121,5 +132,21 @@
     <script src="{{ URL::to('js/m-modal.js') }}"></script>
     <script>
         var errorMsg = 'Hubo un error al eliminar la subcategoria! Posiblemente tenga productos asociados a la misma.';
+        $(document).ready(function() {
+            $('#cat_cod').on('change', function() {
+                $.ajax({
+                    url: "{{ url('/') }}/api/categorias/" + $(this).val() + "/subcategorias",
+                    method: "GET",
+                    success: function(res) {
+                        var html = '<option value="0">Sin categoria padre</option>';
+                        console.log(res);
+                        for(var i = 0; i < res.length; i++) {
+                            html += "<option value='" + res[i].id + "'>" + res[i].nombre + "</option>";
+                        }
+                        $('#subcat_padre_cod').html(html);
+                    }
+                });
+            });
+        });
     </script>
 @stop

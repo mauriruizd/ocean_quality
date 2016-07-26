@@ -426,8 +426,12 @@ img.masco{
 .yamm .dropdown-menu ul {
     display: inline-block;
     vertical-align: top;
+    list-style-type: none;
 }
 
+.yamm .dropdown-menu .subcatlist-l2 {
+    list-style-type: square;
+}
 
 /************tabs*****************/
 

@@ -52,6 +52,7 @@ Route::group(['prefix' => 'api'], function(){
 	Route::resource('administradores', 'Rest\Administradores');
 	Route::resource('banners', 'Rest\Banner');
 	Route::resource('categorias', 'Rest\Categorias');
+	Route::get('categorias/{id}/subcategorias', 'Rest\Categorias@subcategorias');
 	Route::resource('cotizaciones', 'Rest\Cotizaciones');
 	Route::resource('empleados', 'Rest\Empleados');
 	Route::resource('monedas', 'Rest\Monedas');

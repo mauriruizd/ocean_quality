@@ -83,12 +83,21 @@ class AdminController extends Controller {
     }
 
     public function subcategorias(){
-        $subcategorias = Subcategoria::select('id', 'nombre', 'cat_cod')->with(['categoria' => function($query) {
+        $categorias = Categoria::lists('nombre', 'id');
+        $subcategorias = Subcategoria::select('id', 'nombre', 'cat_cod', 'subcat_padre_cod')
+            ->with(['categoria' => function($query) {
                 $query->select('id', 'nombre');
+            }, 'subcategoriaPadre' => function($q) {
+                $q->select('id', 'nombre');
             }])
             ->orderBy('id', 'ASC')->paginate(5);
-        $categorias = Categoria::lists('nombre', 'id');
-        return view('admin.subcategoria', compact('subcategorias', 'categorias'));
+        $listaSubcategorias = [];
+        foreach ($subcategorias as $item) {
+            if($item->subcategoriaPadre === null && $item->cat_cod == collect($categorias)->keys()[0]) {
+                $listaSubcategorias[$item->id] = $item->nombre;
+            }
+        }
+        return view('admin.subcategoria', compact('subcategorias', 'categorias', 'listaSubcategorias'));
     }
 
     public function proveedores(){

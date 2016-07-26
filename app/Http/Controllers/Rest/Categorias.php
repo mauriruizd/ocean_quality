@@ -4,6 +4,7 @@ use App\Categoria;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
+use App\Subcategoria;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
@@ -85,6 +86,15 @@ class Categorias extends Controller {
 	{
 		Categoria::destroy($id);
 		return new Response('Categoria eliminada con exito', 200);
+	}
+
+	public function subcategorias($id)
+	{
+		$subcategorias = Subcategoria::where('cat_cod', '=', $id)
+			->select('id', 'nombre')
+			->padre()
+			->get();
+		return $subcategorias;
 	}
 
 }

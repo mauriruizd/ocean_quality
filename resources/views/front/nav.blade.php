@@ -38,6 +38,13 @@
                                         <li class="titulo"><a href="#"><img src="{{ URL::to('img/semilla.png') }}">  {{ $categorias[0]->nombre }}</a></li>
                                         @foreach($categorias[0]->subcategorias as $subcategoria)
                                             <li><a class="subcatlist" href="{{ URL::to('productos/'.$categorias[0]->id.'/'.$subcategoria->id) }}">• {{ $subcategoria->nombre }}</a></li>
+                                            @if(!$subcategoria->subcategoriasHijas->isEmpty())
+                                                <ul class="subcatlist-l2">
+                                                    @foreach($subcategoria->subcategoriasHijas as $subcategoriaHija)
+                                                        <li><a href="{{ URL::to('productos/'.$categorias[0]->id.'/'.$subcategoriaHija->id) }}">▸ {{ $subcategoriaHija->nombre }}</a></li>
+                                                    @endforeach
+                                                </ul>
+                                            @endif
                                         @endforeach
                                     </ul>
 
@@ -45,6 +52,13 @@
                                         <li class="titulo "><a href=""><img src="{{ URL::to('img/fertilizante.png') }}"> {{ $categorias[1]->nombre }}</a></li>
                                         @foreach($categorias[1]->subcategorias as $subcategoria)
                                             <li><a class="subcatlist" href="{{ URL::to('productos/'.$categorias[1]->id.'/'.$subcategoria->id) }}">• {{ $subcategoria->nombre }}</a></li>
+                                            @if(!$subcategoria->subcategoriasHijas->isEmpty())
+                                                <ul class="subcatlist-l2">
+                                                    @foreach($subcategoria->subcategoriasHijas as $subcategoriaHija)
+                                                        <li><a href="{{ URL::to('productos/'.$categorias[0]->id.'/'.$subcategoriaHija->id) }}">▸ {{ $subcategoriaHija->nombre }}</a></li>
+                                                    @endforeach
+                                                </ul>
+                                            @endif
                                         @endforeach
                                     </ul>
 
@@ -52,6 +66,13 @@
                                         <li class="titulo"><a href=""><img src="{{ URL::to('img/sistema.png') }}"> {{ $categorias[2]->nombre }}</a></li>
                                         @foreach($categorias[2]->subcategorias as $subcategoria)
                                             <li><a class="subcatlist" href="{{ URL::to('productos/'.$categorias[2]->id.'/'.$subcategoria->id) }}">• {{ $subcategoria->nombre }}</a></li>
+                                            @if(!$subcategoria->subcategoriasHijas->isEmpty())
+                                                <ul class="subcatlist-l2">
+                                                    @foreach($subcategoria->subcategoriasHijas as $subcategoriaHija)
+                                                        <li><a href="{{ URL::to('productos/'.$categorias[0]->id.'/'.$subcategoriaHija->id) }}">▸ {{ $subcategoriaHija->nombre }}</a></li>
+                                                    @endforeach
+                                                </ul>
+                                            @endif
                                         @endforeach
                                     </ul>
 
@@ -59,6 +80,13 @@
                                         <li class="titulo "><a href=""><img src="{{ URL::to('img/agro.png') }}"> {{ $categorias[3]->nombre }}</a></li>
                                         @foreach($categorias[3]->subcategorias as $subcategoria)
                                             <li><a class="subcatlist" href="{{ URL::to('productos/'.$categorias[3]->id.'/'.$subcategoria->id) }}">• {{ $subcategoria->nombre }}</a></li>
+                                            @if(!$subcategoria->subcategoriasHijas->isEmpty())
+                                                <ul class="subcatlist-l2">
+                                                    @foreach($subcategoria->subcategoriasHijas as $subcategoriaHija)
+                                                        <li><a href="{{ URL::to('productos/'.$categorias[0]->id.'/'.$subcategoriaHija->id) }}">▸ {{ $subcategoriaHija->nombre }}</a></li>
+                                                    @endforeach
+                                                </ul>
+                                            @endif
                                         @endforeach
                                     </ul>
 
@@ -66,6 +94,13 @@
                                         <li class="titulo"><a href=""><img src="{{ URL::to('img/semilla.png') }}"> {{ $categorias[4]->nombre }}</a></li>
                                         @foreach($categorias[4]->subcategorias as $subcategoria)
                                             <li><a class="subcatlist" href="{{ URL::to('productos/'.$categorias[4]->id.'/'.$subcategoria->id) }}">• {{ $subcategoria->nombre }}</a></li>
+                                            @if(!$subcategoria->subcategoriasHijas->isEmpty())
+                                                <ul class="subcatlist-l2">
+                                                    @foreach($subcategoria->subcategoriasHijas as $subcategoriaHija)
+                                                        <li><a href="{{ URL::to('productos/'.$categorias[0]->id.'/'.$subcategoriaHija->id) }}">▸ {{ $subcategoriaHija->nombre }}</a></li>
+                                                    @endforeach
+                                                </ul>
+                                            @endif
                                         @endforeach
                                     </ul>
                                 </li>
