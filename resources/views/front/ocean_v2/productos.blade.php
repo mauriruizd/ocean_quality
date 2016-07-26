@@ -37,40 +37,15 @@
                             <div class="col-sm-4">
                                 <div id="carousel-{{ $producto->slug }}" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
-                                        @foreach($producto->imagenes as $index => $imagen)
-                                            <div class="item{!! $index == 0 ? ' active': '' !!}">
-                                                <img src="{{ url($imagen->img_url) }}">
+                                        @if(!$producto->imagenes->isEmpty())
+                                            <div class="item active">
+                                                <img class="item active" src="{{ url($producto->imagenes[0]->img_url) }}">
                                             </div>
-                                        @endforeach
+                                        @else
+                                            No hay imagen.
+                                        @endif
                                     </div>
                                 </div>
-                                <div class="clearfix">
-                                    <div id="thumbcarousel-{{ $producto->slug }}" class="thumbcarousel carousel slide" data-interval="false">
-                                        <div class="carousel-inner">
-                                            @foreach($producto->imagenes as $index => $imagen)
-                                                @if($index === 0)
-                                                    <div class="item active">
-                                                @endif
-                                                    <div data-target="#carousel-{{ $producto->slug }}" data-slide-to="{{ $index }}" class="thumb">
-                                                        <img src="{{ url($imagen->img_url) }}">
-                                                    </div>
-                                                @if((($index + 1) % 4 == 0) && ($index > 0))
-                                                    </div><!-- /item -->
-                                                    <div class="item">
-                                                @endif
-                                                @if($index == $producto->imagenes->count() - 1)
-                                                    </div>
-                                                @endif
-                                            @endforeach
-                                        </div><!-- /carousel-inner -->
-                                        <a class="left carousel-control" href="#thumbcarousel-{{ $producto->slug }}" role="button" data-slide="prev">
-                                            <span class="glyphicon glyphicon-chevron-left"></span>
-                                        </a>
-                                        <a class="right carousel-control" href="#thumbcarousel-{{ $producto->slug }}" role="button" data-slide="next">
-                                            <span class="glyphicon glyphicon-chevron-right"></span>
-                                        </a>
-                                    </div> <!-- /thumbcarousel -->
-                                </div><!-- /clearfix -->
                             </div> <!-- /col-sm-6 -->
                             <div class="espacio col-sm-6">
                                 <div class="row">
@@ -114,7 +89,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-12">
-                                        <h2 class="gris"># Descripcion</h2>
+                                        <h2 class="gris"># Descripción</h2>
                                         <p>
                                             {{ $producto->descripcion }}
                                         </p>
@@ -128,9 +103,8 @@
                 @endforeach
             </div>
         </div>
-<script !src="">
+<script>
     (function($) {
-
         'use strict';
 
         $(document).on('show.bs.tab', '.nav-tabs-responsive [data-toggle="tab"]', function(e) {
@@ -156,21 +130,11 @@
             updateDropdownMenu( $current, 'center' );
             updateDropdownMenu( $next, 'right' );
         });
-
     })(jQuery);
 </script>
 <!--***************js tab******************-->
-
-
-
-
 </div>
-
-
-
 </div>
-
-
 <!--******************fin_productos****************************-->
 @else
     <h2>No hay productos en esta subcategoria.</h2>

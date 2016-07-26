@@ -72,9 +72,6 @@
         <div class="input-group">
             <label for="imagenes">Imagenes</label>
             <input type="file" name="imagenes[]" class="form-control imagenes">
-            <button type="button" id="m-more-images" class="btn btn-circle btn-sm btn-success">
-                <i class="fa fa-plus"></i>
-            </button>
         </div>
     </div>
     <div class="modal-footer">
