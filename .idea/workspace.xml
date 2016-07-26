@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cafa0a44-83ad-40d4-942a-d261f89dcc4d" name="Default" comment="nueva modificacionj en la busqueda">
+    <list default="true" id="cafa0a44-83ad-40d4-942a-d261f89dcc4d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-nuevo.css" afterPath="$PROJECT_DIR$/css/style-nuevo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/ocean_v2/busqueda.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/ocean_v2/busqueda.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/ocean_v2/productos.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/ocean_v2/productos.blade.php" />
     </list>
     <ignored path="Ocean Quality.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,71 +30,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style-nuevo.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style-nuevo.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6666667">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="productos.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/front/ocean_v2/productos.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.6655736">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="busqueda.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/front/ocean_v2/busqueda.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="8.0">
-              <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6666667">
-              <caret line="23" column="63" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="63" />
+            <state relative-caret-position="810">
+              <caret line="54" column="54" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index2.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/front/index2.blade.php">
+      <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="1404">
+              <caret line="95" column="15" selection-start-line="95" selection-start-column="15" selection-end-line="95" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="empresa.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/front/ocean_v2/empresa.blade.php">
+      <file leaf-file-name="subcategoria.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/subcategoria.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+            <state relative-caret-position="1620">
+              <caret line="90" column="50" selection-start-line="82" selection-start-column="44" selection-end-line="90" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+      <file leaf-file-name="m-modal.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/m-modal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="615" column="1" selection-start-line="615" selection-start-column="1" selection-end-line="615" selection-end-column="1" />
+            <state relative-caret-position="576">
+              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="producto.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/producto.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2412">
+              <caret line="134" column="50" selection-start-line="134" selection-start-column="50" selection-end-line="134" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/front/nav.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1908">
+              <caret line="106" column="33" selection-start-line="106" selection-start-column="33" selection-end-line="106" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Subcategoria.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Subcategoria.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Subcategorias.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Rest/Subcategorias.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subcategoria.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/forms/subcategoria.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="738">
+              <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Categorias.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Rest/Categorias.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1620">
+              <caret line="96" column="29" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -112,16 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Rest/Productos.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Rest/Noticias.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/noticia.blade.php" />
-        <option value="$PROJECT_DIR$/public/js/m-modal.js" />
-        <option value="$PROJECT_DIR$/.env.example" />
-        <option value="$PROJECT_DIR$/config/database.php" />
-        <option value="$PROJECT_DIR$/MARK/js/index.js" />
-        <option value="$PROJECT_DIR$/MARK/index.html" />
-        <option value="$PROJECT_DIR$/MARK/productos.html" />
-        <option value="$PROJECT_DIR$/MARK/noticias.html" />
         <option value="$PROJECT_DIR$/MARK/trabaje_con_nosotros.html" />
         <option value="$PROJECT_DIR$/MARK/empresa.html" />
         <option value="$PROJECT_DIR$/MARK/contacto.html" />
@@ -138,31 +155,41 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Rest/Banner.php" />
         <option value="$PROJECT_DIR$/js/m-modal.js" />
         <option value="$PROJECT_DIR$/resources/views/front/socios.blade.php" />
-        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/MARK/css/style.css" />
-        <option value="$PROJECT_DIR$/resources/views/front/empresa.blade.php" />
         <option value="$PROJECT_DIR$/MARK/css/styleMark.css" />
         <option value="$PROJECT_DIR$/resources/views/front/menu.blade.php" />
         <option value="$PROJECT_DIR$/css/styleMark.css" />
+        <option value="$PROJECT_DIR$/resources/views/front/productos.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/front/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/APIsController.php" />
         <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/templates/ocean/index.html" />
-        <option value="$PROJECT_DIR$/resources/views/front/master2.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/front/ocean_v2/vendedores.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/front/ocean_v2/noticias.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php" />
         <option value="$PROJECT_DIR$/resources/views/front/ocean_v2/contacto.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Rest/Productos.php" />
         <option value="$PROJECT_DIR$/templates/ocean/producto.html" />
-        <option value="$PROJECT_DIR$/resources/views/front/nav.blade.php" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/resources/views/front/ocean_v2/empresa.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/front/index2.blade.php" />
-        <option value="$PROJECT_DIR$/css/style-nuevo.css" />
-        <option value="$PROJECT_DIR$/resources/views/front/productos.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/front/ocean_v2/busqueda.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/master2.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/empresa.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/noticiaModal.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/noticia.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/ocean_v2/empresa.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/producto.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/forms/producto.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/front/ocean_v2/productos.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_07_26_023841_add_subcategoria_padre_field.php" />
+        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/css/style-nuevo.css" />
+        <option value="$PROJECT_DIR$/resources/views/front/nav.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Rest/Categorias.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/subcategoria.blade.php" />
+        <option value="$PROJECT_DIR$/app/Subcategoria.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/forms/subcategoria.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Rest/Subcategorias.php" />
       </list>
     </option>
   </component>
@@ -181,10 +208,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="59" />
-    <option name="y" value="-4" />
-    <option name="width" value="1307" />
-    <option name="height" value="772" />
+    <option name="y" value="27" />
+    <option name="width" value="1366" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -212,6 +238,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -227,7 +254,7 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ocean_quality" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -237,15 +264,15 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ocean_quality" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="ocean" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -255,19 +282,59 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ocean_quality" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocean" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Carousel Template for Bootstrap_files" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocean_quality" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocean_quality" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocean_quality" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocean_quality" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -277,23 +344,23 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ocean_quality" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ocean_v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -303,11 +370,19 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ocean_quality" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -317,22 +392,115 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ocean_quality" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocean_quality" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocean_quality" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocean_quality" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocean_quality" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocean_quality" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocean_quality" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocean_quality" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocean_quality" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocean_quality" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocean_quality" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rest" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="WelcomeController&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/Controllers/WelcomeController.php&#10;route&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/routes.php&#10;wel&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/Controllers/WelcomeController.php&#10;style.css&#9;FILE&#9;file:///var/www/html/ocean_quality/css/style-nuevo.css&#10;productos.blade&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/ocean_v2/productos.blade.php&#10;menu.blade&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/menu.blade.php&#10;index.blade&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/index.blade.php&#10;contacto.blade&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/ocean_v2/contacto.blade.php&#10;vendedores&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/vendedores.blade.php&#10;empresa.b&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/ocean_v2/empresa.blade.php&#10;empresa.html&#9;FILE&#9;file:///var/www/html/ocean_quality/templates/ocean/empresa.html&#10;routes&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/routes.php&#10;noticias.blade&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/ocean_v2/noticias.blade.php&#10;master.blade&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/master.blade.php&#10;empresa.h&#9;FILE&#9;file:///var/www/html/ocean_quality/templates/ocean/empresa.html&#10;empresa.htm&#9;FILE&#9;file:///var/www/html/ocean_quality/MARK/empresa.html&#10;.env&#9;FILE&#9;file:///var/www/html/ocean_quality/.env&#10;master.&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/master.blade.php&#10;Welco&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/Controllers/WelcomeController.php&#10;Apisc&#9;null&#9;null&#10;routes.php&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/routes.php&#10;AdminController&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/Controllers/AdminController.php&#10;apps&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Providers/AppServiceProvider.php&#10;laravel-2016-03-2&#9;FILE&#9;file:///var/www/html/ocean_quality/storage/logs/laravel-2016-03-21.log&#10;banner.bl&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/admin/forms/banner.blade.php&#10;rou&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/routes.php&#10;Banner&#9;null&#9;null&#10;Bann&#9;null&#9;null&#10;sty&#9;FILE&#9;file:///var/www/html/ocean_quality/MARK/css/styleMark.css&#10;empre&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/empresa.blade.php&#10;ap&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Providers/AppServiceProvider.php&#10;inde&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/index.blade.php&#10;pro&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/Controllers/Rest/Productos.php&#10;AppServiceProvider&#9;null&#9;null&#10;menu.&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/menu.blade.php&#10;appser&#9;null&#9;null&#10;se&#9;FILE&#9;file:///var/www/html/ocean_quality/database/seeds/DatabaseSeeder.php&#10;m-modal&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/public/js/m-modal.js&#10;noticia.blade.&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/noticia.blade.php&#10;noticias.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/Rest/Noticias.php&#10;noticia.ph&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Noticia.php&#10;noticia.bl&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/noticia.blade.php&#10;m-moda&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/public/js/m-modal.js&#10;image&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/ImagenNoticia.php&#10;noticias&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/Rest/Noticias.php&#10;producto.bla&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/forms/producto.blade.php&#10;producto.blade&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/resources/views/admin/forms/producto.blade.php&#10;imagen&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/ImagenNoticia.php&#10;productos.php&#9;FILE&#9;file://C:/xampp/htdocs/Ocean Quality/app/Http/Controllers/Rest/Productos.php&#10;imagenno&#9;null&#9;null" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../satoshiweb" />
+    <property name="SearchEverywhereHistoryKey" value="subcategorias.php&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/Controllers/Rest/Subcategorias.php&#10;subcategoria.blade&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/admin/forms/subcategoria.blade.php&#10;categorias.php&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/Controllers/Rest/Categorias.php&#10;m-modal&#9;FILE&#9;file:///var/www/html/ocean_quality/js/m-modal.js&#10;routes.php&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/routes.php&#10;subcategoria&#9;null&#9;null&#10;admincontro&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/Controllers/AdminController.php&#10;producto.b&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/admin/producto.blade.php&#10;style.css&#9;FILE&#9;file:///var/www/html/ocean_quality/css/style-nuevo.css&#10;App&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Providers/AppServiceProvider.php&#10;welcome&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/Controllers/WelcomeController.php&#10;add_subcategori&#9;FILE&#9;file:///var/www/html/ocean_quality/database/migrations/2016_07_26_023841_add_subcategoria_padre_field.php&#10;nav.blade&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/nav.blade.php&#10;master&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/master2.blade.php&#10;menu&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/menu.blade.php&#10;producto.blade&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/ocean_v2/productos.blade.php&#10;admincontroll&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/Controllers/AdminController.php&#10;producto.&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/Controllers/Rest/Productos.php&#10;.env&#9;FILE&#9;file:///var/www/html/ocean_quality/.env&#10;database.php&#9;FILE&#9;file:///var/www/html/ocean_quality/config/database.php&#10;admincont&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/Controllers/AdminController.php&#10;Noticias.php&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/Controllers/Rest/Noticias.php&#10;routes.&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/routes.php&#10;master.&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/master2.blade.php&#10;index2&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/index2.blade.php&#10;image&#9;null&#9;null&#10;productos.blade&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/ocean_v2/productos.blade.php&#10;menu.blade&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/menu.blade.php&#10;index.blade&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/index.blade.php&#10;contacto.blade&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/ocean_v2/contacto.blade.php&#10;vendedores&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/vendedores.blade.php&#10;empresa.b&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/ocean_v2/empresa.blade.php&#10;empresa.html&#9;FILE&#9;file:///var/www/html/ocean_quality/templates/ocean/empresa.html&#10;routes&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/routes.php&#10;noticias.blade&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/ocean_v2/noticias.blade.php&#10;master.blade&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/front/master.blade.php&#10;empresa.h&#9;FILE&#9;file:///var/www/html/ocean_quality/templates/ocean/empresa.html&#10;empresa.htm&#9;FILE&#9;file:///var/www/html/ocean_quality/MARK/empresa.html&#10;Welco&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/Controllers/WelcomeController.php&#10;Apisc&#9;null&#9;null&#10;AdminController&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/Controllers/AdminController.php&#10;apps&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Providers/AppServiceProvider.php&#10;laravel-2016-03-2&#9;FILE&#9;file:///var/www/html/ocean_quality/storage/logs/laravel-2016-03-21.log&#10;banner.bl&#9;FILE&#9;file:///var/www/html/ocean_quality/resources/views/admin/forms/banner.blade.php&#10;rou&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/routes.php&#10;Banner&#9;null&#9;null&#10;Bann&#9;null&#9;null&#10;sty&#9;FILE&#9;file:///var/www/html/ocean_quality/MARK/css/styleMark.css&#10;WelcomeController&#9;null&#9;null&#10;route&#9;FILE&#9;file:///var/www/html/ocean_quality/app/Http/routes.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lotto" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
@@ -347,584 +515,6 @@
       <recent name="$PROJECT_DIR$/resources/views/front" />
       <recent name="C:\xampp\htdocs\Ocean Quality\app\Http\Controllers\Rest" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gitattributes</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.htaccess</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/Ocean Quality.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/blade.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/copyright/profiles_settings.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/encodings.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/modules.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/vcs.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/contacto.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/css/bootstrap-theme.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/css/bootstrap-theme.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/css/bootstrap-theme.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/css/bootstrap.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/css/bootstrap.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/css/bootstrap.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/css/flatWeatherPlugin.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/css/jquery-jvectormap-2.0.3.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/css/style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/css/styleMark (copia).css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/css/styleMark.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/empresa.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/fonts/WeatherIcons-Regular.otf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/fonts/glyphicons-halflings-regular.eot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/fonts/glyphicons-halflings-regular.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/fonts/glyphicons-halflings-regular.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/fonts/glyphicons-halflings-regular.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/fonts/glyphicons-halflings-regular.woff2</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/fonts/weathericons-regular-webfont.eot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/fonts/weathericons-regular-webfont.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/fonts/weathericons-regular-webfont.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/fonts/weathericons-regular-webfont.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/imagen/06.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/imagen/10.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/imagen/11.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/imagen/12.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/imagen/13.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/imagen/14.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/imagen/15.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/imagen/16.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/imagen/2.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/imagen/3.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/imagen/4.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/imagen/7.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/imagen/8.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/imagen/9.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/1.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/agro.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/banner - Copy.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/banner.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/banner2.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/banner3.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/bg.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/bg.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/bk.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/bk.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/box.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/box.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/face.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/fertilizante.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/flecha.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/footer.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/google.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/in.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/linea.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/linea2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/linea3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/logo.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/logo_blanco.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/mascota.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/meteorologia.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/mn.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/producto.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/semilla.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/sistema.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/subbg.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/text.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/img/you.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/js/bootstrap.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/js/bootstrap.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/js/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/js/jquery-2.1.1.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/js/jquery-jvectormap-2.0.3.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/js/jquery.flatWeatherPlugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/js/jquery.flatWeatherPlugin.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/js/jquery.lbslider.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/js/jvector_paraguay.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/js/lbslider.jquery.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/js/npm.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/noticias.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/productos.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/src/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/src/github.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/src/highlight.pack.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/teste/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/teste/js.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/teste/prac.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/trabaje_con_nosotros.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MARK/vendedores.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Procfile</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Administrador.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/ApiClima.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Banner.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Categoria.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Commands/Command.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Console/Commands/Inspire.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Console/Kernel.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/CorreoEmpleado.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Cotizacion.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Departamento.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Empleado.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Events/Event.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Exceptions/Handler.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Handlers/Commands/.gitkeep</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Handlers/Events/.gitkeep</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/Controllers/APIsController.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/Controllers/Adm.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/Controllers/AdminController.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/Controllers/Controller.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/Controllers/HomeController.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/Controllers/Rest/Administradores.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/Controllers/Rest/Banner.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/Controllers/Rest/Categorias.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/Controllers/Rest/Cotizaciones.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/Controllers/Rest/Empleados.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/Controllers/Rest/Monedas.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/Controllers/Rest/Noticias.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/Controllers/Rest/Productos.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/Controllers/Rest/Proveedores.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/Controllers/Rest/Subcategorias.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/Controllers/Rest/Zonas.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/Kernel.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/Middleware/Authenticate.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/Requests/Request.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Http/routes.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/ImagenNoticia.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/ImagenProducto.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Moneda.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Noticia.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Producto.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Proveedor.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/ProveedorProducto.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Providers/AppServiceProvider.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Providers/BusServiceProvider.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Providers/ConfigServiceProvider.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Providers/EventServiceProvider.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Providers/RouteServiceProvider.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Services/Registrar.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Subcategoria.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/TelefonoEmpleado.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/User.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Zona.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/artisan</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/banners/1458586403Firefox_wallpaper.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/banners/1458731096banner.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/banners/1465668197ocean_banner_1.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/banners/1465668221ocean_banner_2.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bootstrap/app.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bootstrap/autoload.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/composer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/composer.lock</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/config/app.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/config/auth.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/config/cache.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/config/compile.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/config/database.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/config/filesystems.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/config/mail.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/config/queue.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/config/services.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/config/session.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/config/view.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/app.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/bootstrap-theme.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/bootstrap-theme.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/bootstrap-theme.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/bootstrap.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/bootstrap.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/bootstrap.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/carousel.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/flatWeatherPlugin.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/ie10-viewport-bug-workaround.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/jquery-jvectormap-2.0.3.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/jquery.bxslider.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/login.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/m-style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/reset.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/sb-admin-2.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/style-nuevo.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/styleMark (copia).css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/styleMark.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/timeline.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/yamm.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/.gitkeep</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2015_09_18_005531_create_administradors_table.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2015_09_18_005543_create_productos_table.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2015_09_18_005553_create_categorias_table.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2015_09_18_005606_create_subcategorias_table.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2015_09_18_005616_create_noticias_table.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2015_09_18_005627_create_imagen_noticias_table.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2015_09_18_005636_create_banners_table.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2015_09_18_005644_create_cotizacions_table.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2015_09_18_005652_create_monedas_table.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2015_09_18_005700_create_zonas_table.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2015_09_18_005710_create_empleados_table.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2015_09_18_005727_create_telefono_empleados_table.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2015_09_18_005742_create_correo_empleados_table.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2015_09_18_012733_AddForeign.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2015_09_18_013009_add_foreign_cotizaciones.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2015_09_18_035639_create_imagen_productos_table.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2015_11_01_225800_create_proveedores_table.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2015_11_01_225932_create_proveedor_productos_table.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2015_11_01_230335_add_campos_productos.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2015_11_03_232916_create_departamentos_table.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2015_11_03_235213_add_depto_cod_foreign.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2015_11_13_013713_add_remember_token_administradores.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2015_11_17_125440_add_campo_slug.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2015_12_11_124744_add_zona_foreign.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/migrations/2016_05_23_125128_add_campo_variedad.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/seeds/.gitkeep</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/database/seeds/DatabaseSeeder.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/favicon.ico</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/fonts/WeatherIcons-Regular.otf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/fonts/weathericons-regular-webfont.eot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/fonts/weathericons-regular-webfont.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/fonts/weathericons-regular-webfont.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/fonts/weathericons-regular-webfont.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gulpfile.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/imagen-nuevo/06.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/imagen/logos/06.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/img/agro.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/img/alter.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/img/bg-mascota.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/img/cargando.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/img/fertilizante.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/img/meteorologia.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/img/semilla.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/img/sistema.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/index.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/bootstrap.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/bootstrap.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/dropzone.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/flot-data.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/holder.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/ie-emulation-modes-warning.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/ie10-viewport-bug-workaround.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/jquery-2.1.1.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/jquery-jvectormap-2.0.3.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/jquery.bxslider.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/jquery.bxslider.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/jquery.flatWeatherPlugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/jquery.flatWeatherPlugin.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/jquery.jcarousel-core.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/jquery.lbslider.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/jquery.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/jquery.scrollTo.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/jvector_paraguay.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/lbslider.jquery.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/m-modal.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/morris-data.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/npm.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/sb-admin-2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/scrollto.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/noticias/1449774583Desert.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/noticias/mapa_py.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/phpspec.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/phpunit.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/productos/1449769745Chrysanthemum.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/productos/1449769745Tulips.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/productos/1449833117Koala.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/productos/1449833117Penguins.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/productos/1449834738Lighthouse.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/productos/1449843534Chrysanthemum.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/productos/1449843534Hydrangeas.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/productos/1449843534Koala.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/productos/1449843535Penguins.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/productos/1465672866ocean_banner_2.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/productos/155307039.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/readme.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/app.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/alerts.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/badges.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/bootstrap.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/breadcrumbs.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/button-groups.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/buttons.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/carousel.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/close.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/code.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/component-animations.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/dropdowns.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/forms.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/glyphicons.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/grid.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/input-groups.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/jumbotron.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/labels.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/list-group.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/media.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/alerts.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/background-variant.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/border-radius.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/buttons.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/center-block.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/clearfix.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/forms.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/gradients.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/grid-framework.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/grid.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/hide-text.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/image.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/labels.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/list-group.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/nav-divider.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/nav-vertical-align.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/opacity.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/pagination.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/panels.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/progress-bar.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/reset-filter.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/resize.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/responsive-visibility.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/size.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/tab-focus.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/table-row.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/text-emphasis.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/text-overflow.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/mixins/vendor-prefixes.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/modals.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/navbar.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/navs.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/normalize.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/pager.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/pagination.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/panels.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/popovers.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/print.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/progress-bars.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/responsive-embed.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/responsive-utilities.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/scaffolding.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/tables.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/theme.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/thumbnails.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/tooltip.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/type.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/utilities.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/variables.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/assets/less/bootstrap/wells.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/lang/en/pagination.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/lang/en/passwords.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/lang/en/validation.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/admin/banner.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/admin/categoria.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/admin/dashboard.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/admin/empleado.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/admin/forms/banner.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/admin/forms/categoria.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/admin/forms/empleado.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/admin/forms/noticia.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/admin/forms/producto.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/admin/forms/subcategoria.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/admin/forms/zona.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/admin/index.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/admin/login.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/admin/noticia.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/admin/producto.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/admin/proveedor.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/admin/subcategoria.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/admin/zona.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/api/master.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/api/noticias/create.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/api/zonas/create.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/app.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/auth/login.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/auth/password.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/auth/register.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/auth/reset.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/emails/contacto.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/emails/password.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/emails/trabaje_con_nosotros.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/errors/503.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/front/busqueda.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/front/contacto.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/front/empresa.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/front/index.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/front/index2.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/front/master.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/front/master2.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/front/menu.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/front/noticiaModal.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/front/noticias.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/front/ocean_v2/empresa.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/front/ocean_v2/productos.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/front/productos.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/front/socios.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/front/trabajeConNosotros.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/front/vendedores.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/home.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/vendor/.gitkeep</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resources/views/welcome.blade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/robots.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/server.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/Carousel Template for Bootstrap_files/ie-emulation-modes-warning.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/Carousel Template for Bootstrap_files/ie10-viewport-bug-workaround.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/carrosel/jquery.bxslider.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/carrosel/jquery.bxslider.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/empresa.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/imagen/06.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/imagen/10.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/imagen/11.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/imagen/12.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/imagen/13.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/imagen/14.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/imagen/15.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/imagen/16.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/imagen/2.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/imagen/3.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/imagen/4.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/imagen/7.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/imagen/8.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/imagen/9.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/images/bx_loader.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/images/controls.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/img/agro.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/img/alter.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/img/bg.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/img/box.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/img/box.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/img/face.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/img/fertilizante.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/img/google.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/img/in.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/img/linea3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/img/logo_blanco.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/img/meteorologia.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/img/py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/img/semilla.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/img/sistema.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/img/tiempo.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/img/you.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/plugins/jquery.easing.1.3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/plugins/jquery.fitvids.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/producto.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/ocean/readme.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/tests/ExampleTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/tests/TestCase.php</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -945,6 +535,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -956,11 +547,14 @@
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run-script" />
       <scripts />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -969,6 +563,7 @@
       <changelist id="cafa0a44-83ad-40d4-942a-d261f89dcc4d" name="Default" comment="" />
       <created>1443478041087</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1443478041087</updated>
       <workItem from="1464483482592" duration="3757000" />
       <workItem from="1464904831367" duration="611000" />
@@ -976,121 +571,177 @@
       <workItem from="1465706134386" duration="1632000" />
       <workItem from="1465845893117" duration="709000" />
       <workItem from="1465868248356" duration="732000" />
-      <workItem from="1465929521938" duration="71000" />
+      <workItem from="1465929521938" duration="2102000" />
+      <workItem from="1466512041765" duration="6287000" />
+      <workItem from="1467643246826" duration="39000" />
+      <workItem from="1468328844192" duration="2943000" />
+      <workItem from="1468526951678" duration="633000" />
+      <workItem from="1468535217109" duration="615000" />
+      <workItem from="1469061436735" duration="38000" />
+      <workItem from="1469145036623" duration="1846000" />
+      <workItem from="1469490406871" duration="517000" />
+      <workItem from="1469498204113" duration="8418000" />
+      <workItem from="1469537346823" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="Cambios admin">
       <created>1446459362160</created>
       <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1446459362160</updated>
     </task>
     <task id="LOCAL-00002" summary="creacion de noticias y modificacion del css">
       <created>1447070966037</created>
       <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
       <updated>1447070966037</updated>
     </task>
     <task id="LOCAL-00003" summary="creacion de noticias y modificacion del css">
       <created>1447071049871</created>
       <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
       <updated>1447071049871</updated>
     </task>
     <task id="LOCAL-00004" summary="panel de noticias  modal ok">
       <created>1447279301589</created>
       <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1447279301589</updated>
     </task>
     <task id="LOCAL-00005" summary="panel de TRABAJE CON NOSOTROS">
       <created>1447281010957</created>
       <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
       <updated>1447281010957</updated>
     </task>
     <task id="LOCAL-00006" summary="panel de TRABAJE CON NOSOTROS">
       <created>1447479861738</created>
       <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1447479861738</updated>
     </task>
     <task id="LOCAL-00007" summary="panel de TRABAJE CON NOSOTROS">
       <created>1447480045928</created>
       <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
       <updated>1447480045928</updated>
     </task>
     <task id="LOCAL-00008" summary="panel de TRABAJE CON NOSOTROS">
       <created>1447512044533</created>
       <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
       <updated>1447512044533</updated>
     </task>
     <task id="LOCAL-00009" summary="modificacion de archivos y pruebas">
       <created>1449142162607</created>
       <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
       <updated>1449142162607</updated>
     </task>
     <task id="LOCAL-00010" summary="modificacion  del index">
       <created>1449766612526</created>
       <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
       <updated>1449766612526</updated>
     </task>
     <task id="LOCAL-00011" summary="modificacion  del index">
       <created>1449800660512</created>
       <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
       <updated>1449800660512</updated>
     </task>
     <task id="LOCAL-00012" summary="modificacion  del index">
       <created>1449802190770</created>
       <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
       <updated>1449802190770</updated>
     </task>
     <task id="LOCAL-00013" summary="modificacion  del index">
       <created>1450113858151</created>
       <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
       <updated>1450113858151</updated>
     </task>
     <task id="LOCAL-00014" summary="modificacion  del productos">
       <created>1450268663296</created>
       <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
       <updated>1450268663296</updated>
     </task>
     <task id="LOCAL-00015" summary="modificacion  del productos">
       <created>1464005883807</created>
       <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
       <updated>1464005883807</updated>
     </task>
     <task id="LOCAL-00016" summary="modificacion  del productos">
       <created>1464023575495</created>
       <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
       <updated>1464023575495</updated>
     </task>
     <task id="LOCAL-00017" summary="Agregada api para fases de la luna">
       <created>1464486429834</created>
       <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
       <updated>1464486429834</updated>
     </task>
-    <task id="LOCAL-00018" summary="Agregada api para fases de la luna">
-      <created>1467390807383</created>
+    <task id="LOCAL-00018" summary="Integración de Ocean v2">
+      <created>1465929661874</created>
       <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1467390807383</updated>
+      <updated>1465929661874</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Integración de Productos">
+      <created>1466517727664</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1466517727664</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Cambios de la parte visual (Tamaños de imagenes y banners)">
+      <created>1468331758626</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1468331758626</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Quitadas multiples imagenes a productos">
+      <created>1469498988233</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1469498988233</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Agregadas subcategorias inferiores">
+      <created>1469507257022</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1469507257022</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18572000" />
+    <option name="totallyTimeSpent" value="41952000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1102,27 +753,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="-4" width="1307" height="772" extended-state="6" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19508326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32766616" sideWeight="0.49722442" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.49405235" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4404946" sideWeight="0.5337034" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20637329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39967105" sideWeight="0.5447648" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21141975" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4404946" sideWeight="0.46629658" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39967105" sideWeight="0.4552352" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49459043" sideWeight="0.73988897" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49506578" sideWeight="0.7397572" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21141975" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1147,383 +798,381 @@
     <MESSAGE value="modificacion  del index" />
     <MESSAGE value="modificacion  del productos" />
     <MESSAGE value="Agregada api para fases de la luna" />
-    <MESSAGE value="nueva modificacionj en la busqueda" />
-    <option name="LAST_COMMIT_MESSAGE" value="nueva modificacionj en la busqueda" />
+    <MESSAGE value="Integración de Ocean v2" />
+    <MESSAGE value="Integración de Productos" />
+    <MESSAGE value="Cambios de la parte visual (Tamaños de imagenes y banners)" />
+    <MESSAGE value="Quitadas multiples imagenes a productos" />
+    <MESSAGE value="Agregadas subcategorias inferiores" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregadas subcategorias inferiores" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MARK/noticias.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="180" column="49" selection-start-line="180" selection-start-column="49" selection-end-line="180" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MARK/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="295" column="19" selection-start-line="295" selection-start-column="19" selection-end-line="295" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MARK/vendedores.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Rest/Productos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/api/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/noticiaModal.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Banner.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/forms/banner.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Rest/Banner.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/m-modal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="108" column="32" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/empresa.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styleMark (copia).css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="1" column="3" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/front/socios.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="12" column="39" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MARK/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="200" column="8" selection-start-line="200" selection-start-column="7" selection-end-line="200" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MARK/css/styleMark.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="9378">
           <caret line="521" column="0" selection-start-line="521" selection-start-column="0" selection-end-line="521" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styleMark.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="10818">
           <caret line="601" column="12" selection-start-line="601" selection-start-column="12" selection-end-line="601" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/productos.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="252">
           <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="48" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="91">
           <caret line="766" column="51" selection-start-line="766" selection-start-column="51" selection-end-line="766" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/APIsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="792">
           <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/ocean/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="126">
           <caret line="265" column="26" selection-start-line="265" selection-start-column="26" selection-end-line="265" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MARK/empresa.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/front/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="54">
           <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/ocean/empresa.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="324">
           <caret line="248" column="2" selection-start-line="248" selection-start-column="2" selection-end-line="416" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/front/vendedores.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="373">
           <caret line="72" column="5" selection-start-line="39" selection-start-column="0" selection-end-line="72" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/master2.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="161" column="30" selection-start-line="161" selection-start-column="30" selection-end-line="161" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/front/ocean_v2/vendedores.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="18">
           <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/ocean/producto.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="804" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="804" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/ocean_v2/noticias.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/front/ocean_v2/contacto.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="630">
           <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/menu.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="171" column="10" selection-start-line="171" selection-start-column="10" selection-end-line="171" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/nav.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="615" column="1" selection-start-line="615" selection-start-column="1" selection-end-line="615" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/ocean_v2/empresa.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/index2.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style-nuevo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6666667">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Producto.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="126">
+          <caret line="7" column="155" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ImagenProducto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ocean/producto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9180">
+          <caret line="510" column="73" selection-start-line="510" selection-start-column="73" selection-end-line="510" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="259" column="8" selection-start-line="259" selection-start-column="8" selection-end-line="259" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/index2.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="336" column="20" selection-start-line="336" selection-start-column="20" selection-end-line="336" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/api/noticias/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/productos.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/front/ocean_v2/noticias.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="56.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1170">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/ocean_v2/busqueda.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Rest/Noticias.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="8.0">
-          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="1854">
+          <caret line="110" column="39" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/front/noticiaModal.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.031141868">
-          <caret line="56" column="43" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="43" />
-          <folding>
-            <element signature="e#39#54#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="8" column="80" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="80" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/noticia.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6666667">
-          <caret line="23" column="63" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="63" />
-          <folding />
+        <state relative-caret-position="630">
+          <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/empresa.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/ocean_v2/empresa.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/forms/producto.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Rest/Productos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="94" column="59" selection-start-line="94" selection-start-column="59" selection-end-line="94" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/menu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/master2.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/front/ocean_v2/productos.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6655736">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="198">
+          <caret line="98" column="34" selection-start-line="98" selection-start-column="34" selection-end-line="98" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_07_26_023841_add_subcategoria_padre_field.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style-nuevo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="431" column="33" selection-start-line="431" selection-start-column="33" selection-end-line="431" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/nav.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1908">
+          <caret line="106" column="33" selection-start-line="106" selection-start-column="33" selection-end-line="106" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/producto.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2412">
+          <caret line="134" column="50" selection-start-line="134" selection-start-column="50" selection-end-line="134" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/m-modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="54" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Rest/Categorias.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="96" column="29" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/subcategoria.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="90" column="50" selection-start-line="82" selection-start-column="44" selection-end-line="90" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="95" column="15" selection-start-line="95" selection-start-column="15" selection-end-line="95" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/forms/subcategoria.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Subcategoria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Rest/Subcategorias.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
           <folding />
         </state>
       </provider>
