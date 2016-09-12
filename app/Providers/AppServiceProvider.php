@@ -14,9 +14,19 @@ class AppServiceProvider extends ServiceProvider {
 	public function boot()
 	{
 		view()->share('categorias', Categoria::with(['subcategorias' => function($q) {
-				$q->padre()->with('subcategoriasHijas');
+				$q->padre()->with(['subcategoriasHijas' => function($q) {
+					$q->orderBy('nombre', 'ASC');
+				}])->orderBy('nombre', 'ASC');
 			}])
+			->orderBy('nombre', 'ASC')
 			->get());
+		view()->share('imagenesNav', [
+			'semillas' => 'semilla',
+			'fertilizantes' => 'fertilizante',
+			'agroquimicos' => 'agro',
+			'sistemas-de-riego' => 'sistema',
+			'ambientes-protegidos' => 'semilla'
+		]);
 		view()->share('banner', Banner::orderByRaw("RAND()")->select('img_url', 'link')->first());
 	}
 
