@@ -54,6 +54,16 @@
                                         <div class="table-responsive">
                                             <table class="table">
                                                 <tbody>
+                                                @if($producto->variedad != "")
+                                                    <tr>
+                                                        <td>Variedad</td>
+                                                        <td>{{ $producto->variedad }}</td>
+                                                    </tr>
+                                                @endif
+                                                <tr>
+                                                    <td>Categoría</td>
+                                                    <td>{{ $producto->categoria->nombre }}</td>
+                                                </tr>
                                                 @if($producto->epoca != "")
                                                 <tr>
                                                     <td>Epoca</td>
@@ -74,14 +84,8 @@
                                                 @endif
                                                 @if($producto->envase != "")
                                                 <tr>
-                                                    <td>Envase</td>
+                                                    <td>Tipo de envase</td>
                                                     <td>{{ $producto->envase }}</td>
-                                                </tr>
-                                                @endif
-                                                @if($producto->variedad != "")
-                                                <tr>
-                                                    <td>Variedad</td>
-                                                    <td>{{ $producto->variedad }}</td>
                                                 </tr>
                                                 @endif
                                                 </tbody>
@@ -96,7 +100,8 @@
                                 <h2 class="gris"># Descripción</h2>
                                 <p>
                                     {{ $producto->descripcion }}
-                                </p>
+                                </
+                                p>
                             </div>
                         </div>
                     </div>

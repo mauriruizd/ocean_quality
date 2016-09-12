@@ -29,7 +29,7 @@ class WelcomeController extends Controller {
 	}
 
 	public function productos($cat, $subcat){
-		$productos = Producto::with('imagenes', 'proveedorProducto.proveedor')
+		$productos = Producto::with('categoria', 'imagenes', 'proveedorProducto.proveedor')
 			->where('cat_cod', '=', $cat)
 			->where('subcat_cod', '=', $subcat)
 			->get();
