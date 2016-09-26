@@ -18,7 +18,7 @@ class AppServiceProvider extends ServiceProvider {
 					$q->orderBy('nombre', 'ASC');
 				}])->orderBy('nombre', 'ASC');
 			}])
-			->orderBy('nombre', 'ASC')
+			->orderBy('id', 'ASC')
 			->get());
 		view()->share('imagenesNav', [
 			'semillas' => 'semilla',
