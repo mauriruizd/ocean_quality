@@ -588,6 +588,20 @@ img.masco{
         /*background: silver;*/
     }
 }
+
+#productos-tabs-content .carousel .item {
+    background-color:  rgba(0,0,0,0);
+}
+
 #productos-tabs-content .item, #productos-tabs-content .item > img {
-    height: 250px;
+    max-height: 250px;
+    width: auto;
+}
+
+#productos-tabs-content .carousel-inner > .item > img {
+    position: relative;
+    top: auto;
+    left: auto;
+    min-width: unset;
+    height: auto;
 }
