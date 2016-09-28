@@ -56,17 +56,13 @@
                                                 <tbody>
                                                 @if($producto->variedad != "")
                                                     <tr>
-                                                        <td>Variedad</td>
+                                                        <td>Categoría</td>
                                                         <td>{{ $producto->variedad }}</td>
                                                     </tr>
                                                 @endif
-                                                <tr>
-                                                    <td>Categoría</td>
-                                                    <td>{{ $producto->categoria->nombre }}</td>
-                                                </tr>
                                                 @if($producto->epoca != "")
                                                 <tr>
-                                                    <td>Epoca</td>
+                                                    <td>Epoca recomendada</td>
                                                     <td>{{ $producto->epoca }}</td>
                                                 </tr>
                                                 @endif
@@ -87,6 +83,18 @@
                                                     <td>Tipo de envase</td>
                                                     <td>{{ $producto->envase }}</td>
                                                 </tr>
+                                                @endif
+                                                @if(count($producto->proveedorProducto))
+                                                    <tr>
+                                                        <td>Proveedores</td>
+                                                        <td>
+                                                            <ul>
+                                                            @foreach($producto->proveedorProducto as $prov)
+                                                                <li>{{ $prov->proveedor->nombre }}</li>
+                                                            @endforeach
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
                                                 @endif
                                                 </tbody>
                                             </table>

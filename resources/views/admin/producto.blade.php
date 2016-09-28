@@ -130,15 +130,15 @@
                                                 @endforeach
                                             </div>
                                             <div class="input-group">
-                                                <label for="descripcion">Descripcion: </label>
+                                                <label for="descripcion">Descripcion </label>
                                                 <textarea name="descripcion" id="descripcion" cols="30" rows="5" required class="form-control"></textarea>
                                             </div>
                                             <div class="input-group">
-                                                <label for="epoca">Epoca</label>
+                                                <label for="epoca">Epoca recomendada</label>
                                                 <input type="text" class="form-control" name="epoca" id="epoca" placeholder="Epoca">
                                             </div>
                                             <div class="input-group">
-                                                <label for="epoca">Variedad</label>
+                                                <label for="epoca">Categoría (Adicional) </label>
                                                 <input type="text" class="form-control" name="variedad" id="variedad" placeholder="Variedad">
                                             </div>
                                             <div class="input-group">

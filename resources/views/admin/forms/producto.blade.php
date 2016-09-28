@@ -36,27 +36,27 @@
             @endforeach
         </div>
         <div class="input-group">
-            <label for="descripcion">Descripcion: </label>
+            <label for="descripcion">Descripcion </label>
             <textarea name="descripcion" id="descripcion" cols="30" rows="5" required class="form-control">{{ $producto->descripcion }}</textarea>
         </div>
         <div class="input-group">
-            <label for="epoca">Epoca</label>
+            <label for="epoca">Epoca recomendada </label>
             <input type="text" class="form-control" name="epoca" id="epoca" placeholder="Epoca" value="{{ $producto->epoca }}">
         </div>
         <div class="input-group">
-            <label for="epoca">Variedad</label>
+            <label for="epoca">Categoría (Adicional) </label>
             <input type="text" class="form-control" name="variedad" id="variedad" placeholder="Variedad" value="{{ $producto->variedad }}">
         </div>
         <div class="input-group">
-            <label for="ciclo_promedio">Ciclo Promedio</label>
+            <label for="ciclo_promedio">Ciclo Promedio </label>
             <input type="text" class="form-control" name="ciclo_promedio" id="ciclo_promedio" placeholder="Ciclo Promedio" value="{{ $producto->ciclo_promedio }}">
         </div>
         <div class="input-group">
-            <label for="segmento">Segmento</label>
+            <label for="segmento">Segmento </label>
             <input type="text" class="form-control" name="segmento" id="segmento" placeholder="Segmento" value="{{ $producto->segmento }}">
         </div>
         <div class="input-group">
-            <label for="nombre">Envase</label>
+            <label for="nombre">Envase </label>
             <input type="text" class="form-control" name="envase" id="envase" placeholder="Envase" value="{{ $producto->envase }}">
         </div>
         <div class="input-group">
