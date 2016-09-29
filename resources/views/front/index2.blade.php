@@ -63,8 +63,10 @@
                     ul.children('li').each(function () {
                         $(this).attr('class', '');
                         var infoDiv = $(this).children('.info');
+                        infoDiv.children('h6').children('a').attr('href', 'javascript:;');
+                        infoDiv.children('a').attr('href', 'javascript:;');
                         var num = Number.parseInt(infoDiv.children('a').children('span').html());
-                        infoDiv.children('a').children('span').html(fahrenheitToCelsius(num) + '°');
+                        infoDiv.children('a').children('span').html(fahrenheitToCelsius(num) + '°C');
                         if(/ciudad del este/i.test(infoDiv.children('h6').children('a').html())) {
                             divMeteoCDE.html('<div id="silverDiv"><img src="img/meteorologia.jpg" alt=""></div>' + infoDiv.html().replace('<h6>', '<h2>').replace('</h6>', '</h2>'));
                         }
