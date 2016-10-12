@@ -182,13 +182,13 @@
 
 <!-- socios -->
 <div class="slider1">
-    @for($i = 2; $i < 5; $i++)
+    @for($i = 1; $i < 19; $i++)
         <div class="slide"><img src="{{ url('imagen-nuevo/'.$i.'.jpg') }}"></div>
     @endfor
-    <div class="slide"><img src="{{ url('imagen-nuevo/06.jpg') }}"></div>
-    @for($i = 7; $i < 17; $i++)
-        <div class="slide"><img src="{{ url('imagen-nuevo/'.$i.'.jpg') }}"></div>
-    @endfor
+    {{--<div class="slide"><img src="{{ url('imagen-nuevo/06.jpg') }}"></div>--}}
+    {{--@for($i = 7; $i < 17; $i++)--}}
+        {{--<div class="slide"><img src="{{ url('imagen-nuevo/'.$i.'.jpg') }}"></div>--}}
+    {{--@endfor--}}
 </div>
 <!-- fin de socios -->
 

@@ -4,15 +4,8 @@
 @stop
 @section('contenido')
     <p>
-        Ocean Quality actúa en el mercado Paraguayo con diversas distribuciones de
+        Ocean Quality, fundada en el año 2008, fue la primera empresa en Paraguay a dedicarse exclusivamente a la horticultura. Tiene en su DNA más de 30 años de experiencia en el mercado paraguayo y desde su primer día el principal objetivo es hacer pacerías con proveedores conceptuados, que disponen de productos de alta calidad y garantía de eficiencia. Entre los productos destacamos las semillas, fertilizantes químicos, foliares, hidrosolubles y organominerales, plásticos agrícolas, bandejas, media sombras, sistema de riego, substratos y algunos agroquímicos destinados al mercado de hortalizas.   El suceso de los productos y el trabajo realizado genero participación en otros mercados como tabaco, Ka’a he’ê, forestales, flores y algunos frutales. Hoy Ocean Quality cuenta con equipo comercial y técnico en las principales zonas productivas apoyando y desarrollando la mejor producción.
 
-        conceptuadas empresas de semillas, fertilizantes químicos, foliares y organominerales,
-
-        plásticos agrícolas, bandejas, media sombras, sistemas de riego, substratos y algunos
-
-        agroquímicos destinados al mercado de hortalizas, tabaco, Ka’a he’ê, forestales y algunos
-
-        frutales. Siempre buscando llevar a sus clientes productos de altísima calidad y garantía.
     </p>
 
     <style>
@@ -25,35 +18,23 @@
     </style>
     <ul class="lis_empre">
         <li>
-            <h1>Satisfacción</h1>
+            <h1>Visión</h1>
             <p>
-                Atender a sus clientes con productos garantizados, llevando así al productor final la
-
-                seguridad de una buena cosecha y mejor producción.
+                Ser referencia, en el mercado, de calidad, garantía de productos y servicios juntamente con nuestros colaboradores y proveedores, buscando la excelencia e manteniendo la ética profesional durante toda nuestra trayectoria.
             </p>
         </li>
         <li>
-            <h1>Credibilidad</h1>
+            <h1>-Misión</h1>
             <p>
-                Ser referencia de innovación por calidad de productos y servicios ofrecidos, motivados por
-
-                el suceso de los diversos parceros que actúan con nuestra empresa en Paraguay, así como al
-
-                esfuerzo conjunto del equipo de colaboradores.
+                Fortalecer nuestro conocimiento de los clientes y colaboradores, trayendo nuevas técnicas y productos que hagan con que el productor logre lo mejor resultado a cada cosecha. Motivar y superar los desafíos y barreras encontradas en el día a día.
             </p>
         </li>
         <li>
-            <h1>Orgullo</h1>
+            <h1>Valores</h1>
             <p>
-                - Hacer todo con pasión. <br>
-
-                - Respetar y valorizar cada persona y empresa relacionada con Ocean Quality.<br>
-
-                - Estar comprometido con la mejoría continua de servicios y nuevas tecnologías,<br>
-
-                - Motivación para superar los desafíos y barreras encontradas en el día a día.<br>
-
-                trayendo mayores soluciones en su segmento.<br>
+                Trabajar con productos de garantía;
+                Insistir en la innovación con ética profesional y pasión por nuestro sector hortícola;
+                Respetar física e moralmente a los clientes, colaboradores y proveedores;
             </p>
         </li>
     </ul>
